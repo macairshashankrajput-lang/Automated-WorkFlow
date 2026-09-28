@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Sparkles,
   Layers,
@@ -38,17 +38,74 @@ import {
   Server,
   Cloud,
   Send,
+  Play,
+  Edit3,
+  Trash2,
+  Eye,
+  Activity,
+  ArrowRight,
+  Power,
+  RefreshCw,
+  FileCode,
+  Sliders,
 } from 'lucide-react';
 import { hybridDB, GOOGLE_DRIVE_FOLDER_URL, SERVICE_ACCOUNT_EMAIL } from '../services/hybridDatabase';
 
+export interface SavedWorkflow {
+  id: string;
+  title: string;
+  selectedModules: string[];
+  status: 'active' | 'draft' | 'paused';
+  createdAt: string;
+  updatedAt: string;
+  schema: any;
+  executionCount: number;
+}
+
 export const WorkflowBuilder: React.FC = () => {
   const [workflowTitle, setWorkflowTitle] = useState('Unified Enterprise Operations Blueprint');
+  const [editingWorkflowId, setEditingWorkflowId] = useState<string | null>(null);
   const [activeCategory, setActiveCategory] = useState<'all' | 'vernika' | 'goldenprime' | 'chakna' | 'website'>('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [generated, setGenerated] = useState(false);
   const [showSchemaModal, setShowSchemaModal] = useState(false);
+  const [previewWorkflow, setPreviewWorkflow] = useState<SavedWorkflow | null>(null);
   const [synthesizedSchema, setSynthesizedSchema] = useState<any>(null);
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
+
+  // Execution Simulator State
+  const [isSimulating, setIsSimulating] = useState(false);
+  const [simulationLogs, setSimulationLogs] = useState<string[]>([]);
+  const [activeTab, setActiveTab] = useState<'composer' | 'blueprints' | 'simulator'>('composer');
+
+  // Initial Saved Blueprints from hybridDB
+  const [savedBlueprints, setSavedBlueprints] = useState<SavedWorkflow[]>(() => {
+    const saved = hybridDB.getAppData('vernika', 'saved_workflows_list', null);
+    if (saved && Array.isArray(saved) && saved.length > 0) {
+      return saved;
+    }
+    return [
+      {
+        id: 'wf_initial_01',
+        title: 'Unified Enterprise Operations Blueprint',
+        selectedModules: ['ver_sheets', 'ver_hr', 'ver_crm', 'gp_rent', 'gp_whatsapp', 'chak_cart', 'web_consultation'],
+        status: 'active',
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
+        schema: hybridDB.synthesizeSchema(['ver_sheets', 'ver_hr', 'ver_crm', 'gp_rent', 'gp_whatsapp', 'chak_cart', 'web_consultation']),
+        executionCount: 128,
+      },
+      {
+        id: 'wf_initial_02',
+        title: 'ChaknaStore Food Delivery & Tiffin Pipeline',
+        selectedModules: ['chak_menu', 'chak_cart', 'chak_promo', 'chak_tiffin', 'chak_vendor', 'chak_tracker'],
+        status: 'active',
+        createdAt: new Date(Date.now() - 86400000).toISOString(),
+        updatedAt: new Date(Date.now() - 86400000).toISOString(),
+        schema: hybridDB.synthesizeSchema(['chak_menu', 'chak_cart', 'chak_promo', 'chak_tiffin', 'chak_vendor', 'chak_tracker']),
+        executionCount: 64,
+      },
+    ];
+  });
 
   // All 36 Active Modules across all 4 applications
   const allModules = [
@@ -110,27 +167,120 @@ export const WorkflowBuilder: React.FC = () => {
     'web_consultation',
   ]);
 
+  // Persist workflows to hybridDB
+  useEffect(() => {
+    hybridDB.saveAppData('vernika', 'saved_workflows_list', savedBlueprints);
+  }, [savedBlueprints]);
+
   const toggleFeature = (id: string) => {
     setSelectedFeatures((prev) =>
       prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
     );
   };
 
-  const handleGenerateWorkflow = () => {
+  const handleSaveAndDeployWorkflow = () => {
     const selectedModuleNames = selectedFeatures.map((id) => {
       const found = allModules.find((m) => m.id === id);
       return found ? found.name : id;
     });
 
     const schema = hybridDB.synthesizeSchema(selectedModuleNames);
-    setSynthesizedSchema(schema);
-    setGenerated(true);
-    setShowSchemaModal(true);
 
-    hybridDB.saveAppData('vernika', 'synthesized_blueprint', {
-      title: workflowTitle,
-      selectedModules: selectedFeatures,
-      schema,
+    if (editingWorkflowId) {
+      // Update existing workflow
+      const updatedList = savedBlueprints.map((wf) => {
+        if (wf.id === editingWorkflowId) {
+          return {
+            ...wf,
+            title: workflowTitle,
+            selectedModules: [...selectedFeatures],
+            updatedAt: new Date().toISOString(),
+            schema,
+          };
+        }
+        return wf;
+      });
+      setSavedBlueprints(updatedList);
+      setEditingWorkflowId(null);
+    } else {
+      // Create new workflow
+      const newWf: SavedWorkflow = {
+        id: `wf_${Date.now()}`,
+        title: workflowTitle,
+        selectedModules: [...selectedFeatures],
+        status: 'active',
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
+        schema,
+        executionCount: 1,
+      };
+      setSavedBlueprints([newWf, ...savedBlueprints]);
+    }
+
+    setSynthesizedSchema(schema);
+    setShowSchemaModal(true);
+  };
+
+  const handleEditBlueprint = (wf: SavedWorkflow) => {
+    setEditingWorkflowId(wf.id);
+    setWorkflowTitle(wf.title);
+    setSelectedFeatures([...wf.selectedModules]);
+    setActiveTab('composer');
+  };
+
+  const handleDeleteBlueprint = (id: string) => {
+    const filtered = savedBlueprints.filter((wf) => wf.id !== id);
+    setSavedBlueprints(filtered);
+    if (editingWorkflowId === id) {
+      setEditingWorkflowId(null);
+    }
+  };
+
+  const handleToggleStatus = (id: string) => {
+    const updated = savedBlueprints.map((wf) => {
+      if (wf.id === id) {
+        const nextStatus: 'active' | 'draft' | 'paused' =
+          wf.status === 'active' ? 'paused' : wf.status === 'paused' ? 'draft' : 'active';
+        return { ...wf, status: nextStatus };
+      }
+      return wf;
+    });
+    setSavedBlueprints(updated);
+  };
+
+  const handlePreviewBlueprint = (wf: SavedWorkflow) => {
+    setPreviewWorkflow(wf);
+    setSynthesizedSchema(wf.schema);
+    setShowSchemaModal(true);
+  };
+
+  const handleRunSimulation = (wf: SavedWorkflow) => {
+    setIsSimulating(true);
+    setSimulationLogs([]);
+    setActiveTab('simulator');
+
+    const steps = [
+      `[TRIGGER] Initializing '${wf.title}' workflow execution...`,
+      `[EVENT] Inbound API payload received for ${wf.selectedModules.length} configured modules.`,
+      `[TRANSFORM] Executing Vernika Sheets formula matrix & validation checks...`,
+      `[SUPABASE] Executing PostgreSQL upsert DDL trigger on 'hybrid_app_records'...`,
+      `[FIRESTORE] Syncing real-time Firestore document state to project 'automated-workflow-shashank'...`,
+      `[DRIVE BACKUP] Generating automated spreadsheet row entry in Google Drive backup folder...`,
+      `[NOTIFY] Dispatching WhatsApp payment link / Email notification webhook...`,
+      `[SUCCESS] Workflow execution completed with 0 errors!`,
+    ];
+
+    steps.forEach((step, index) => {
+      setTimeout(() => {
+        setSimulationLogs((prev) => [...prev, step]);
+        if (index === steps.length - 1) {
+          setIsSimulating(false);
+          // Increment execution count
+          setSavedBlueprints((prevList) =>
+            prevList.map((item) => (item.id === wf.id ? { ...item, executionCount: item.executionCount + 1 } : item))
+          );
+        }
+      }, (index + 1) * 600);
     });
   };
 
@@ -178,213 +328,393 @@ export const WorkflowBuilder: React.FC = () => {
             Automated Workflow Builder & Schema Synthesizer
           </h1>
           <p className="text-xs text-slate-400">
-            Combine any of the 36 active modules across all 4 applications to generate unified hybrid schemas (Supabase SQL + Firebase Rules + Google Sheets).
+            Combine any of the 36 active modules, synthesize hybrid schemas, deploy live workflows, and manage saved blueprints.
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
+        {/* View Tabs */}
+        <div className="flex items-center gap-1.5 p-1 rounded-xl bg-slate-900 border border-slate-800">
           <button
-            onClick={() => setSelectedFeatures(allModules.map((m) => m.id))}
-            className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white transition-all"
+            onClick={() => setActiveTab('composer')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              activeTab === 'composer' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-white'
+            }`}
           >
-            Select All 36 Modules
+            <Sliders className="h-3.5 w-3.5" /> Canvas Composer
           </button>
           <button
-            onClick={() => setSelectedFeatures([])}
-            className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-400 hover:text-white transition-all"
+            onClick={() => setActiveTab('blueprints')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              activeTab === 'blueprints' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-white'
+            }`}
           >
-            Clear Selection
+            <Layers className="h-3.5 w-3.5" /> Deployed Blueprints ({savedBlueprints.length})
+          </button>
+          <button
+            onClick={() => setActiveTab('simulator')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              activeTab === 'simulator' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            <Activity className="h-3.5 w-3.5" /> Live Test Console
           </button>
         </div>
       </div>
 
-      {/* Blueprint Title Input */}
-      <div className="glass-panel rounded-2xl p-4 border border-slate-800 flex flex-col sm:flex-row items-center gap-3">
-        <div className="p-2.5 rounded-xl bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-          <Layers className="h-5 w-5" />
-        </div>
-        <div className="flex-1 w-full">
-          <label className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-1">
-            Blueprint Name
-          </label>
-          <input
-            type="text"
-            value={workflowTitle}
-            onChange={(e) => setWorkflowTitle(e.target.value)}
-            className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-1.5 text-xs text-white font-bold"
-          />
-        </div>
-        <div className="text-right flex-shrink-0">
-          <span className="text-xs font-bold text-indigo-400">{selectedFeatures.length} / 36</span>
-          <span className="text-xs text-slate-400 block">Modules Selected</span>
-        </div>
-      </div>
-
-      {/* Main Builder Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Left Column: Category Filter & Module List */}
-        <div className="lg:col-span-2 space-y-4">
-          <div className="glass-panel rounded-2xl p-4 border border-slate-800 space-y-3">
-            {/* Search & Categories */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-              <div className="relative w-full sm:w-64">
-                <Search className="h-3.5 w-3.5 text-slate-400 absolute left-3 top-2.5" />
-                <input
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search 36 modules..."
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-8 pr-3 py-1.5 text-xs text-white"
-                />
-              </div>
-
-              <div className="flex items-center gap-1.5 overflow-x-auto w-full sm:w-auto text-xs font-bold">
-                {[
-                  { id: 'all', label: 'All (36)' },
-                  { id: 'vernika', label: 'Vernika (16)' },
-                  { id: 'goldenprime', label: 'GoldenPrime (8)' },
-                  { id: 'chakna', label: 'ChaknaStore (7)' },
-                  { id: 'website', label: 'Website (5)' },
-                ].map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => setActiveCategory(cat.id as any)}
-                    className={`px-3 py-1.5 rounded-xl transition-all flex-shrink-0 ${
-                      activeCategory === cat.id
-                        ? 'bg-indigo-600 text-white shadow'
-                        : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
-                    }`}
-                  >
-                    {cat.label}
-                  </button>
-                ))}
-              </div>
+      {/* Tab 1: Visual Canvas Composer */}
+      {activeTab === 'composer' && (
+        <div className="space-y-6">
+          {/* Blueprint Title Input */}
+          <div className="glass-panel rounded-2xl p-4 border border-slate-800 flex flex-col sm:flex-row items-center gap-3">
+            <div className="p-2.5 rounded-xl bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+              <Layers className="h-5 w-5" />
             </div>
-
-            {/* Modules Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[460px] overflow-y-auto pr-1 custom-scrollbar">
-              {filteredModules.map((m) => {
-                const Icon = m.icon;
-                const isSelected = selectedFeatures.includes(m.id);
-                return (
+            <div className="flex-1 w-full">
+              <div className="flex items-center justify-between mb-1">
+                <label className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+                  {editingWorkflowId ? 'Editing Blueprint Name' : 'Blueprint Title'}
+                </label>
+                {editingWorkflowId && (
                   <button
-                    key={m.id}
-                    onClick={() => toggleFeature(m.id)}
-                    className={`p-3.5 rounded-xl border transition-all text-left flex items-start gap-3 relative ${
-                      isSelected
-                        ? 'bg-indigo-950/40 border-indigo-500/80 shadow-md shadow-indigo-500/10'
-                        : 'bg-slate-950/40 border-slate-800/80 hover:border-slate-700'
-                    }`}
+                    onClick={() => {
+                      setEditingWorkflowId(null);
+                      setWorkflowTitle('Unified Enterprise Operations Blueprint');
+                    }}
+                    className="text-[10px] text-rose-400 hover:underline font-bold"
                   >
-                    <div
-                      className={`p-2 rounded-xl flex-shrink-0 ${
-                        isSelected
-                          ? 'bg-indigo-600 text-white'
-                          : 'bg-slate-900 text-slate-400 border border-slate-800'
-                      }`}
-                    >
-                      <Icon className="h-4 w-4" />
-                    </div>
-
-                    <div className="space-y-1 flex-1 pr-6">
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs font-bold text-white line-clamp-1">{m.name}</span>
-                      </div>
-                      <p className="text-[11px] text-slate-400 leading-tight line-clamp-2">{m.description}</p>
-                      <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider block">
-                        {m.app}
-                      </span>
-                    </div>
-
-                    <div className="absolute right-3 top-3">
-                      {isSelected ? (
-                        <div className="h-5 w-5 rounded-full bg-indigo-600 text-white flex items-center justify-center">
-                          <Check className="h-3 w-3" />
-                        </div>
-                      ) : (
-                        <div className="h-5 w-5 rounded-full border border-slate-700 flex items-center justify-center">
-                          <Plus className="h-3 w-3 text-slate-500" />
-                        </div>
-                      )}
-                    </div>
+                    Cancel Editing
                   </button>
-                );
-              })}
+                )}
+              </div>
+              <input
+                type="text"
+                value={workflowTitle}
+                onChange={(e) => setWorkflowTitle(e.target.value)}
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-1.5 text-xs text-white font-bold focus:outline-none focus:border-indigo-500"
+              />
             </div>
-
-            <div className="pt-3">
-              <button
-                onClick={handleGenerateWorkflow}
-                className="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-bold text-xs text-white shadow-lg shadow-indigo-600/30 transition-all flex items-center justify-center gap-2"
-              >
-                <Sparkles className="h-4 w-4" />
-                Synthesize Hybrid Workflow & Database Schema ({selectedFeatures.length} Modules)
-              </button>
+            <div className="text-right flex-shrink-0 flex items-center gap-3">
+              <div>
+                <span className="text-xs font-bold text-indigo-400">{selectedFeatures.length} / 36</span>
+                <span className="text-xs text-slate-400 block">Modules Selected</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Right Column: Generated Workflow Architecture */}
-        <div className="space-y-4">
-          <div className="glass-panel rounded-2xl p-5 border border-slate-800 space-y-4">
-            <h2 className="text-base font-bold text-white flex items-center gap-2">
-              <Database className="h-4 w-4 text-indigo-400" />
-              Workflow Architecture Preview
-            </h2>
+          {/* Main Builder Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            {/* Left Column: Category Filter & Module List */}
+            <div className="lg:col-span-2 space-y-4">
+              <div className="glass-panel rounded-2xl p-4 border border-slate-800 space-y-3">
+                {/* Search & Categories */}
+                <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+                  <div className="relative w-full sm:w-64">
+                    <Search className="h-3.5 w-3.5 text-slate-400 absolute left-3 top-2.5" />
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder="Search 36 modules..."
+                      className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-8 pr-3 py-1.5 text-xs text-white"
+                    />
+                  </div>
 
-            {generated ? (
-              <div className="space-y-4 animate-fade-in">
-                <div className="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold flex items-center gap-2">
-                  <CheckCircle2 className="h-4 w-4" />
-                  Synthesized Schema Ready ({selectedFeatures.length} Active Modules)
-                </div>
-
-                <div className="space-y-2">
-                  <div className="text-xs text-slate-400 font-medium">Included Application Modules:</div>
-                  <div className="space-y-1.5 max-h-[250px] overflow-y-auto pr-1 custom-scrollbar">
-                    {selectedFeatures.map((fid) => {
-                      const mod = allModules.find((m) => m.id === fid);
-                      return (
-                        <div
-                          key={fid}
-                          className="p-2.5 rounded-lg bg-slate-950/80 border border-slate-800 text-xs flex items-center justify-between"
-                        >
-                          <span className="font-semibold text-slate-200 truncate pr-2">{mod?.name}</span>
-                          <span className="text-[10px] text-indigo-400 font-bold flex-shrink-0">{mod?.app}</span>
-                        </div>
-                      );
-                    })}
+                  <div className="flex items-center gap-1.5 overflow-x-auto w-full sm:w-auto text-xs font-bold">
+                    {[
+                      { id: 'all', label: 'All (36)' },
+                      { id: 'vernika', label: 'Vernika (16)' },
+                      { id: 'goldenprime', label: 'GoldenPrime (8)' },
+                      { id: 'chakna', label: 'ChaknaStore (7)' },
+                      { id: 'website', label: 'Website (5)' },
+                    ].map((cat) => (
+                      <button
+                        key={cat.id}
+                        onClick={() => setActiveCategory(cat.id as any)}
+                        className={`px-3 py-1.5 rounded-xl transition-all flex-shrink-0 ${
+                          activeCategory === cat.id
+                            ? 'bg-indigo-600 text-white shadow'
+                            : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
+                        }`}
+                      >
+                        {cat.label}
+                      </button>
+                    ))}
                   </div>
                 </div>
 
-                <div className="space-y-2 pt-2">
-                  <button
-                    onClick={() => setShowSchemaModal(true)}
-                    className="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white shadow-md transition-all flex items-center justify-center gap-2"
-                  >
-                    <Code2 className="h-4 w-4" /> View Synthesized Code & Schemas
-                  </button>
+                {/* Modules Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[460px] overflow-y-auto pr-1 custom-scrollbar">
+                  {filteredModules.map((m) => {
+                    const Icon = m.icon;
+                    const isSelected = selectedFeatures.includes(m.id);
+                    return (
+                      <button
+                        key={m.id}
+                        onClick={() => toggleFeature(m.id)}
+                        className={`p-3.5 rounded-xl border transition-all text-left flex items-start gap-3 relative ${
+                          isSelected
+                            ? 'bg-indigo-950/40 border-indigo-500/80 shadow-md shadow-indigo-500/10'
+                            : 'bg-slate-950/40 border-slate-800/80 hover:border-slate-700'
+                        }`}
+                      >
+                        <div
+                          className={`p-2 rounded-xl flex-shrink-0 ${
+                            isSelected
+                              ? 'bg-indigo-600 text-white'
+                              : 'bg-slate-900 text-slate-400 border border-slate-800'
+                          }`}
+                        >
+                          <Icon className="h-4 w-4" />
+                        </div>
 
+                        <div className="space-y-1 flex-1 pr-6">
+                          <div className="flex items-center justify-between">
+                            <span className="text-xs font-bold text-white line-clamp-1">{m.name}</span>
+                          </div>
+                          <p className="text-[11px] text-slate-400 leading-tight line-clamp-2">{m.description}</p>
+                          <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider block">
+                            {m.app}
+                          </span>
+                        </div>
+
+                        <div className="absolute right-3 top-3">
+                          {isSelected ? (
+                            <div className="h-5 w-5 rounded-full bg-indigo-600 text-white flex items-center justify-center">
+                              <Check className="h-3 w-3" />
+                            </div>
+                          ) : (
+                            <div className="h-5 w-5 rounded-full border border-slate-700 flex items-center justify-center">
+                              <Plus className="h-3 w-3 text-slate-500" />
+                            </div>
+                          )}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                <div className="pt-3">
                   <button
-                    onClick={handleExportBlueprint}
-                    className="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-slate-200 transition-all flex items-center justify-center gap-2"
+                    onClick={handleSaveAndDeployWorkflow}
+                    className="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-bold text-xs text-white shadow-lg shadow-indigo-600/30 transition-all flex items-center justify-center gap-2"
                   >
-                    <Download className="h-4 w-4 text-indigo-400" />
-                    Export Full Blueprint (.xlsx)
+                    <Sparkles className="h-4 w-4" />
+                    {editingWorkflowId ? 'Update & Redeploy Blueprint' : 'Synthesize & Deploy Live Workflow'} ({selectedFeatures.length} Modules)
                   </button>
                 </div>
               </div>
+            </div>
+
+            {/* Right Column: Visual Pipeline & Active Nodes */}
+            <div className="space-y-4">
+              <div className="glass-panel rounded-2xl p-5 border border-slate-800 space-y-4">
+                <h2 className="text-base font-bold text-white flex items-center gap-2">
+                  <Activity className="h-4 w-4 text-indigo-400" />
+                  Visual Pipeline Execution Graph
+                </h2>
+
+                <div className="space-y-3">
+                  {/* Step 1: Trigger */}
+                  <div className="p-3 rounded-xl bg-slate-950 border border-indigo-500/30 space-y-1 relative">
+                    <div className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider">Step 1: Inbound Trigger</div>
+                    <div className="text-xs font-bold text-white">Multi-App Event Webhook & Intake</div>
+                    <div className="text-[11px] text-slate-400">Captures form submissions, rent receipts & food orders.</div>
+                  </div>
+
+                  <div className="flex justify-center">
+                    <ArrowRight className="h-4 w-4 text-indigo-400 rotate-90" />
+                  </div>
+
+                  {/* Step 2: Transformation */}
+                  <div className="p-3 rounded-xl bg-slate-950 border border-purple-500/30 space-y-1">
+                    <div className="text-[10px] font-bold text-purple-400 uppercase tracking-wider">Step 2: Formula & Logic Engine</div>
+                    <div className="text-xs font-bold text-white">Vernika Sheets & GST Calculator</div>
+                    <div className="text-[11px] text-slate-400">Evaluates formulas (=SUM), taxes & promo discount coupons.</div>
+                  </div>
+
+                  <div className="flex justify-center">
+                    <ArrowRight className="h-4 w-4 text-purple-400 rotate-90" />
+                  </div>
+
+                  {/* Step 3: Database Upsert */}
+                  <div className="p-3 rounded-xl bg-slate-950 border border-cyan-500/30 space-y-1">
+                    <div className="text-[10px] font-bold text-cyan-400 uppercase tracking-wider">Step 3: Hybrid Database Persistence</div>
+                    <div className="text-xs font-bold text-white">Supabase PostgreSQL + Firebase Firestore</div>
+                    <div className="text-[11px] text-slate-400">Real-time sync to PostgreSQL tables and Firestore collections.</div>
+                  </div>
+
+                  <div className="flex justify-center">
+                    <ArrowRight className="h-4 w-4 text-cyan-400 rotate-90" />
+                  </div>
+
+                  {/* Step 4: Dispatch */}
+                  <div className="p-3 rounded-xl bg-slate-950 border border-emerald-500/30 space-y-1">
+                    <div className="text-[10px] font-bold text-emerald-400 uppercase tracking-wider">Step 4: Automated Dispatch & Backup</div>
+                    <div className="text-xs font-bold text-white">WhatsApp Alert + Google Drive (.xlsx)</div>
+                    <div className="text-[11px] text-slate-400">Generates instant receipts and appends to Google Drive workbook.</div>
+                  </div>
+                </div>
+
+                <div className="pt-2 border-t border-slate-800">
+                  <button
+                    onClick={handleExportBlueprint}
+                    className="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-indigo-300 transition-all flex items-center justify-center gap-2"
+                  >
+                    <Download className="h-4 w-4" /> Export Active Blueprint (.xlsx)
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Tab 2: Saved & Deployed Blueprints */}
+      {activeTab === 'blueprints' && (
+        <div className="glass-panel rounded-2xl p-6 border border-slate-800 space-y-4">
+          <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+            <div>
+              <h2 className="text-base font-bold text-white flex items-center gap-2">
+                <Layers className="h-5 w-5 text-indigo-400" /> Deployed Workflow Blueprints
+              </h2>
+              <p className="text-xs text-slate-400">Manage, edit, delete, or trigger live executions for saved workflows.</p>
+            </div>
+            <button
+              onClick={() => {
+                setEditingWorkflowId(null);
+                setWorkflowTitle('New Custom Workflow Blueprint');
+                setSelectedFeatures(['ver_sheets', 'ver_crm']);
+                setActiveTab('composer');
+              }}
+              className="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white flex items-center gap-1.5"
+            >
+              <Plus className="h-4 w-4" /> New Blueprint
+            </button>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {savedBlueprints.map((wf) => (
+              <div key={wf.id} className="p-5 rounded-2xl bg-slate-950 border border-slate-800 space-y-4 flex flex-col justify-between">
+                <div className="space-y-2">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="text-sm font-bold text-white">{wf.title}</h3>
+                    <button
+                      onClick={() => handleToggleStatus(wf.id)}
+                      className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase border transition-all ${
+                        wf.status === 'active'
+                          ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
+                          : wf.status === 'paused'
+                          ? 'bg-amber-500/10 text-amber-400 border-amber-500/30'
+                          : 'bg-slate-800 text-slate-400 border-slate-700'
+                      }`}
+                    >
+                      {wf.status}
+                    </button>
+                  </div>
+
+                  <div className="flex items-center gap-2 text-xs text-slate-400">
+                    <span>{wf.selectedModules.length} Modules</span>
+                    <span>•</span>
+                    <span className="text-indigo-400 font-mono font-bold">{wf.executionCount} Executions</span>
+                  </div>
+
+                  {/* Modules preview tags */}
+                  <div className="flex flex-wrap gap-1.5 pt-1">
+                    {wf.selectedModules.slice(0, 5).map((mid) => {
+                      const mod = allModules.find((m) => m.id === mid);
+                      return (
+                        <span key={mid} className="px-2 py-0.5 rounded-md bg-slate-900 border border-slate-800 text-[10px] text-slate-300">
+                          {mod?.name.split('(')[0]}
+                        </span>
+                      );
+                    })}
+                    {wf.selectedModules.length > 5 && (
+                      <span className="px-2 py-0.5 rounded-md bg-slate-900 text-[10px] text-indigo-400 font-bold">
+                        +{wf.selectedModules.length - 5} more
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between pt-3 border-t border-slate-900 gap-2">
+                  <div className="flex items-center gap-1.5">
+                    <button
+                      onClick={() => handleRunSimulation(wf)}
+                      className="px-3 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white flex items-center gap-1"
+                    >
+                      <Play className="h-3.5 w-3.5" /> Run
+                    </button>
+                    <button
+                      onClick={() => handlePreviewBlueprint(wf)}
+                      className="px-2.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-indigo-300 flex items-center gap-1"
+                    >
+                      <Eye className="h-3.5 w-3.5" /> Schema
+                    </button>
+                    <button
+                      onClick={() => handleEditBlueprint(wf)}
+                      className="px-2.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 flex items-center gap-1"
+                    >
+                      <Edit3 className="h-3.5 w-3.5" /> Edit
+                    </button>
+                  </div>
+
+                  <button
+                    onClick={() => handleDeleteBlueprint(wf.id)}
+                    className="p-1.5 rounded-xl text-rose-400 hover:bg-rose-500/10 transition-all"
+                  >
+                    <Trash2 className="h-4 w-4" />
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Tab 3: Live Test Simulator Console */}
+      {activeTab === 'simulator' && (
+        <div className="glass-panel rounded-2xl p-6 border border-slate-800 space-y-4 max-w-3xl mx-auto">
+          <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+            <div>
+              <h2 className="text-base font-bold text-white flex items-center gap-2">
+                <Activity className="h-5 w-5 text-indigo-400" /> Live Workflow Test Console
+              </h2>
+              <p className="text-xs text-slate-400">Simulate end-to-end execution of active workflow triggers.</p>
+            </div>
+            <button
+              onClick={() => handleRunSimulation(savedBlueprints[0])}
+              disabled={isSimulating}
+              className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 font-bold text-xs text-white flex items-center gap-2"
+            >
+              <RefreshCw className={`h-4 w-4 ${isSimulating ? 'animate-spin' : ''}`} />
+              {isSimulating ? 'Simulating...' : 'Trigger Test Execution'}
+            </button>
+          </div>
+
+          <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 font-mono text-xs space-y-2 min-h-[300px] max-h-[450px] overflow-y-auto">
+            {simulationLogs.length > 0 ? (
+              simulationLogs.map((log, idx) => (
+                <div
+                  key={idx}
+                  className={`p-2 rounded-lg ${
+                    log.includes('SUCCESS')
+                      ? 'bg-emerald-500/10 text-emerald-400 font-bold border border-emerald-500/20'
+                      : log.includes('TRIGGER')
+                      ? 'text-indigo-400 font-bold'
+                      : 'text-slate-300'
+                  }`}
+                >
+                  {log}
+                </div>
+              ))
             ) : (
-              <div className="p-6 rounded-xl bg-slate-950/40 border border-dashed border-slate-800 text-center space-y-2">
-                <Sparkles className="h-8 w-8 text-slate-600 mx-auto" />
-                <p className="text-xs text-slate-400">
-                  Select any of the 36 modules on the left and click "Synthesize" to generate your unified architecture.
-                </p>
+              <div className="text-center py-20 text-slate-500">
+                Click "Trigger Test Execution" above or "Run" on any blueprint to start simulation.
               </div>
             )}
           </div>
         </div>
-      </div>
+      )}
 
       {/* Synthesized Hybrid Schema Modal */}
       {showSchemaModal && synthesizedSchema && (
@@ -465,7 +795,7 @@ export const WorkflowBuilder: React.FC = () => {
                 onClick={() => setShowSchemaModal(false)}
                 className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-bold text-xs text-white"
               >
-                Close & Proceed to Deployment
+                Close & Return
               </button>
             </div>
           </div>
