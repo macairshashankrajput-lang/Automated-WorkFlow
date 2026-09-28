@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@goldenprime/*": ["GoldenPrime-Stay-app-main/*"],
+      "@vernika/*": ["Vernika-app-main/src/*"],
+      "@chakna/*": ["chaknastore-FoodDeliveryapp-main/*"],
+      "@website/*": ["vernika-website-main/*"]
+    }
+  },
+  "include": ["src", "Vernika-app-main/src"]
+}

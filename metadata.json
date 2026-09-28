@@ -1,0 +1,11 @@
+{
+  "name": "Automated Workflow Studio & Business Suite",
+  "description": "Unified enterprise workspace hub featuring Softr-style studio app composer, hybrid database sync engine (Google Drive, Sheets, Supabase, Firebase), Vernika Copilot AI, and four integrated production modules: GoldenPrime PG, Vernika Business Suite, ChaknaStore Food Delivery, and Vernika Corporate Portal.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
