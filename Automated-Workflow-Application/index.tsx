@@ -12,6 +12,7 @@ interface AutomatedWorkflowAppProps {
 }
 
 export const AutomatedWorkflowApp: React.FC<AutomatedWorkflowAppProps> = ({
+  currentUser,
   activeSubView = 'overview',
   onNavigate,
 }) => {
@@ -20,7 +21,7 @@ export const AutomatedWorkflowApp: React.FC<AutomatedWorkflowAppProps> = ({
       {activeSubView === 'overview' && <StudioOverview onNavigate={onNavigate} />}
       {activeSubView === 'builder' && <WorkflowBuilder />}
       {activeSubView === 'copilot' && <VernikaCopilotView />}
-      {activeSubView === 'portfolio' && <PortfolioShowcase onNavigate={onNavigate} />}
+      {activeSubView === 'portfolio' && <PortfolioShowcase onNavigate={onNavigate} currentUser={currentUser} />}
     </div>
   );
 };

@@ -56,7 +56,7 @@ export default function App() {
       case 'dashboard':
         return <StudioOverview onNavigate={(tab) => setActiveTab(tab)} />;
       case 'portfolio':
-        return <PortfolioShowcase onNavigate={(tab) => setActiveTab(tab)} />;
+        return <PortfolioShowcase onNavigate={(tab) => setActiveTab(tab)} currentUser={activeSession} />;
       case 'workflow_builder':
         return <WorkflowBuilder />;
       case 'copilot':
