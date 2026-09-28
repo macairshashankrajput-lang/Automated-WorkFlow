@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite
+vernika.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Firebase Admin credentials
+service-account*.json
+firebase-service-account*.json
+functions/*.local.json
+.firebase/
+
+# Google Workspace credentials and local OAuth state
+client_secret*.json
+*service-account*.json
+credentials.json
+credentials.enc
+.encryption_key
+.google-workspace-credentials/

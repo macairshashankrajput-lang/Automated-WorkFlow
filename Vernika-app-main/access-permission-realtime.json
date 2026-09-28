@@ -1,0 +1,11 @@
+{
+  "grant": {
+    "before": 0,
+    "becameVisible": false,
+    "employeeBody": false
+  },
+  "revoke": {
+    "becameHidden": true,
+    "employeeBodyHasCrm": false
+  }
+}

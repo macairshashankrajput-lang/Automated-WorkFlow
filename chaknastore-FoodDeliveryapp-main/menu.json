@@ -1,0 +1,476 @@
+{
+  "restaurant": "The Chakna Co",
+  "menu": [
+    {
+      "category": "Tiffins",
+      "items": [
+        {
+          "id": "TIF001",
+          "name": "Veg Thali",
+          "type": "veg",
+          "price": 239,
+          "portion": "full",
+          "ingredients": [
+            "dal",
+            "chole/rajma",
+            "soya sabzi",
+            "dry sabzi",
+            "chapati",
+            "pulao"
+          ]
+        },
+        {
+          "id": "TIF002",
+          "name": "Premium Veg Thali",
+          "type": "veg",
+          "price": 349,
+          "portion": "full",
+          "ingredients": [
+            "paneer",
+            "dal",
+            "sabzi",
+            "chapati",
+            "pulao",
+            "gulab jamun"
+          ]
+        },
+        {
+          "id": "TIF003",
+          "name": "Premium Chicken Thali",
+          "type": "non-veg",
+          "price": 379,
+          "portion": "full",
+          "ingredients": [
+            "chicken gravy",
+            "dry chicken",
+            "rassa",
+            "chapati",
+            "rice",
+            "dessert"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Tiffin Biryani",
+      "items": [
+        {
+          "id": "TB001",
+          "name": "Veg Biryani (500g)",
+          "type": "veg",
+          "price": 319,
+          "portion": "500g",
+          "ingredients": [
+            "basmati rice",
+            "vegetables",
+            "paneer",
+            "spices",
+            "raita",
+            "salan"
+          ]
+        },
+        {
+          "id": "TB002",
+          "name": "Chicken Biryani (500g)",
+          "type": "non-veg",
+          "price": 249,
+          "portion": "500g",
+          "ingredients": [
+            "chicken",
+            "basmati rice",
+            "spices",
+            "raita",
+            "salan"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Chakna",
+      "items": [
+        {
+          "id": "CHK001",
+          "name": "Chana Chakna Masala",
+          "type": "veg",
+          "price": 269,
+          "portion": "400g",
+          "ingredients": [
+            "black chana",
+            "spices",
+            "herbs"
+          ]
+        },
+        {
+          "id": "CHK002",
+          "name": "Chole Chakna Masala",
+          "type": "veg",
+          "price": 269,
+          "portion": "400g",
+          "ingredients": [
+            "white chana",
+            "spices"
+          ]
+        },
+        {
+          "id": "CHK003",
+          "name": "Fried Peanuts & Garlic",
+          "type": "veg",
+          "price": 189,
+          "portion": "150g",
+          "ingredients": [
+            "peanuts",
+            "garlic",
+            "chilli",
+            "curry leaves"
+          ]
+        },
+        {
+          "id": "CHK004",
+          "name": "Boiled Peanut Chaat",
+          "type": "veg",
+          "price": 189,
+          "portion": "200g",
+          "ingredients": [
+            "boiled peanuts",
+            "chutney",
+            "salad"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Veg Starters",
+      "items": [
+        {
+          "id": "VS001",
+          "name": "Soya Chaap",
+          "type": "veg",
+          "price": 269,
+          "portion": "8 pcs",
+          "ingredients": [
+            "soya",
+            "tandoori spices"
+          ]
+        },
+        {
+          "id": "VS002",
+          "name": "Soya Chaap Banjara",
+          "type": "veg",
+          "price": 289,
+          "portion": "8 pcs",
+          "ingredients": [
+            "soya",
+            "creamy marinade"
+          ]
+        },
+        {
+          "id": "VS003",
+          "name": "Paneer Tikka",
+          "type": "veg",
+          "price": 349,
+          "portion": "8 pcs",
+          "ingredients": [
+            "paneer",
+            "spices"
+          ]
+        },
+        {
+          "id": "VS004",
+          "name": "Paneer Banjara",
+          "type": "veg",
+          "price": 379,
+          "portion": "8 pcs",
+          "ingredients": [
+            "paneer",
+            "creamy marinade"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Non-Veg Starters",
+      "items": [
+        {
+          "id": "NVS001",
+          "name": "Chicken Tikka",
+          "type": "non-veg",
+          "price": 379,
+          "portion": "8 pcs",
+          "ingredients": [
+            "chicken",
+            "tandoori spices"
+          ]
+        },
+        {
+          "id": "NVS002",
+          "name": "Chicken Seekh Kebab",
+          "type": "non-veg",
+          "price": 289,
+          "portion": "4 pcs",
+          "ingredients": [
+            "minced chicken",
+            "spices"
+          ]
+        },
+        {
+          "id": "NVS003",
+          "name": "Chicken Malai Seekh",
+          "type": "non-veg",
+          "price": 419,
+          "portion": "4 pcs",
+          "ingredients": [
+            "chicken",
+            "cream",
+            "cashew"
+          ]
+        },
+        {
+          "id": "NVS004",
+          "name": "Chicken Galouti Kebab",
+          "type": "non-veg",
+          "price": 449,
+          "portion": "4 pcs",
+          "ingredients": [
+            "chicken",
+            "saffron",
+            "spices"
+          ]
+        },
+        {
+          "id": "NVS005",
+          "name": "Chicken Tangdi",
+          "type": "non-veg",
+          "price": 419,
+          "portion": "4 pcs",
+          "ingredients": [
+            "chicken legs",
+            "spices"
+          ]
+        },
+        {
+          "id": "NVS006",
+          "name": "Chicken Lollipop",
+          "type": "non-veg",
+          "price": 489,
+          "portion": "8 pcs",
+          "ingredients": [
+            "chicken wings",
+            "spices"
+          ]
+        },
+        {
+          "id": "NVS007",
+          "name": "Tandoori Chicken",
+          "type": "non-veg",
+          "price": 649,
+          "portion": "half/full",
+          "ingredients": [
+            "chicken",
+            "tandoori spices"
+          ]
+        },
+        {
+          "id": "NVS008",
+          "name": "Mutton Seekh Kebab",
+          "type": "non-veg",
+          "price": 419,
+          "portion": "4 pcs",
+          "ingredients": [
+            "mutton",
+            "spices"
+          ]
+        },
+        {
+          "id": "NVS009",
+          "name": "Mutton Galouti Kebab",
+          "type": "non-veg",
+          "price": 499,
+          "portion": "4 pcs",
+          "ingredients": [
+            "mutton",
+            "spices"
+          ]
+        },
+        {
+          "id": "NVS010",
+          "name": "Bangda Tandoori",
+          "type": "non-veg",
+          "price": 389,
+          "portion": "2 pcs",
+          "ingredients": [
+            "mackerel fish",
+            "spices"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Biryani",
+      "items": [
+        {
+          "id": "BR001",
+          "name": "Veg Biryani",
+          "type": "veg",
+          "price": 529,
+          "portion": "1kg",
+          "ingredients": [
+            "rice",
+            "vegetables",
+            "spices"
+          ]
+        },
+        {
+          "id": "BR002",
+          "name": "Paneer Biryani",
+          "type": "veg",
+          "price": 549,
+          "portion": "1kg",
+          "ingredients": [
+            "paneer",
+            "rice",
+            "spices"
+          ]
+        },
+        {
+          "id": "BR003",
+          "name": "Egg Biryani",
+          "type": "non-veg",
+          "price": 629,
+          "portion": "1kg",
+          "ingredients": [
+            "egg",
+            "rice",
+            "spices"
+          ]
+        },
+        {
+          "id": "BR004",
+          "name": "Chicken Biryani",
+          "type": "non-veg",
+          "price": 689,
+          "portion": "1kg",
+          "ingredients": [
+            "chicken",
+            "rice",
+            "spices"
+          ]
+        },
+        {
+          "id": "BR005",
+          "name": "Mutton Biryani",
+          "type": "non-veg",
+          "price": 629,
+          "portion": "1kg",
+          "ingredients": [
+            "mutton",
+            "rice",
+            "spices"
+          ]
+        },
+        {
+          "id": "BR006",
+          "name": "Prawns Biryani",
+          "type": "non-veg",
+          "price": 889,
+          "portion": "1kg",
+          "ingredients": [
+            "prawns",
+            "rice",
+            "spices"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Main Course",
+      "items": [
+        {
+          "id": "MC001",
+          "name": "Dal Makhni",
+          "type": "veg",
+          "price": 309,
+          "portion": "400g",
+          "ingredients": [
+            "black dal",
+            "butter"
+          ]
+        },
+        {
+          "id": "MC002",
+          "name": "Paneer Butter Masala",
+          "type": "veg",
+          "price": 389,
+          "portion": "400g",
+          "ingredients": [
+            "paneer",
+            "butter gravy"
+          ]
+        },
+        {
+          "id": "MC003",
+          "name": "Chicken Handi",
+          "type": "non-veg",
+          "price": 389,
+          "portion": "400g",
+          "ingredients": [
+            "chicken",
+            "spices"
+          ]
+        },
+        {
+          "id": "MC004",
+          "name": "Butter Chicken",
+          "type": "non-veg",
+          "price": 389,
+          "portion": "400g",
+          "ingredients": [
+            "chicken",
+            "butter gravy"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Rice",
+      "items": [
+        {
+          "id": "RC001",
+          "name": "Jeera Rice",
+          "type": "veg",
+          "price": 199,
+          "portion": "full",
+          "ingredients": [
+            "basmati rice",
+            "cumin"
+          ]
+        },
+        {
+          "id": "RC002",
+          "name": "Plain Rice",
+          "type": "veg",
+          "price": 159,
+          "portion": "full",
+          "ingredients": [
+            "basmati rice"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Dessert",
+      "items": [
+        {
+          "id": "DS001",
+          "name": "Gulab Jamun",
+          "type": "dessert",
+          "price": 109,
+          "portion": "4 pcs",
+          "ingredients": [
+            "milk solids",
+            "sugar syrup"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "marker": "E2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821",
+  "steps": [
+    {
+      "step": "admin-task-screen",
+      "headings": [
+        "New Leave Request: Priya Sharma",
+        "Tasks & Productivity"
+      ],
+      "buttons": [
+        "Task Kanban Board\n2",
+        "Client Accounts & CRM",
+        "Invoices & Billing",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Sales Leads Pipeline\n3",
+        "Settings & Config",
+        "Punch Clock",
+        "AI Copilot",
+        "2",
+        "Shashank Rajput\n\nAdmin Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Create Task",
+        "Kanban Tasks",
+        "Simple To-Dos",
+        "Reminders",
+        "Start →",
+        "Approve ✓"
+      ],
+      "tail": "oll & Payslips\nExpenses & Claims\nSales Leads Pipeline\n3\nADMINISTRATION\nSettings & Config\nMulti-User Sync\nONLINE\nLive Sync\nPunch Clock\nAI Copilot\n2\n\nShashank Rajput\n\nAdmin Portal\n\nShashank Rajput\n#general-announcements\n09:15 AM\n\nGood morning everyone! Real-time synchronization and multi-user portal windows are fully deployed. Please test your respective portals.\n\nReply in Chat\nDismiss\n\nLIVE WORKSPACE UPDATE\n\nNew Leave Request: Priya Sharma\n\nPaid Leave Leave requested from 2026-08-25 to 2026-08-25. Reason: E2E-CONCURRENT-EMPLOYEE-LEAVE-20260821 — concurrent Employee-to-Admin leave propagation check.\n\nOpen update\nTasks & Productivity\n\nManage kanban tasks, simple to-dos, and time-based reminders\n\nCreate Task\nKanban Tasks\nSimple To-Dos\nReminders\nTo Do\n1\nE2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821\n\nConcurrent Admin write observed by Employee.\n\nMedium\nStart →\nIn Progress\n0\nUnder Review\n1\n\nApprove ✓\nCompleted\n3\nE2E-LIVE-ADMIN-TASK-20260821\nDone\nE2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821\nDone\nDone"
+    },
+    {
+      "step": "admin-after-create-click",
+      "headings": [
+        "New Leave Request: Priya Sharma",
+        "Tasks & Productivity",
+        "Create Task"
+      ],
+      "buttons": [
+        "Client Accounts & CRM",
+        "Invoices & Billing",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Sales Leads Pipeline\n3",
+        "Settings & Config",
+        "Punch Clock",
+        "AI Copilot",
+        "2",
+        "Shashank Rajput\n\nAdmin Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Create Task",
+        "Kanban Tasks",
+        "Simple To-Dos",
+        "Reminders",
+        "Start →",
+        "Approve ✓",
+        "Task",
+        "Todo",
+        "Reminder",
+        "Cancel",
+        "Create task"
+      ],
+      "inputs": [
+        {
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "e.g. Implement OAuth 2.0",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "Add notes, links...",
+          "type": "textarea",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "select-one",
+          "value": "none"
+        },
+        {
+          "placeholder": "",
+          "type": "select-one",
+          "value": "Medium"
+        }
+      ]
+    }
+  ]
+}
+{
+  "marker": "E2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821",
+  "steps": [
+    {
+      "step": "admin-task-screen",
+      "headings": [
+        "New Leave Request: Priya Sharma",
+        "Tasks & Productivity"
+      ],
+      "buttons": [
+        "Task Kanban Board\n2",
+        "Client Accounts & CRM",
+        "Invoices & Billing",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Sales Leads Pipeline\n3",
+        "Settings & Config",
+        "Punch Clock",
+        "AI Copilot",
+        "2",
+        "Shashank Rajput\n\nAdmin Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Create Task",
+        "Kanban Tasks",
+        "Simple To-Dos",
+        "Reminders",
+        "Start →",
+        "Approve ✓"
+      ],
+      "tail": "oll & Payslips\nExpenses & Claims\nSales Leads Pipeline\n3\nADMINISTRATION\nSettings & Config\nMulti-User Sync\nONLINE\nLive Sync\nPunch Clock\nAI Copilot\n2\n\nShashank Rajput\n\nAdmin Portal\n\nShashank Rajput\n#general-announcements\n09:15 AM\n\nGood morning everyone! Real-time synchronization and multi-user portal windows are fully deployed. Please test your respective portals.\n\nReply in Chat\nDismiss\n\nLIVE WORKSPACE UPDATE\n\nNew Leave Request: Priya Sharma\n\nPaid Leave Leave requested from 2026-08-25 to 2026-08-25. Reason: E2E-CONCURRENT-EMPLOYEE-LEAVE-20260821 — concurrent Employee-to-Admin leave propagation check.\n\nOpen update\nTasks & Productivity\n\nManage kanban tasks, simple to-dos, and time-based reminders\n\nCreate Task\nKanban Tasks\nSimple To-Dos\nReminders\nTo Do\n1\nE2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821\n\nConcurrent Admin write observed by Employee.\n\nMedium\nStart →\nIn Progress\n0\nUnder Review\n1\n\nApprove ✓\nCompleted\n3\nE2E-LIVE-ADMIN-TASK-20260821\nDone\nE2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821\nDone\nDone"
+    },
+    {
+      "step": "admin-after-create-click",
+      "headings": [
+        "New Leave Request: Priya Sharma",
+        "Tasks & Productivity",
+        "Create Task"
+      ],
+      "buttons": [
+        "Client Accounts & CRM",
+        "Invoices & Billing",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Sales Leads Pipeline\n3",
+        "Settings & Config",
+        "Punch Clock",
+        "AI Copilot",
+        "2",
+        "Shashank Rajput\n\nAdmin Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Create Task",
+        "Kanban Tasks",
+        "Simple To-Dos",
+        "Reminders",
+        "Start →",
+        "Approve ✓",
+        "Task",
+        "Todo",
+        "Reminder",
+        "Cancel",
+        "Create task"
+      ],
+      "inputs": [
+        {
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "e.g. Implement OAuth 2.0",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "Add notes, links...",
+          "type": "textarea",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "select-one",
+          "value": "none"
+        },
+        {
+          "placeholder": "",
+          "type": "select-one",
+          "value": "Medium"
+        }
+      ]
+    },
+    {
+      "step": "assignment-menu",
+      "containsPriya": true,
+      "tail": "21\nDone\nE2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821\nDone\nDone\nCreate Task\nTask\nTodo\nReminder\nTitle\nDescription (Optional)\nAssign Team / Collaborators\nClick to assign members...\nElena Rostova\nShashank Rajput\nLiam O'Connor\nRachel Green\nMarcus Vance\nAria Montgomery\nPriya Sharma\nDavid Chen\nLink to Project\nStandalone / Private\nVernika 2.0 Multi-Tenant Cloud Architecture\nPeak VC Investment Pipeline Modernization\nVanguard Fleet Geofencing & Logistics API\nPriority\nLow\nMedium\nHigh\nUrgent\nCancel\nCreate task"
+    },
+    {
+      "step": "admin-create",
+      "visibleInAdmin": true
+    },
+    {
+      "step": "employee-realtime-observe",
+      "visibleInEmployee": true,
+      "tail": "an Board\n2\nFINANCIAL & COMPENSATION\nPayroll & Payslips\nExpenses & Claims\nMulti-User Sync\nONLINE\nLive Sync\nPunch Clock\nAI Copilot\n5\n\nPriya Sharma\n\nEmployee Portal\n\nShashank Rajput\n#general-announcements\n09:15 AM\n\nGood morning everyone! Real-time synchronization and multi-user portal windows are fully deployed. Please test your respective portals.\n\nReply in Chat\nDismiss\n\nLIVE WORKSPACE UPDATE\n\nLeave Approved: Priya Sharma\n\nYour Paid Leave leave request (2026-08-20 to 2026-08-20) was approved by Admin.\n\nOpen update\nTasks & Productivity\n\nManage kanban tasks, simple to-dos, and time-based reminders\n\nCreate Task\nKanban Tasks\nSimple To-Dos\nReminders\nTo Do\n1\nE2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821\n\nConcurrent Admin write observed by Employee.\n\nMedium\nStart →\nIn Progress\n0\nUnder Review\n1\n\nApprove ✓\nCompleted\n3\nE2E-LIVE-ADMIN-TASK-20260821\nDone\nE2E-CONCURRENT-ADMIN-TO-EMPLOYEE-20260821\nDone\nDone"
+    },
+    {
+      "step": "employee-start-admin-observe",
+      "adminShowsReview": true
+    },
+    {
+      "step": "employee-review-admin-observe",
+      "adminShowsTaggedUnderReview": true
+    },
+    {
+      "step": "admin-approve-employee-observe",
+      "employeeShowsTaggedDone": true
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "entities": {
+    "Employee": {
+      "title": "Employee",
+      "description": "Employee profile in the organization",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "name": { "type": "string", "maxLength": 150 },
+        "email": { "type": "string", "maxLength": 200 },
+        "department": { "type": "string", "maxLength": 100 },
+        "position": { "type": "string", "maxLength": 100 },
+        "role": { "type": "string", "enum": ["SuperAdmin", "Admin", "HR_Manager", "Supervisor", "Operations_Manager", "Employee"] },
+        "status": { "type": "string", "enum": ["Active", "On Leave", "Terminated", "Probation"] },
+        "joinDate": { "type": "string", "maxLength": 50 },
+        "salary": { "type": "number" },
+        "phone": { "type": "string", "maxLength": 50 },
+        "avatar": { "type": "string", "maxLength": 500 },
+        "reportsTo": { "type": "string", "maxLength": 128 },
+        "skills": { "type": "array" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "email", "department", "position", "role", "status"]
+    },
+    "Department": {
+      "title": "Department",
+      "description": "Organizational department unit",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "name": { "type": "string", "maxLength": 100 },
+        "code": { "type": "string", "maxLength": 20 },
+        "head": { "type": "string", "maxLength": 100 },
+        "headEmail": { "type": "string", "maxLength": 200 },
+        "budget": { "type": "number" },
+        "color": { "type": "string", "maxLength": 50 },
+        "description": { "type": "string", "maxLength": 500 },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "code", "head", "budget"]
+    },
+    "Position": {
+      "title": "Position",
+      "description": "Job role and title definition",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "title": { "type": "string", "maxLength": 100 },
+        "department": { "type": "string", "maxLength": 100 },
+        "level": { "type": "string", "enum": ["Junior", "Mid", "Senior", "Lead", "Executive"] },
+        "salaryMin": { "type": "number" },
+        "salaryMax": { "type": "number" },
+        "requirements": { "type": "array" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "title", "department", "level", "salaryMin", "salaryMax"]
+    },
+    "AttendanceRecord": {
+      "title": "AttendanceRecord",
+      "description": "Daily clock in/out punch log",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "employeeId": { "type": "string", "maxLength": 128 },
+        "employeeName": { "type": "string", "maxLength": 150 },
+        "date": { "type": "string", "maxLength": 50 },
+        "checkIn": { "type": "string", "maxLength": 50 },
+        "checkOut": { "type": "string", "maxLength": 50 },
+        "status": { "type": "string", "enum": ["Present", "Late", "Half Day", "Absent", "On Leave"] },
+        "workHours": { "type": "number" },
+        "location": { "type": "string", "maxLength": 200 }
+      },
+      "required": ["id", "employeeId", "date", "status"]
+    },
+    "LeaveRequest": {
+      "title": "LeaveRequest",
+      "description": "Employee leave request application",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "employeeId": { "type": "string", "maxLength": 128 },
+        "employeeName": { "type": "string", "maxLength": 150 },
+        "type": { "type": "string", "enum": ["Sick", "Casual", "Annual", "Maternity", "Paternity", "Unpaid"] },
+        "startDate": { "type": "string", "maxLength": 50 },
+        "endDate": { "type": "string", "maxLength": 50 },
+        "days": { "type": "number" },
+        "reason": { "type": "string", "maxLength": 1000 },
+        "status": { "type": "string", "enum": ["Pending", "Approved", "Rejected"] },
+        "appliedOn": { "type": "string", "maxLength": 50 },
+        "reviewedBy": { "type": "string", "maxLength": 150 }
+      },
+      "required": ["id", "employeeId", "type", "startDate", "endDate", "days", "status"]
+    },
+    "Project": {
+      "title": "Project",
+      "description": "Client or internal project workspace",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "name": { "type": "string", "maxLength": 200 },
+        "client": { "type": "string", "maxLength": 200 },
+        "description": { "type": "string", "maxLength": 1500 },
+        "status": { "type": "string", "enum": ["Planning", "In Progress", "On Hold", "Completed", "Cancelled"] },
+        "startDate": { "type": "string", "maxLength": 50 },
+        "deadline": { "type": "string", "maxLength": 50 },
+        "budget": { "type": "number" },
+        "spent": { "type": "number" },
+        "manager": { "type": "string", "maxLength": 150 },
+        "members": { "type": "array" },
+        "priority": { "type": "string", "enum": ["Low", "Medium", "High", "Critical"] },
+        "tags": { "type": "array" }
+      },
+      "required": ["id", "name", "client", "status", "budget", "priority"]
+    },
+    "Task": {
+      "title": "Task",
+      "description": "Actionable task ticket",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "title": { "type": "string", "maxLength": 250 },
+        "description": { "type": "string", "maxLength": 2000 },
+        "projectId": { "type": "string", "maxLength": 128 },
+        "projectName": { "type": "string", "maxLength": 200 },
+        "assigneeId": { "type": "string", "maxLength": 128 },
+        "assigneeName": { "type": "string", "maxLength": 150 },
+        "status": { "type": "string", "enum": ["Todo", "In Progress", "In Review", "Done"] },
+        "priority": { "type": "string", "enum": ["Low", "Medium", "High", "Critical"] },
+        "dueDate": { "type": "string", "maxLength": 50 },
+        "estimatedHours": { "type": "number" },
+        "loggedHours": { "type": "number" }
+      },
+      "required": ["id", "title", "projectId", "status", "priority"]
+    },
+    "InventoryItem": {
+      "title": "InventoryItem",
+      "description": "Physical asset or stock SKU",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "name": { "type": "string", "maxLength": 200 },
+        "sku": { "type": "string", "maxLength": 50 },
+        "category": { "type": "string", "maxLength": 100 },
+        "quantity": { "type": "number" },
+        "unitPrice": { "type": "number" },
+        "warehouse": { "type": "string", "maxLength": 150 },
+        "status": { "type": "string", "enum": ["In Stock", "Low Stock", "Out of Stock"] },
+        "minThreshold": { "type": "number" }
+      },
+      "required": ["id", "name", "sku", "category", "quantity", "unitPrice", "status"]
+    },
+    "CRMLead": {
+      "title": "CRMLead",
+      "description": "Sales deal or prospect lead",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "name": { "type": "string", "maxLength": 200 },
+        "company": { "type": "string", "maxLength": 200 },
+        "email": { "type": "string", "maxLength": 200 },
+        "phone": { "type": "string", "maxLength": 50 },
+        "value": { "type": "number" },
+        "stage": { "type": "string", "enum": ["New Lead", "Contacted", "Proposal Sent", "Negotiation", "Closed Won", "Closed Lost"] },
+        "probability": { "type": "number" },
+        "owner": { "type": "string", "maxLength": 150 },
+        "source": { "type": "string", "maxLength": 100 }
+      },
+      "required": ["id", "name", "company", "value", "stage"]
+    },
+    "Invoice": {
+      "title": "Invoice",
+      "description": "Customer invoice document",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "invoiceNumber": { "type": "string", "maxLength": 50 },
+        "client": { "type": "string", "maxLength": 200 },
+        "clientEmail": { "type": "string", "maxLength": 200 },
+        "issueDate": { "type": "string", "maxLength": 50 },
+        "dueDate": { "type": "string", "maxLength": 50 },
+        "amount": { "type": "number" },
+        "status": { "type": "string", "enum": ["Paid", "Pending", "Overdue", "Draft"] },
+        "items": { "type": "array" }
+      },
+      "required": ["id", "invoiceNumber", "client", "amount", "status"]
+    },
+    "Announcement": {
+      "title": "Announcement",
+      "description": "Company-wide broadcast bulletin",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "title": { "type": "string", "maxLength": 200 },
+        "content": { "type": "string", "maxLength": 5000 },
+        "author": { "type": "string", "maxLength": 150 },
+        "authorRole": { "type": "string", "maxLength": 100 },
+        "date": { "type": "string", "maxLength": 50 },
+        "category": { "type": "string", "enum": ["General", "HR Policy", "Event", "Urgent", "System Update"] },
+        "priority": { "type": "string", "enum": ["Low", "Normal", "High", "Urgent"] }
+      },
+      "required": ["id", "title", "content", "author", "category", "priority"]
+    },
+    "AuxRecord": {
+      "title": "AuxRecord",
+      "description": "Operational agent AUX status session",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "employeeId": { "type": "string", "maxLength": 128 },
+        "employeeName": { "type": "string", "maxLength": 150 },
+        "currentStatus": { "type": "string", "enum": ["Available", "Break", "Lunch", "Training", "Meeting", "Wrap Up", "Offline"] },
+        "statusStartTime": { "type": "string", "maxLength": 50 },
+        "durationSeconds": { "type": "number" },
+        "department": { "type": "string", "maxLength": 100 },
+        "adherenceScore": { "type": "number" }
+      },
+      "required": ["id", "employeeId", "currentStatus", "statusStartTime"]
+    },
+    "ChatMessage": {
+      "title": "ChatMessage",
+      "description": "Real-time chat and direct messages",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "channelId": { "type": "string", "maxLength": 128 },
+        "senderId": { "type": "string", "maxLength": 128 },
+        "senderName": { "type": "string", "maxLength": 150 },
+        "senderAvatar": { "type": "string", "maxLength": 500 },
+        "senderRole": { "type": "string", "maxLength": 50 },
+        "recipientId": { "type": "string", "maxLength": 128 },
+        "text": { "type": "string", "maxLength": 10000 },
+        "timestamp": { "type": "string", "maxLength": 50 }
+      },
+      "required": ["id", "channelId", "senderId", "senderName", "text"]
+    },
+    "ChatChannel": {
+      "title": "ChatChannel",
+      "description": "Team chat channel",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "name": { "type": "string", "maxLength": 100 },
+        "type": { "type": "string", "enum": ["channel", "dm", "group"] },
+        "description": { "type": "string", "maxLength": 500 }
+      },
+      "required": ["id", "name", "type"]
+    }
+  },
+  "firestore": {
+    "/employees/{employeeId}": {
+      "schema": "Employee",
+      "description": "Employee directory documents"
+    },
+    "/chatMessages/{msgId}": {
+      "schema": "ChatMessage",
+      "description": "Real-time team chat messages"
+    },
+    "/chatChannels/{channelId}": {
+      "schema": "ChatChannel",
+      "description": "Real-time team channels"
+    },
+    "/departments/{departmentId}": {
+      "schema": "Department",
+      "description": "Organizational department documents"
+    },
+    "/positions/{positionId}": {
+      "schema": "Position",
+      "description": "Role and position templates"
+    },
+    "/attendance/{attendanceId}": {
+      "schema": "AttendanceRecord",
+      "description": "Daily attendance timesheets"
+    },
+    "/leaves/{leaveId}": {
+      "schema": "LeaveRequest",
+      "description": "Employee leave request applications"
+    },
+    "/projects/{projectId}": {
+      "schema": "Project",
+      "description": "Project management records"
+    },
+    "/tasks/{taskId}": {
+      "schema": "Task",
+      "description": "Project tasks and sprint backlog items"
+    },
+    "/inventory/{itemId}": {
+      "schema": "InventoryItem",
+      "description": "Stock items and hardware asset ledger"
+    },
+    "/leads/{leadId}": {
+      "schema": "CRMLead",
+      "description": "CRM prospective leads and sales pipeline"
+    },
+    "/invoices/{invoiceId}": {
+      "schema": "Invoice",
+      "description": "Client invoices and billing statements"
+    },
+    "/announcements/{announcementId}": {
+      "schema": "Announcement",
+      "description": "Corporate news and bulletins"
+    },
+    "/auxRecords/{recordId}": {
+      "schema": "AuxRecord",
+      "description": "Live AUX status telemetry and adherence"
+    }
+  }
+}

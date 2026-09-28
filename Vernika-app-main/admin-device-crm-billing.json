@@ -1,0 +1,11 @@
+{
+  "marker": "E2E-ADMIN-DEVICE-1787286198899",
+  "steps": [
+    {
+      "crmSecondAdminSeesMarker": false
+    },
+    {
+      "billingSecondAdminSeesMarker": true
+    }
+  ]
+}

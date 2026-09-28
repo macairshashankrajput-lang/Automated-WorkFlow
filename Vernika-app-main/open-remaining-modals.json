@@ -1,0 +1,323 @@
+{
+  "mail": {
+    "nav": true,
+    "cta": 1,
+    "dialogText": "",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employees, tasks, deals, invoices, chats...",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search mail, sender, subject...",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "ph": "recipient@vernika.io or client email",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Comma separated emails",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Message subject line",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "Work",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "ph": "",
+        "value": "on",
+        "name": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "ph": "Compose your email message...",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "ph": "",
+        "value": "",
+        "name": ""
+      }
+    ],
+    "buttons": [
+      "Sounds good, approved! Proceed with the plan.",
+      "Thank you, I will review and get back by EOD.",
+      "Could you send over the latest attachment?",
+      "Let's schedule a 15-minute sync to discuss.",
+      "Reply",
+      "Forward",
+      "Save Draft",
+      "Custom AI Prompt",
+      "🚀 Sprint Update",
+      "💼 Client Proposal",
+      "🏖️ PTO Request",
+      "💰 Invoice Notice",
+      "✨ Polish Draft",
+      "Attach Files",
+      "Discard",
+      "Send Now"
+    ]
+  },
+  "crm": {
+    "nav": true,
+    "cta": 1,
+    "dialogText": "",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employees, tasks, deals, invoices, chats...",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search by company, client name, email, or username...",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "all",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "all",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "e.g. Apex Global Financials",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "e.g. Alexander Cross",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "ph": "alex@apexfinancials.com",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "+1 (415) 890-3412",
+        "value": "+1 (555) 000-0000",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "e.g. client_apex",
+        "value": "client_1034",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "password123",
+        "value": "password123",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "Marcus Vance",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "Active",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "ph": "",
+        "value": "75000",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "ph": "",
+        "value": "50000",
+        "name": ""
+      }
+    ],
+    "buttons": [
+      "Punch Clock",
+      "AI Copilot",
+      "3",
+      "Shashank Rajput\n\nAdmin Portal",
+      "Reply in Chat",
+      "Dismiss",
+      "Open update",
+      "Add Client Account",
+      "Copy",
+      "Direct Message",
+      "Copy",
+      "Direct Message",
+      "Copy",
+      "Direct Message",
+      "Cancel",
+      "Create Account"
+    ]
+  },
+  "billing": {
+    "nav": true,
+    "cta": 0
+  },
+  "payroll": {
+    "nav": true,
+    "cta": 1,
+    "dialogText": "",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employees, tasks, deals, invoices, chats...",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employee, ID, department...",
+        "value": "",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "August",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+        "name": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "August",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "ph": "",
+        "value": "2026",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "ph": "",
+        "value": "12000",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "ph": "",
+        "value": "800",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "ph": "",
+        "value": "200",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "ph": "",
+        "value": "2200",
+        "name": ""
+      }
+    ],
+    "buttons": [
+      "Expenses & Claims",
+      "Sales Leads Pipeline\n3",
+      "Settings & Config",
+      "Punch Clock",
+      "AI Copilot",
+      "3",
+      "Shashank Rajput\n\nAdmin Portal",
+      "Reply in Chat",
+      "Dismiss",
+      "Open update",
+      "Process New Payroll Record",
+      "PDF",
+      "PDF",
+      "PDF",
+      "Cancel",
+      "Disburse & Issue Payslip"
+    ]
+  },
+  "docs": {
+    "nav": true,
+    "cta": 0
+  }
+}

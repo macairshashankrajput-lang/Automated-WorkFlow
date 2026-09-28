@@ -1,0 +1,180 @@
+{
+  "initialDepartments": [
+    "dept-1",
+    "dept-2",
+    "dept-3",
+    "dept-4",
+    "dept-5",
+    "dept-6"
+  ],
+  "initialPositions": [
+    "pos-1",
+    "pos-2",
+    "pos-3",
+    "pos-4",
+    "pos-5",
+    "pos-6",
+    "pos-7"
+  ],
+  "initialEmployees": [
+    "emp-1",
+    "emp-2",
+    "emp-3",
+    "emp-4",
+    "emp-5",
+    "emp-6",
+    "emp-7",
+    "emp-8"
+  ],
+  "initialClients": [
+    "cli-1",
+    "cli-2",
+    "cli-3"
+  ],
+  "initialAuxLogs": [
+    "aux-log-1",
+    "aux-log-2",
+    "aux-log-3",
+    "aux-log-4",
+    "aux-log-5",
+    "aux-log-6"
+  ],
+  "initialAttendance": [
+    "att-1",
+    "att-2",
+    "att-3",
+    "att-4",
+    "att-5",
+    "att-6",
+    "att-7",
+    "att-8"
+  ],
+  "initialLeaves": [
+    "lev-1",
+    "lev-2",
+    "lev-3",
+    "lev-4",
+    "lev-5",
+    "lev-6",
+    "lev-7"
+  ],
+  "initialProjects": [
+    "prj-1",
+    "prj-2",
+    "prj-3"
+  ],
+  "initialTasks": [
+    "tsk-1",
+    "tsk-2",
+    "tsk-3",
+    "tsk-4",
+    "tsk-5",
+    "tsk-6"
+  ],
+  "initialLeads": [
+    "lead-1",
+    "lead-2",
+    "lead-3"
+  ],
+  "initialInvoices": [
+    "inv-1",
+    "inv-2",
+    "inv-3",
+    "inv-4"
+  ],
+  "initialAnnouncements": [
+    "anc-1",
+    "anc-2"
+  ],
+  "initialChannels": [
+    "ch-general",
+    "ch-engineering",
+    "ch-product",
+    "ch-sales",
+    "dm-emp-1-emp-4",
+    "dm-emp-1-emp-2",
+    "dm-emp-1-cli-1"
+  ],
+  "initialMessages": [
+    "msg-1",
+    "msg-2",
+    "msg-3",
+    "msg-4",
+    "msg-5"
+  ],
+  "initialPayrolls": [
+    "pay-1",
+    "pay-2",
+    "pay-3"
+  ],
+  "initialExpenses": [
+    "exp-1",
+    "exp-2",
+    "exp-3"
+  ],
+  "initialMeetings": [
+    "mtg-1",
+    "mtg-2",
+    "mtg-3"
+  ],
+  "initialOKRs": [
+    "okr-1",
+    "okr-2"
+  ],
+  "initialNotifications": [
+    "notif-1",
+    "notif-2",
+    "notif-3"
+  ],
+  "initialContacts": [
+    "cnt-1",
+    "cnt-2",
+    "cnt-3",
+    "cnt-4"
+  ],
+  "initialVendors": [
+    "vnd-1",
+    "vnd-2",
+    "vnd-3"
+  ],
+  "initialContracts": [
+    "ctr-1",
+    "ctr-2",
+    "ctr-3"
+  ],
+  "initialCalendarEvents": [
+    "evt-1",
+    "evt-2",
+    "evt-3",
+    "evt-4",
+    "evt-5",
+    "evt-6",
+    "evt-7"
+  ],
+  "initialEmails": [
+    "mail-1",
+    "mail-2",
+    "mail-3",
+    "mail-4",
+    "mail-5"
+  ],
+  "initialSheets": [
+    "sheet-1",
+    "sheet-2",
+    "sheet-3"
+  ],
+  "initialPunchRequests": [
+    "pr-1",
+    "pr-2"
+  ],
+  "initialWorkflowProfiles": [
+    "wf-emp-1",
+    "wf-emp-4",
+    "wf-emp-5"
+  ],
+  "initialDocuments": [
+    "doc-1",
+    "doc-2",
+    "doc-3"
+  ]
+}

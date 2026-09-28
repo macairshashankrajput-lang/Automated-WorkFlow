@@ -1,0 +1,895 @@
+[
+  {
+    "collection": "chatMessages",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787279709963-7rnj",
+    "id": "msg-1787279709963-7rnj",
+    "fields": {
+      "timestamp": "02:35 AM",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "recipientId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "channelId": "support-tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "senderRole": "client",
+      "readBy": [
+        "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+      ],
+      "text": "[Support Request] E2E-PROD-SUPPORT-FINAL-20260821",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "createdAt": "2026-08-21T02:35:09.964Z",
+      "senderName": "Alexander Cross",
+      "id": "msg-1787279709963-7rnj",
+      "updatedAt": "2026-08-21T02:35:09.964Z",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150"
+    },
+    "createTime": "2026-08-21T02:35:16.566920Z",
+    "updateTime": "2026-08-21T02:35:16.566920Z"
+  },
+  {
+    "collection": "chatMessages",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787279523333-9zpn",
+    "id": "msg-1787279523333-9zpn",
+    "fields": {
+      "id": "msg-1787279523333-9zpn",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "channelId": "support-tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "senderRole": "client",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "timestamp": "02:32 AM",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "recipientId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "updatedAt": "2026-08-21T02:32:03.334Z",
+      "text": "[Support Request] E2E-PROD-SUPPORT-20260821 UID authorization check",
+      "readBy": [
+        "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+      ],
+      "createdAt": "2026-08-21T02:32:03.334Z",
+      "senderName": "Alexander Cross",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+    },
+    "createTime": "2026-08-21T02:33:28.409998Z",
+    "updateTime": "2026-08-21T02:33:28.409998Z"
+  },
+  {
+    "collection": "chatMessages",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787279702381-jqat",
+    "id": "msg-1787279702381-jqat",
+    "fields": {
+      "recipientId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "readBy": [
+        "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+      ],
+      "updatedAt": "2026-08-21T02:35:02.382Z",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "senderName": "Alexander Cross",
+      "id": "msg-1787279702381-jqat",
+      "createdAt": "2026-08-21T02:35:02.381Z",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "timestamp": "02:35 AM",
+      "senderRole": "client",
+      "channelId": "support-tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "text": "[Support Request] E2E-PROD-SUPPORT-FINAL-20260821"
+    },
+    "createTime": "2026-08-21T02:35:16.536735Z",
+    "updateTime": "2026-08-21T02:35:16.536735Z"
+  },
+  {
+    "collection": "chatMessages",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787277275160-v8v4",
+    "id": "msg-1787277275160-v8v4",
+    "fields": {
+      "recipientId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "createdAt": "2026-08-21T01:54:35.160Z",
+      "senderName": "Alexander Cross",
+      "id": "msg-1787277275160-v8v4",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "updatedAt": "2026-08-21T01:54:35.161Z",
+      "readBy": [
+        "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+      ],
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "timestamp": "01:54 AM",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "senderRole": "client",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "channelId": "support-tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "text": "[Support Request] E2E-CLIENT-SUPPORT-20260821 realtime acceptance"
+    },
+    "createTime": "2026-08-21T01:54:36.889269Z",
+    "updateTime": "2026-08-21T01:54:36.889269Z"
+  },
+  {
+    "collection": "chatMessages",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787277316817-u7p9",
+    "id": "msg-1787277316817-u7p9",
+    "fields": {
+      "readBy": [
+        "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+      ],
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "timestamp": "01:55 AM",
+      "id": "msg-1787277316817-u7p9",
+      "senderName": "Alexander Cross",
+      "channelId": "dm-jmm9nsiqbjtilgtkttnhjejat3j2-tqi0ldpy94fyjkgwr9ruywitydl2",
+      "text": "E2E-CLIENT-DM-20260821 delivery check",
+      "updatedAt": "2026-08-21T01:55:16.817Z",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "senderRole": "Client",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "createdAt": "2026-08-21T01:55:16.817Z"
+    },
+    "createTime": "2026-08-21T01:56:34.003063Z",
+    "updateTime": "2026-08-21T01:56:34.003063Z"
+  },
+  {
+    "collection": "chatMessages",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787279498486-fyob",
+    "id": "msg-1787279498486-fyob",
+    "fields": {
+      "recipientId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "timestamp": "02:31 AM",
+      "senderRole": "client",
+      "text": "[Support Request] E2E-PROD-SUPPORT-20260821 UID authorization check",
+      "readBy": [
+        "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+      ],
+      "channelId": "support-tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "updatedAt": "2026-08-21T02:31:38.486Z",
+      "id": "msg-1787279498486-fyob",
+      "createdAt": "2026-08-21T02:31:38.486Z",
+      "senderName": "Alexander Cross",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150"
+    },
+    "createTime": "2026-08-21T02:33:08.933583Z",
+    "updateTime": "2026-08-21T02:33:08.933583Z"
+  },
+  {
+    "collection": "chatMessages",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787279464433-4x33",
+    "id": "msg-1787279464433-4x33",
+    "fields": {
+      "createdAt": "2026-08-21T02:31:04.433Z",
+      "senderRole": "Client",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "updatedAt": "2026-08-21T02:31:04.433Z",
+      "text": "E2E-PROD-DM-20260821 UID authorization check",
+      "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "senderName": "Alexander Cross",
+      "channelId": "dm-jmm9nsiqbjtilgtkttnhjejat3j2-tqi0ldpy94fyjkgwr9ruywitydl2",
+      "readBy": [
+        "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+      ],
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "timestamp": "02:31 AM",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "id": "msg-1787279464433-4x33"
+    },
+    "createTime": "2026-08-21T02:32:41.031506Z",
+    "updateTime": "2026-08-21T02:32:41.031506Z"
+  },
+  {
+    "collection": "expenses",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787276637435",
+    "id": "exp-1787276637435",
+    "fields": {
+      "title": "E2E-EMP-CLAIM-20260821",
+      "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+      "date": "2026-08-21",
+      "reviewedDate": "2026-08-21",
+      "id": "exp-1787276637435",
+      "notes": "Automated three-role acceptance test; no reimbursement expected.",
+      "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "reviewedBy": "Shashank Rajput",
+      "category": "Meals",
+      "amount": 1.25,
+      "status": "Approved",
+      "department": "Engineering & Technology",
+      "description": "E2E-EMP-CLAIM-20260821",
+      "employeeName": "Priya Sharma",
+      "updatedAt": "2026-08-21T02:02:15.101Z",
+      "updatedByEmail": "shashank@vernika.io"
+    },
+    "createTime": "2026-08-21T01:44:00.186130Z",
+    "updateTime": "2026-08-21T02:02:17.854968Z"
+  },
+  {
+    "collection": "leaves",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leaves/lev-1787276705607",
+    "id": "lev-1787276705607",
+    "fields": {
+      "endDate": "2026-08-25",
+      "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+      "status": "Approved",
+      "id": "lev-1787276705607",
+      "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "requestedOn": "2026-08-21",
+      "reason": "E2E-EMP-LEAVE-20260821",
+      "days": 3,
+      "reviewedBy": "Admin",
+      "type": "Paid Leave",
+      "reviewedOn": "2026-08-21",
+      "updatedAt": "2026-08-21T01:45:59.560Z",
+      "updatedByEmail": "shashank@vernika.io",
+      "startDate": "2026-08-25",
+      "appliedOn": "2026-03-12",
+      "employeeName": "Priya Sharma"
+    },
+    "createTime": "2026-08-21T01:45:08.375322Z",
+    "updateTime": "2026-08-21T01:46:01.254735Z"
+  },
+  {
+    "collection": "notifications",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787279716675-9pq8",
+    "id": "notif-1787279716675-9pq8",
+    "fields": {
+      "id": "notif-1787279716675-9pq8",
+      "time": "Just now",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "actionUrl": "chat",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "title": "Message from Alexander Cross",
+      "category": "message",
+      "senderName": "Alexander Cross",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "targetUserId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "type": "info",
+      "priority": "high",
+      "updatedAt": "2026-08-21T02:35:16.675Z",
+      "read": false,
+      "description": "[Support Request] E2E-PROD-SUPPORT-FINAL-20260821"
+    },
+    "createTime": "2026-08-21T02:35:16.833963Z",
+    "updateTime": "2026-08-21T02:35:16.833963Z"
+  },
+  {
+    "collection": "notifications",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787279716705-yz9b",
+    "id": "notif-1787279716705-yz9b",
+    "fields": {
+      "type": "info",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "senderName": "Alexander Cross",
+      "category": "message",
+      "description": "[Support Request] E2E-PROD-SUPPORT-FINAL-20260821",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "id": "notif-1787279716705-yz9b",
+      "updatedAt": "2026-08-21T02:35:16.705Z",
+      "read": false,
+      "targetUserId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "time": "Just now",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "actionUrl": "chat",
+      "priority": "high",
+      "title": "Message from Alexander Cross",
+      "updatedByEmail": "alex@apexfinancials.com"
+    },
+    "createTime": "2026-08-21T02:35:16.863473Z",
+    "updateTime": "2026-08-21T02:35:16.863473Z"
+  },
+  {
+    "collection": "notifications",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787276353161-o7ac",
+    "id": "notif-1787276353161-o7ac",
+    "fields": {
+      "time": "Just now",
+      "priority": "medium",
+      "id": "notif-1787276353161-o7ac",
+      "updatedByEmail": "shashank@vernika.io",
+      "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "updatedAt": "2026-08-21T01:39:13.161Z",
+      "title": "Task Assigned: E2E-ADMIN-TASK-20260821",
+      "senderName": "Shashank Rajput",
+      "category": "task",
+      "type": "info",
+      "actionUrl": "tasks",
+      "description": "Assigned to Shashank Rajput. Due: 2026-03-30 (Medium priority)",
+      "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "read": false
+    },
+    "createTime": "2026-08-21T01:39:13.352594Z",
+    "updateTime": "2026-08-21T01:39:13.352594Z"
+  },
+  {
+    "collection": "notifications",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787279561171-vq3s",
+    "id": "notif-1787279561171-vq3s",
+    "fields": {
+      "title": "Message from Alexander Cross",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "priority": "high",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "time": "Just now",
+      "actionUrl": "chat",
+      "description": "E2E-PROD-DM-20260821 UID authorization check",
+      "senderName": "Alexander Cross",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "updatedAt": "2026-08-21T02:32:41.171Z",
+      "category": "message",
+      "targetUserId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "read": false,
+      "id": "notif-1787279561171-vq3s",
+      "type": "info",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2"
+    },
+    "createTime": "2026-08-21T02:34:06.023783Z",
+    "updateTime": "2026-08-21T02:34:06.023783Z"
+  },
+  {
+    "collection": "notifications",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787276708517-f8yd",
+    "id": "notif-1787276708517-f8yd",
+    "fields": {
+      "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+      "id": "notif-1787276708517-f8yd",
+      "type": "info",
+      "read": false,
+      "actionUrl": "leaves",
+      "category": "leave",
+      "title": "New Leave Request: Priya Sharma",
+      "updatedByEmail": "priya@vernika.io",
+      "time": "Just now",
+      "senderName": "Priya Sharma",
+      "description": "Paid Leave Leave requested from 2026-08-25 to 2026-08-25. Reason: E2E-EMP-LEAVE-20260821",
+      "updatedAt": "2026-08-21T01:45:08.518Z",
+      "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+      "priority": "medium",
+      "targetRole": "admin"
+    },
+    "createTime": "2026-08-21T01:45:08.691393Z",
+    "updateTime": "2026-08-21T01:45:08.691393Z"
+  },
+  {
+    "collection": "notifications",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787279608550-pitg",
+    "id": "notif-1787279608550-pitg",
+    "fields": {
+      "updatedByEmail": "alex@apexfinancials.com",
+      "title": "Message from Alexander Cross",
+      "actionUrl": "chat",
+      "read": false,
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "id": "notif-1787279608550-pitg",
+      "targetUserId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "type": "info",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "category": "message",
+      "time": "Just now",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "description": "[Support Request] E2E-PROD-SUPPORT-20260821 UID authorization check",
+      "priority": "high",
+      "updatedAt": "2026-08-21T02:33:28.550Z",
+      "senderName": "Alexander Cross"
+    },
+    "createTime": "2026-08-21T02:34:50.880761Z",
+    "updateTime": "2026-08-21T02:34:50.880761Z"
+  },
+  {
+    "collection": "notifications",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787277277011-k4au",
+    "id": "notif-1787277277011-k4au",
+    "fields": {
+      "description": "[Support Request] E2E-CLIENT-SUPPORT-20260821 realtime acceptance",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "targetUserId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "title": "Message from Alexander Cross",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "read": false,
+      "type": "info",
+      "updatedAt": "2026-08-21T01:54:37.012Z",
+      "category": "message",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "actionUrl": "chat",
+      "senderName": "Alexander Cross",
+      "time": "Just now",
+      "priority": "high",
+      "id": "notif-1787277277011-k4au"
+    },
+    "createTime": "2026-08-21T01:54:37.207923Z",
+    "updateTime": "2026-08-21T01:54:37.207923Z"
+  },
+  {
+    "collection": "notifications",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787279589057-roar",
+    "id": "notif-1787279589057-roar",
+    "fields": {
+      "updatedByEmail": "alex@apexfinancials.com",
+      "priority": "high",
+      "description": "[Support Request] E2E-PROD-SUPPORT-20260821 UID authorization check",
+      "id": "notif-1787279589057-roar",
+      "senderName": "Alexander Cross",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "time": "Just now",
+      "updatedAt": "2026-08-21T02:33:09.057Z",
+      "category": "message",
+      "read": false,
+      "actionUrl": "chat",
+      "title": "Message from Alexander Cross",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "targetUserId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+      "senderId": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "type": "info"
+    },
+    "createTime": "2026-08-21T02:34:31.720213Z",
+    "updateTime": "2026-08-21T02:34:31.720213Z"
+  },
+  {
+    "collection": "projects",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/projects/prj-1787279760567",
+    "id": "prj-1787279760567",
+    "fields": {
+      "clientId": "cli-1",
+      "description": "Production modal close verification after Firestore rules deployment.",
+      "updatedByEmail": "alex@apexfinancials.com",
+      "deliverables": [],
+      "priority": "High",
+      "id": "prj-1787279760567",
+      "client": "Apex Global Financials",
+      "requesterUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "spent": 0,
+      "comments": [],
+      "name": "E2E-PROD-CLIENT-PROJECT-FINAL-20260821",
+      "progress": 0,
+      "budget": 50000,
+      "team": [
+        "Marcus Vance"
+      ],
+      "deadline": "2026-12-31",
+      "status": "Planning",
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "category": "Enterprise Software",
+      "updatedAt": "2026-08-21T02:36:00.567Z"
+    },
+    "createTime": "2026-08-21T02:36:00.724471Z",
+    "updateTime": "2026-08-21T02:36:00.724471Z"
+  },
+  {
+    "collection": "projects",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/projects/prj-1787278657467",
+    "id": "prj-1787278657467",
+    "fields": {
+      "requesterUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "deadline": "2026-12-31",
+      "updatedAt": "2026-08-21T02:17:37.467Z",
+      "category": "Enterprise Software",
+      "id": "prj-1787278657467",
+      "deliverables": [],
+      "client": "Apex Global Financials",
+      "progress": 0,
+      "updatedByEmail": "alex@apexfinancials.com",
+      "team": [
+        "Marcus Vance"
+      ],
+      "comments": [],
+      "updatedByUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+      "status": "Planning",
+      "description": "Production Firestore rules verification",
+      "clientId": "cli-1",
+      "spent": 0,
+      "name": "E2E-PROD-CLIENT-PROJECT-20260821",
+      "budget": 1,
+      "priority": "High"
+    },
+    "createTime": "2026-08-21T02:17:40.253313Z",
+    "updateTime": "2026-08-21T02:17:40.253313Z"
+  },
+  {
+    "collection": "sheets",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/sheets/sheet-1",
+    "id": "sheet-1",
+    "fields": {
+      "createdAt": "2026-08-01",
+      "tags": [
+        "Finance",
+        "Q3",
+        "Executive",
+        "Budget"
+      ],
+      "updatedAt": "2026-08-16",
+      "id": "sheet-1",
+      "ownerId": "emp-1",
+      "ownerAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "description": "Comprehensive quarterly budget, regional SaaS revenue projections, and operating expense breakdown",
+      "tabs": [
+        {
+          "colCount": 15,
+          "data": {
+            "C3": {
+              "raw": "August Target",
+              "bgColor": "#e0f2fe",
+              "bold": true,
+              "align": "right"
+            },
+            "B6": {
+              "raw": "32000",
+              "format": "currency"
+            },
+            "C12": {
+              "raw": "85000",
+              "format": "currency"
+            },
+            "A13": {
+              "format": "text",
+              "raw": "Sales Marketing & CAC"
+            },
+            "C15": {
+              "bgColor": "#fef3c7",
+              "raw": "=(C9-SUM(C11:C13))",
+              "bold": true,
+              "format": "currency"
+            },
+            "A3": {
+              "align": "left",
+              "bgColor": "#e0f2fe",
+              "raw": "Revenue Stream",
+              "bold": true
+            },
+            "A1": {
+              "bold": true,
+              "format": "text",
+              "raw": "Vernika Enterprise - Q3 Financial Forecast",
+              "textColor": "#0284c7"
+            },
+            "E5": {
+              "raw": "=SUM(B5:D5)",
+              "format": "currency",
+              "bold": true
+            },
+            "D7": {
+              "raw": "24500",
+              "format": "currency"
+            },
+            "D9": {
+              "bold": true,
+              "raw": "=SUM(D4:D7)",
+              "format": "currency",
+              "bgColor": "#ecfdf5"
+            },
+            "C4": {
+              "raw": "138000",
+              "format": "currency"
+            },
+            "C7": {
+              "raw": "21000",
+              "format": "currency"
+            },
+            "F6": {
+              "raw": "=(D6-B6)/B6",
+              "format": "percentage"
+            },
+            "A5": {
+              "raw": "Professional Consulting & Integration",
+              "format": "text"
+            },
+            "A6": {
+              "format": "text",
+              "raw": "Vernika AI Copilot Add-ons"
+            },
+            "D6": {
+              "format": "currency",
+              "raw": "54000"
+            },
+            "F7": {
+              "format": "percentage",
+              "raw": "=(D7-B7)/B7"
+            },
+            "B4": {
+              "format": "currency",
+              "raw": "124000"
+            },
+            "F9": {
+              "bgColor": "#d1fae5",
+              "bold": true,
+              "raw": "=AVERAGE(F4:F7)",
+              "format": "percentage"
+            },
+            "B7": {
+              "format": "currency",
+              "raw": "18500"
+            },
+            "B11": {
+              "raw": "Cloud Infrastructure & AWS/GCP",
+              "format": "text"
+            },
+            "B3": {
+              "align": "right",
+              "bold": true,
+              "raw": "July Actual",
+              "bgColor": "#e0f2fe"
+            },
+            "E3": {
+              "bgColor": "#bae6fd",
+              "raw": "Q3 Total",
+              "bold": true,
+              "align": "right"
+            },
+            "A7": {
+              "raw": "API Bandwidth & Dedicated Instances",
+              "format": "text"
+            },
+            "B9": {
+              "bgColor": "#ecfdf5",
+              "format": "currency",
+              "bold": true,
+              "raw": "=SUM(B4:B7)"
+            },
+            "D4": {
+              "raw": "155000",
+              "format": "currency"
+            },
+            "A12": {
+              "format": "text",
+              "raw": "Engineering & R&D Payroll"
+            },
+            "A9": {
+              "bold": true,
+              "raw": "Gross Total Revenue",
+              "bgColor": "#ecfdf5",
+              "align": "left"
+            },
+            "D3": {
+              "bgColor": "#e0f2fe",
+              "align": "right",
+              "bold": true,
+              "raw": "September Projected"
+            },
+            "C5": {
+              "raw": "52000",
+              "format": "currency"
+            },
+            "F3": {
+              "bold": true,
+              "raw": "Growth %",
+              "align": "right",
+              "bgColor": "#bae6fd"
+            },
+            "B5": {
+              "raw": "48000",
+              "format": "currency"
+            },
+            "E7": {
+              "format": "currency",
+              "raw": "=SUM(B7:D7)",
+              "bold": true
+            },
+            "E9": {
+              "raw": "=SUM(E4:E7)",
+              "bold": true,
+              "bgColor": "#d1fae5",
+              "format": "currency"
+            },
+            "C9": {
+              "bgColor": "#ecfdf5",
+              "raw": "=SUM(C4:C7)",
+              "bold": true,
+              "format": "currency"
+            },
+            "F5": {
+              "format": "percentage",
+              "raw": "=(D5-B5)/B5"
+            },
+            "C13": {
+              "format": "currency",
+              "raw": "28000"
+            },
+            "C11": {
+              "raw": "38000",
+              "format": "currency"
+            },
+            "A15": {
+              "raw": "Net Operating Margin",
+              "bgColor": "#fef3c7",
+              "bold": true
+            },
+            "D5": {
+              "format": "currency",
+              "raw": "58000"
+            },
+            "E6": {
+              "bold": true,
+              "raw": "=SUM(B6:D6)",
+              "format": "currency"
+            },
+            "E4": {
+              "raw": "=SUM(B4:D4)",
+              "format": "currency",
+              "bold": true
+            },
+            "A11": {
+              "raw": "Operating Expenses",
+              "bgColor": "#fee2e2",
+              "align": "left",
+              "bold": true
+            },
+            "C6": {
+              "format": "currency",
+              "raw": "41000"
+            },
+            "F4": {
+              "raw": "=(D4-B4)/B4",
+              "format": "percentage"
+            },
+            "A4": {
+              "raw": "Enterprise Cloud Subscriptions",
+              "format": "text"
+            }
+          },
+          "id": "tab-1",
+          "name": "Revenue & Growth",
+          "rowCount": 30
+        },
+        {
+          "colCount": 12,
+          "data": {
+            "A5": {
+              "raw": "Product & Design"
+            },
+            "A6": {
+              "raw": "Sales & Growth"
+            },
+            "D6": {
+              "raw": "=B6*C6",
+              "format": "currency"
+            },
+            "B4": {
+              "raw": "14"
+            },
+            "D8": {
+              "raw": "=SUM(D4:D7)",
+              "format": "currency",
+              "bold": true
+            },
+            "D5": {
+              "raw": "=B5*C5",
+              "format": "currency"
+            },
+            "C6": {
+              "raw": "7500"
+            },
+            "B7": {
+              "raw": "6"
+            },
+            "B3": {
+              "bold": true,
+              "bgColor": "#f1f5f9",
+              "raw": "Current Staff"
+            },
+            "A7": {
+              "raw": "Operations & HR"
+            },
+            "A4": {
+              "raw": "Engineering"
+            },
+            "D7": {
+              "raw": "=B7*C7",
+              "format": "currency"
+            },
+            "C4": {
+              "raw": "9500"
+            },
+            "C7": {
+              "raw": "6800"
+            },
+            "A3": {
+              "bold": true,
+              "bgColor": "#f1f5f9",
+              "raw": "Department"
+            },
+            "A1": {
+              "raw": "Department Headcount & Allocation",
+              "bold": true
+            },
+            "D4": {
+              "raw": "=B4*C4",
+              "format": "currency"
+            },
+            "D3": {
+              "raw": "Monthly Total",
+              "bgColor": "#f1f5f9",
+              "bold": true
+            },
+            "A8": {
+              "raw": "Total",
+              "bold": true
+            },
+            "C3": {
+              "raw": "Average Salary",
+              "bgColor": "#f1f5f9",
+              "bold": true
+            },
+            "B8": {
+              "raw": "=SUM(B4:B7)",
+              "bold": true
+            },
+            "C5": {
+              "raw": "8200"
+            },
+            "B6": {
+              "raw": "10"
+            },
+            "B5": {
+              "raw": "8"
+            }
+          },
+          "name": "Headcount & Payroll Model",
+          "rowCount": 25,
+          "id": "tab-2"
+        }
+      ],
+      "activeTabId": "tab-1",
+      "category": "Finance",
+      "title": "Q3 Financial Forecast & Revenue Model",
+      "activeEditors": [
+        {
+          "userId": "emp-1",
+          "color": "#10b981",
+          "userName": "Shashank Rajput",
+          "activeCell": "C5"
+        },
+        {
+          "color": "#3b82f6",
+          "userName": "Elena Rostova",
+          "activeCell": "D8",
+          "userId": "emp-2"
+        }
+      ],
+      "starred": true,
+      "sharedWith": [
+        {
+          "userId": "emp-2",
+          "userName": "Elena Rostova",
+          "permission": "edit"
+        },
+        {
+          "userId": "emp-3",
+          "userName": "Marcus Vance",
+          "permission": "edit"
+        },
+        {
+          "permission": "view",
+          "userName": "Sarah Jenkins",
+          "userId": "emp-4"
+        }
+      ],
+      "ownerName": "Shashank Rajput"
+    },
+    "createTime": "2026-08-20T17:49:43.133943Z",
+    "updateTime": "2026-08-20T17:49:43.133943Z"
+  },
+  {
+    "collection": "tasks",
+    "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/tasks/tsk-1787276350274",
+    "id": "tsk-1787276350274",
+    "fields": {
+      "spentHours": 0,
+      "team": [
+        "Shashank Rajput"
+      ],
+      "assignedToName": "Shashank Rajput",
+      "priority": "Medium",
+      "taskType": "task",
+      "assignedToAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "dueDate": "2026-03-30",
+      "assignedToId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "estimatedHours": 10,
+      "status": "Todo",
+      "id": "tsk-1787276350274",
+      "title": "E2E-ADMIN-TASK-20260821",
+      "updatedByEmail": "shashank@vernika.io",
+      "comments": [],
+      "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+      "description": "",
+      "updatedAt": "2026-08-21T01:39:10.274Z"
+    },
+    "createTime": "2026-08-21T01:39:13.039224Z",
+    "updateTime": "2026-08-21T01:39:13.039224Z"
+  }
+]

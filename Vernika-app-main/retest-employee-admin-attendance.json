@@ -1,0 +1,18 @@
+{
+  "steps": [
+    {
+      "step": "employee-before",
+      "buttons": []
+    },
+    {
+      "step": "employee-clock-in-admin-observe",
+      "employeeButton": [],
+      "adminMentionsPriya": true,
+      "adminTail": "als.\n\nReply in Chat\nDismiss\n\nLIVE WORKSPACE UPDATE\n\nNew Leave Request: Priya Sharma\n\nPaid Leave Leave requested from 2026-08-25 to 2026-08-25. Reason: E2E-CONCURRENT-EMPLOYEE-LEAVE-20260821 — concurrent Employee-to-Admin leave propagation check.\n\nOpen update\nAttendance, Biometrics & Timecard Engine\nReal-Time Telemetry\n\nShift tracking, biometric punch logs, overtime hours, and punch regularization requests.\n\nRegularization Request\nPunch In for Shift\nDaily Timecard & Logs\nFull Month Timecard Review\nPunch Regularization Requests\n1\n\nPresent On Floor\n\n1\n\nActive shift logs\n\nLate Arrivals\n\n0\n\nAfter grace window\n\nPending Punch Requests\n\n1\n\nAwaiting HR review\n\nAll Staff Members\nElena Rostova\nShashank Rajput\nLiam O'Connor\nRachel Green\nMarcus Vance\nAria Montgomery\nPriya Sharma\nDavid Chen\nAll Statuses\nPresent\nLate\nAbsent\nHalf Day\nEMPLOYEE\tDATE\tCHECK IN\tCHECK OUT\tHOURS\tOVERTIME\tLOCATION\tSTATUS\tACTION"
+    },
+    {
+      "step": "employee-clock-out",
+      "employeeButton": []
+    }
+  ]
+}

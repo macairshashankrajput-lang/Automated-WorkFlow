@@ -1,0 +1,14 @@
+{
+  "marker": "E2E-CONCURRENT-EMPLOYEE-CLAIM-20260821",
+  "steps": [
+    {
+      "step": "employee-submit",
+      "visibleInEmployee": true
+    },
+    {
+      "step": "admin-realtime-observe",
+      "visibleInAdmin": true,
+      "tail": "t\n\n\t\n\nLiam O'Connor\n\nEngineering & Technology\n\n\tMeals\t2026-08-18\t$1,000\tAPPROVED\tReviewed by Shashank Rajput\n\n\nTest\n\nTest meal claim\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tMeals\t2026-08-20\t$100\tPENDING\t\n\n\n\n2 test\n\naas\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tSoftware\t2026-08-20\t$1,000\tPENDING\t\n\n\n\nTesting\n\n1 test\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tMeals\t2026-08-20\t$100\tPENDING\t\n\n\n\nTesting\n\n1 test\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tMeals\t2026-08-20\t$100\tPENDING\t\n\n\n\nTesting\n\n1 test\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tMeals\t2026-08-20\t$100\tPENDING\t\n\n\n\nTesting\n\n1 test\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tMeals\t2026-08-20\t$100\tPENDING\t\n\n\n\nTesting\n\n1 test\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tMeals\t2026-08-20\t$100\tPENDING\t\n\n\n\nTesting\n\n1 test\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tMeals\t2026-08-20\t$100\tPENDING\t\n\n\n\nE2E-CONCURRENT-EMPLOYEE-CLAIM-20260821\n\nConcurrent Employee-to-Admin expense propagation check.\n\n\t\n\nPriya Sharma\n\nEngineering & Technology\n\n\tMeals\t2026-08-21\t$12.34\tPENDING\t\n\n\n\n\t\n\n\t\t\t$0\tREJECTED\tReviewed by Shashank Rajput"
+    }
+  ]
+}

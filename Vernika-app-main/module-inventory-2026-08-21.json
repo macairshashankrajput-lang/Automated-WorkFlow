@@ -1,0 +1,369 @@
+{
+  "label": "admin",
+  "out": {
+    "Attendance & Clock": {
+      "headings": [
+        "New Leave Request: Priya Sharma",
+        "Attendance, Biometrics & Timecard Engine"
+      ],
+      "buttons": [
+        "Client Accounts & CRM",
+        "Invoices & Billing",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Sales Leads Pipeline\n3",
+        "Settings & Config",
+        "Punch Clock",
+        "AI Copilot",
+        "1",
+        "Shashank Rajput\n\nAdmin Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Regularization Request",
+        "Punch In for Shift",
+        "Daily Timecard & Logs",
+        "Full Month Timecard Review",
+        "Punch Regularization Requests\n1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Filter employee attendance...",
+          "value": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        }
+      ]
+    },
+    "AUX Telemetry & Staff Live": {
+      "headings": [
+        "New Leave Request: Priya Sharma",
+        "Multi-User AUX Telemetry & Live Staff Adherence",
+        "Elena Rostova",
+        "Shashank Rajput",
+        "Liam O'Connor",
+        "Rachel Green",
+        "Marcus Vance",
+        "Aria Montgomery",
+        "Priya Sharma",
+        "David Chen"
+      ],
+      "buttons": [
+        "Settings & Config",
+        "Punch Clock",
+        "AI Copilot",
+        "1",
+        "Shashank Rajput\n\nAdmin Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Live Staff Telemetry (8)",
+        "All Multi-User Logs (17)",
+        "Override Status",
+        "Override Status",
+        "Override Status",
+        "Override Status",
+        "Override Status",
+        "Override Status",
+        "Override Status",
+        "Override Status"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employee, ID, reason...",
+          "value": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        }
+      ]
+    },
+    "Expenses & Claims": {
+      "headings": [
+        "New Leave Request: Priya Sharma",
+        "Corporate Expense Reimbursements & Claims"
+      ],
+      "buttons": [
+        "Positions & Roles",
+        "Organization Tree",
+        "Projects Portfolio",
+        "Task Kanban Board\n2",
+        "Client Accounts & CRM",
+        "Invoices & Billing",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Sales Leads Pipeline\n3",
+        "Settings & Config",
+        "Punch Clock",
+        "AI Copilot",
+        "1",
+        "Shashank Rajput\n\nAdmin Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Submit Expense Claim"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search claim, employee, department...",
+          "value": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        }
+      ]
+    },
+    "Leave Requests": {
+      "missing": true
+    },
+    "Task Kanban Board 1": {
+      "missing": true
+    },
+    "Team Messenger": {
+      "headings": [
+        "New Leave Request: Priya Sharma",
+        "Team & Client Messenger",
+        "general-announcements"
+      ],
+      "buttons": [
+        "Direct Messages",
+        "engineering-devops",
+        "general-announcements",
+        "product-design",
+        "sales-pipeline",
+        "Elena Rostova\n\nVP of Product Experience",
+        "Liam O'Connor\n\nFull Stack Developer",
+        "Rachel Green\n\nSenior Talent Acquisition Specialist",
+        "Marcus Vance\n\nHead of Global Sales",
+        "Aria Montgomery\n\nGrowth Marketing Director",
+        "Priya Sharma\n\nSenior Cloud Engineer",
+        "David Chen\n\nFinance Operations Manager",
+        "Sarah Jenkins (Peak Venture Capital)\n\nClient: Peak Venture Capital",
+        "Carlos Rivera (Vanguard Logistics)\n\nClient: Vanguard Logistics",
+        "Alexander Cross (Apex Global Financials)\n\nClient: Apex Global Financials",
+        "🚀\n5",
+        "🔥\n3",
+        "👏\n4"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Filter channels & people...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Message #general-announcements...",
+          "value": ""
+        }
+      ]
+    }
+  }
+}
+{
+  "label": "employee",
+  "out": {
+    "Attendance & Clock": {
+      "headings": [
+        "Leave Approved: Priya Sharma",
+        "Attendance, Biometrics & Timecard Engine"
+      ],
+      "buttons": [
+        "Attendance & Clock",
+        "Leave Requests\n1",
+        "Projects Portfolio",
+        "Task Kanban Board\n2",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Punch Clock",
+        "AI Copilot",
+        "5",
+        "Priya Sharma\n\nEmployee Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Regularization Request",
+        "Punch Out (Active since Aug 21, 2026, 03:28 AM)",
+        "Daily Timecard & Logs",
+        "Full Month Timecard Review",
+        "Punch Regularization Requests\n1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Filter employee attendance...",
+          "value": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        }
+      ]
+    },
+    "AUX Telemetry & Staff Live": {
+      "missing": true
+    },
+    "Expenses & Claims": {
+      "headings": [
+        "Leave Approved: Priya Sharma",
+        "Corporate Expense Reimbursements & Claims"
+      ],
+      "buttons": [
+        "Vernika AI Copilot\nAI",
+        "Virtual Meeting Rooms\nLive",
+        "Team Messenger",
+        "Announcements",
+        "Attendance & Clock",
+        "Leave Requests\n1",
+        "Projects Portfolio",
+        "Task Kanban Board\n2",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Punch Clock",
+        "AI Copilot",
+        "5",
+        "Priya Sharma\n\nEmployee Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Submit Expense Claim"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search claim, employee, department...",
+          "value": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        }
+      ]
+    },
+    "Leave Requests": {
+      "missing": true
+    },
+    "Task Kanban Board 1": {
+      "missing": true
+    },
+    "Team Messenger": {
+      "headings": [
+        "Leave Approved: Priya Sharma",
+        "Team & Client Messenger",
+        "general-announcements"
+      ],
+      "buttons": [
+        "Direct Messages",
+        "engineering-devops\n1",
+        "general-announcements",
+        "product-design",
+        "sales-pipeline",
+        "Elena Rostova\n\nVP of Product Experience",
+        "Shashank Rajput\n\n4\n\nChief Technology Officer & Administrator",
+        "Liam O'Connor\n\nFull Stack Developer",
+        "Rachel Green\n\nSenior Talent Acquisition Specialist",
+        "Marcus Vance\n\nHead of Global Sales",
+        "Aria Montgomery\n\nGrowth Marketing Director",
+        "David Chen\n\nFinance Operations Manager",
+        "Sarah Jenkins (Peak Venture Capital)\n\nClient: Peak Venture Capital",
+        "Carlos Rivera (Vanguard Logistics)\n\nClient: Vanguard Logistics",
+        "Alexander Cross (Apex Global Financials)\n\nClient: Apex Global Financials",
+        "🚀\n5",
+        "🔥\n3",
+        "👏\n4"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Filter channels & people...",
+          "value": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Message #general-announcements...",
+          "value": ""
+        }
+      ]
+    }
+  }
+}

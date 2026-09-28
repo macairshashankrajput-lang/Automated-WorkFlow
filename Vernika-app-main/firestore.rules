@@ -1,0 +1,281 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return signedIn() && (
+        request.auth.token.admin == true ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    function sameUser(value) {
+      return signedIn() && value is string && value == request.auth.uid;
+    }
+
+    function sameEmail(value) {
+      return signedIn() && value is string &&
+        request.auth.token.email is string &&
+        value == request.auth.token.email;
+    }
+
+    function isStaff() {
+      return signedIn() && (
+        request.auth.token.staff == true ||
+        (exists(/databases/$(database)/documents/employees/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/employees/$(request.auth.uid)).data.role != 'client')
+      );
+    }
+
+    function isClient() {
+      return signedIn() && exists(/databases/$(database)/documents/clients/$(request.auth.uid));
+    }
+
+    function clientOwns(data) {
+      return isClient() && data is map && (
+        (data.keys().hasAny(['clientId']) && sameUser(data.clientId)) ||
+        (data.keys().hasAny(['clientUid']) && sameUser(data.clientUid)) ||
+        (data.keys().hasAny(['clientEmail']) && sameEmail(data.clientEmail)) ||
+        (data.keys().hasAny(['email']) && sameEmail(data.email)) ||
+        (data.keys().hasAny(['company']) && data.company == get(/databases/$(database)/documents/clients/$(request.auth.uid)).data.company)
+      );
+    }
+
+    function canReadBusiness(data) {
+      return isAdmin() || isStaff() || clientOwns(data);
+    }
+
+    function owns(data) {
+      return signedIn() && (
+        (data.keys().hasAny(['employeeId']) && sameUser(data.employeeId)) ||
+        (data.keys().hasAny(['firebaseUid']) && sameUser(data.firebaseUid)) ||
+        (data.keys().hasAny(['employeeUid']) && sameUser(data.employeeUid)) ||
+        (data.keys().hasAny(['userUid']) && sameUser(data.userUid)) ||
+        (data.keys().hasAny(['senderId']) && sameUser(data.senderId)) ||
+        (data.keys().hasAny(['assignedToId']) && sameUser(data.assignedToId)) ||
+        (data.keys().hasAny(['assigneeId']) && sameUser(data.assigneeId)) ||
+        (data.keys().hasAny(['userId']) && sameUser(data.userId)) ||
+        (data.keys().hasAny(['ownerId']) && sameUser(data.ownerId)) ||
+        (data.keys().hasAny(['requesterUid']) && sameUser(data.requesterUid)) ||
+        (data.keys().hasAny(['createdBy']) && sameUser(data.createdBy)) ||
+        (data.keys().hasAny(['email']) && sameEmail(data.email)) ||
+        (data.keys().hasAny(['employeeEmail']) && sameEmail(data.employeeEmail)) ||
+        (data.keys().hasAny(['userEmail']) && sameEmail(data.userEmail)) ||
+        (data.keys().hasAny(['fromEmail']) && sameEmail(data.fromEmail)) ||
+        (data.keys().hasAny(['sender']) && sameEmail(data.sender))
+      );
+    }
+
+    function validId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128;
+    }
+
+    function isDepartmentHead() {
+      return signedIn() && exists(/databases/$(database)/documents/employees/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/employees/$(request.auth.uid)).data.isDepartmentHead == true;
+    }
+
+    function managesDepartment(departmentName) {
+      return isDepartmentHead() && departmentName is string &&
+        get(/databases/$(database)/documents/employees/$(request.auth.uid)).data.managedDepartment == departmentName;
+    }
+
+    function departmentGrantUpdate() {
+      return isDepartmentHead() &&
+        managesDepartment(resource.data.department) &&
+        managesDepartment(request.resource.data.department) &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['allowedModules', 'loginEnabled', 'permissionRevision', 'updatedAt', 'updatedByUid', 'updatedByEmail']) &&
+        request.resource.data.allowedModules is list &&
+        request.resource.data.allowedModules.hasOnly(get(/databases/$(database)/documents/employees/$(request.auth.uid)).data.grantableModules);
+    }
+
+    function safeSelfEmployeeUpdate() {
+      return owns(resource.data) && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+        'name', 'phone', 'location', 'avatar', 'bio', 'skills', 'auxStatus', 'auxStartTime',
+        'status', 'updatedAt', 'updatedByUid', 'updatedByEmail'
+      ]);
+    }
+
+    // Identity and employee directory.
+    match /employees/{employeeId} {
+      allow get: if isAdmin() || isStaff();
+      allow list: if isAdmin() || request.auth.token.staff == true || request.auth.token.role == 'employee' || request.auth.token.role == 'department_head';
+      allow create: if isAdmin() && validId(employeeId);
+      allow update: if isAdmin() || departmentGrantUpdate() || safeSelfEmployeeUpdate();
+      allow delete: if isAdmin();
+    }
+
+    match /clients/{clientId} {
+      allow get: if isAdmin() || clientOwns(resource.data);
+      allow list: if isAdmin();
+      allow create, update, delete: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+    }
+
+    // Employee self-service and attendance workflows.
+    match /attendance/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /leaves/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /expenses/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /claims/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /claimRequests/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /punchRequests/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /auxLogs/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    // Communication and workspace collaboration.
+    match /chatMessages/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || sameUser(request.resource.data.senderId);
+      // Senders/admins may edit or delete their own messages. Any authenticated
+      // user may update only their own read receipt, and cannot alter message
+      // content, sender, channel, reactions, or another user's receipt.
+      allow update: if isAdmin() || sameUser(resource.data.senderId) || (
+        signedIn() &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['readBy']) &&
+        request.resource.data.readBy is list &&
+        request.resource.data.readBy.hasAll([request.auth.uid]) &&
+        (
+          (!resource.data.keys().hasAny(['readBy']) && request.resource.data.readBy.size() == 1) ||
+          (resource.data.readBy is list &&
+           request.resource.data.readBy.hasAll(resource.data.readBy) &&
+           request.resource.data.readBy.size() <= resource.data.readBy.size() + 1)
+        )
+      );
+      allow delete: if isAdmin() || sameUser(resource.data.senderId);
+    }
+
+    match /chatChannels/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow write: if signedIn() && validId(id);
+    }
+
+    match /chatTyping/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow write: if isAdmin() || owns(request.resource.data) || owns(resource.data);
+    }
+
+    match /emails/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update, delete: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+    }
+
+    match /notifications/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin() || owns(resource.data);
+    }
+
+    // Work planning. Employees can update tasks assigned to their UID; project
+    // and reference-data administration remains administrator-controlled.
+    match /tasks/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /projects/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || (
+        owns(resource.data) &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['description', 'team', 'comments', 'status'])
+      );
+      allow delete: if isAdmin();
+    }
+
+    match /meetings/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update, delete: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+    }
+
+    // Ephemeral WebRTC signaling. Participants may read signals addressed to
+    // themselves or sent by themselves, and may only create signals as self.
+    match /meetingSignals/{id} {
+      allow read: if signedIn() && (resource.data.toId == request.auth.uid || resource.data.fromId == request.auth.uid);
+      allow create: if signedIn() && request.resource.data.fromId == request.auth.uid && request.resource.data.toId != request.auth.uid;
+      allow update, delete: if signedIn() && resource.data.fromId == request.auth.uid;
+    }
+
+    match /calendarEvents/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update, delete: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+    }
+
+    match /announcements/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow write: if isAdmin();
+    }
+
+    match /globalFiles/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update, delete: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+    }
+
+    match /workflowProfiles/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow create: if isAdmin() || owns(request.resource.data);
+      allow update: if isAdmin() || owns(resource.data) || owns(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    // All remaining business collections are readable by authenticated users
+    // and writable only by admins unless a more specific rule is added above.
+    match /{collectionName}/{id} {
+      allow read: if canReadBusiness(resource.data);
+      allow write: if isAdmin() && validId(id);
+    }
+
+    match /admins/{adminId} {
+      allow read: if isAdmin() || sameUser(adminId);
+      allow write: if isAdmin() && validId(adminId);
+    }
+  }
+}

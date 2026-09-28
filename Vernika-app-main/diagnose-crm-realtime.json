@@ -1,0 +1,12 @@
+{
+  "marker": "E2E-CRM-DIAG-1787286302596",
+  "first": {
+    "body": true,
+    "logs": []
+  },
+  "second": {
+    "body": true,
+    "logs": [],
+    "tail": "Won Revenue (YTD)\n\n$0\n\nClosed enterprise contracts\n\nActive Contracts Value\n\n$328,500\n\n3 agreements active\n\nCustomer & Vendor Base\n\n7\n\n4 clients, 3 vendors\n\nLead Pipeline & Deal Stages\nCreate New Deal / Lead\nNew\n2\n$100,000\n\nE2E-ADMIN-DEVICE-1787286198899 CRM\n\nE2E-ADMIN-DEVICE-1787286198899 Company\n\n$50,000\n25%\nAuto Route (AI)\nNew\nContacted\nQualified\nProposal\nNegotiation\nClosed Won\n\nE2E-CRM-DIAG-1787286302596 NAME\n\nE2E-CRM-DIAG-1787286302596 COMPANY\n\n$50,000\n25%\nAuto Route (AI)\nNew\nContacted\nQualified\nProposal\nNegotiation\nClosed Won\nContacted\n0\n$0\nQualified\n1\n$210,000\n\nDevon Miller\n\nAeroDynamics Aerospace\n\n$210,000\n%\nAuto Route (AI)\nNew\nContacted\nQualified\nProposal\nNegotiation\nClosed Won\nProposal\n1\n$120,000\n\nJonathan Sterling\n\nSterling Global Capital\n\n$120,000\n%\nAuto Route (AI)\nNew\nContacted\nQualified\nProposal\nNegotiation\nClosed Won\nNegotiation\n1\n$85,000\n\nClaire Beauchamp\n\nHorizon BioPharma\n\n$85,000\n%\nAuto Route (AI)\nNew\nContacted\nQualified\nProposal\nNegotiation\nClosed Won\nClosed Won\n0\n$0"
+  }
+}

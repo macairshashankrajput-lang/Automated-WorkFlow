@@ -1,0 +1,45 @@
+{
+  "buttons": [
+    "Task Kanban Board\n2",
+    "Client Accounts & CRM",
+    "Invoices & Billing",
+    "Payroll & Payslips",
+    "Expenses & Claims",
+    "Sales Leads Pipeline\n3",
+    "Settings & Config",
+    "Punch Clock",
+    "AI Copilot",
+    "3",
+    "Shashank Rajput\n\nAdmin Portal",
+    "Reply in Chat",
+    "Dismiss",
+    "Open update",
+    "Generate New Document",
+    "Executive Digital Corporate ID Badge\n\nShashank Rajput • 2023-01-15\n\nID CARD\nIssued",
+    "Official Employment Offer & Appointment Letter\n\nPriya Sharma • 2023-06-01\n\nOFFER LETTER\nSigned",
+    "Certificate of Employment & Experience Verification\n\nLiam O'Connor • 2026-01-10\n\nEXPERIENCE LETTER\nIssued",
+    "Send via Mail",
+    "Print / PDF"
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "ph": "Search employees, tasks, deals, invoices, chats...",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "ph": "Search staff, document type...",
+      "value": ""
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "ph": "",
+      "value": "all"
+    }
+  ],
+  "text": "Clock\nLeave Requests\n2\nDepartments\nPositions & Roles\nOrganization Tree\nPROJECTS & TASKS\nProjects Portfolio\nTask Kanban Board\n2\nFINANCIAL & COMPENSATION\nClient Accounts & CRM\nInvoices & Billing\nPayroll & Payslips\nExpenses & Claims\nSales Leads Pipeline\n3\nADMINISTRATION\nSettings & Config\nMulti-User Sync\nONLINE\nLive Sync\nPunch Clock\nAI Copilot\n3\n\nShashank Rajput\n\nAdmin Portal\n\nShashank Rajput\n#general-announcements\n09:15 AM\n\nGood morning everyone! Real-time synchronization and multi-user portal windows are fully deployed. Please test your respective portals.\n\nReply in Chat\nDismiss\n\nLIVE WORKSPACE UPDATE\n\nNew Leave Request: Priya Sharma\n\nPaid Leave Leave requested from 2026-08-25 to 2026-08-25. Reason: E2E-CONCURRENT-EMPLOYEE-LEAVE-20260821 — concurrent Employee-to-Admin leave propagation check.\n\nOpen update\nOfficial Employee Document & Credential Generator\nPDF & Badge Engine\n\nIssue tamper-evident Digital ID Badges, Appointment Letters, Experience Certificates, and Share via Outlook Mail.\n\nGenerate New Document\nIssued Documents (3)\nAll Document Types\nDigital ID Badges\nOffer & Appointment\nExperience & Service\nPromotion Orders\nRelieving Clearance\n\nExecutive Digital Corporate ID Badge\n\nShashank Rajput • 2023-01-15\n\nID CARD\nIssued\n\nOfficial Employment Offer & Appointment Letter\n\nPriya Sharma • 2023-06-01\n\nOFFER LETTER\nSigned\n\nCertificate of Employment & Experience Verification\n\nLiam O'Connor • 2026-01-10\n\nEXPERIENCE LETTER\nIssued\nExecutive Digital Corporate ID Badge\n\nDoc ID: doc-1 • Issued: 2023-01-15\n\nSend via Mail\nPrint / PDF\nV\nVERNIKA CLOUD\n\nENTERPRISE SECURITY\n\nTier 5 (All Facilities & Server Rooms)\nShashank Rajput\n\nChief Technology Officer\n\nEngineering & Technology\n\nBADGE NO.\n\nVNK-EXEC-001\n\nBLOOD GROUP\n\nO+\n\nISSUE DATE\n\n2023-01-15\n\nVALID THRU\n\n2028-12-31\n\nVERNIKA-AUTH-SECURE"
+}

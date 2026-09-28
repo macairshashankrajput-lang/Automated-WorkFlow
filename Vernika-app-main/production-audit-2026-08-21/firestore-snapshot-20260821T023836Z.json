@@ -1,0 +1,4762 @@
+{
+  "project": "gen-lang-client-0833693805",
+  "database": "ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f",
+  "collections": {
+    "activityLogs": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/activityLogs/act-1787135557930",
+        "id": "act-1787135557930",
+        "fields": {
+          "id": "act-1787135557930",
+          "timestamp": "2026-08-19T10:32:37.930Z",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "details": "Updated cell C3 in spreadsheet \"Untitled Spreadsheet\"",
+          "employeeId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "employeeName": "Shashank Rajput",
+          "impactScore": 10,
+          "activityType": "Sheet Edited"
+        },
+        "createTime": "2026-08-19T10:32:38.522397Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/activityLogs/act-1787135558821",
+        "id": "act-1787135558821",
+        "fields": {
+          "employeeId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "activityType": "Sheet Edited",
+          "id": "act-1787135558821",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "employeeName": "Shashank Rajput",
+          "timestamp": "2026-08-19T10:32:38.821Z",
+          "details": "Updated cell C3 in spreadsheet \"Untitled Spreadsheet\"",
+          "impactScore": 10
+        },
+        "createTime": "2026-08-19T10:32:39.035785Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/activityLogs/act-1787135558965",
+        "id": "act-1787135558965",
+        "fields": {
+          "details": "Updated cell C3 in spreadsheet \"Untitled Spreadsheet\"",
+          "impactScore": 10,
+          "employeeId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "id": "act-1787135558965",
+          "activityType": "Sheet Edited",
+          "timestamp": "2026-08-19T10:32:38.965Z",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "employeeName": "Shashank Rajput"
+        },
+        "createTime": "2026-08-19T10:32:39.140205Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      }
+    ],
+    "admins": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/admins/JMm9NsIqbjTilGtktTNhjEjAT3j2",
+        "id": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+        "fields": {
+          "updatedAt": "2026-08-20T12:19:47.383Z",
+          "uid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "role": "admin",
+          "email": "shashank@vernika.io"
+        },
+        "createTime": "2026-08-20T12:19:47.466038Z",
+        "updateTime": "2026-08-20T12:19:47.466038Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/admins/g6Vh2oCGVvYWmobUKxXLtvaWHEg1",
+        "id": "g6Vh2oCGVvYWmobUKxXLtvaWHEg1",
+        "fields": {
+          "role": "admin",
+          "updatedAt": "2026-08-20T12:19:50.299Z",
+          "uid": "g6Vh2oCGVvYWmobUKxXLtvaWHEg1",
+          "email": "marcus@vernika.io"
+        },
+        "createTime": "2026-08-20T12:19:50.317043Z",
+        "updateTime": "2026-08-20T12:19:50.317043Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/admins/0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+        "id": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+        "fields": {
+          "uid": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+          "updatedAt": "2026-08-20T12:19:48.884Z",
+          "role": "admin",
+          "email": "elena@vernika.io"
+        },
+        "createTime": "2026-08-20T12:19:48.900980Z",
+        "updateTime": "2026-08-20T12:19:48.900980Z"
+      }
+    ],
+    "announcements": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/announcements/anc-2",
+        "id": "anc-2",
+        "fields": {
+          "pinned": false,
+          "content": "Join our quarterly company sync this Friday at 3:00 PM EST. We will celebrate enterprise customer wins and review product roadmap deliverables.",
+          "id": "anc-2",
+          "targetDepartment": "All Departments",
+          "priority": "Normal",
+          "date": "2026-08-14",
+          "author": "Elena Rostova",
+          "authorRole": "VP of Product Experience",
+          "viewsCount": 38,
+          "title": "\ud83c\udf89 Q3 All-Hands Meeting & Town Hall"
+        },
+        "createTime": "2026-08-20T17:49:42.823068Z",
+        "updateTime": "2026-08-20T17:49:42.823068Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/announcements/anc-1",
+        "id": "anc-1",
+        "fields": {
+          "targetDepartment": "All Departments",
+          "pinned": true,
+          "viewsCount": 48,
+          "id": "anc-1",
+          "authorRole": "Chief Technology Officer",
+          "priority": "Important",
+          "date": "2026-08-16",
+          "author": "Shashank Rajput",
+          "content": "We are excited to launch dedicated portal workspaces for Administrators, Employees, and External Clients with real-time Firebase synchronization and live staff AUX tracking.",
+          "title": "\ud83d\ude80 Vernika 2.0 Multi-User Enterprise Suite is Live"
+        },
+        "createTime": "2026-08-20T17:49:42.823068Z",
+        "updateTime": "2026-08-20T17:49:42.823068Z"
+      }
+    ],
+    "attendance": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/attendance/att-1786984515702",
+        "id": "att-1786984515702",
+        "fields": {
+          "id": "att-1786984515702",
+          "workLocation": "Office",
+          "checkIn": "22:05",
+          "checkOut": "22:05",
+          "ipAddress": "192.168.1.102",
+          "date": "2026-08-17",
+          "status": "Present",
+          "totalHours": 0,
+          "employeeId": "usr-admin-1",
+          "employeeName": "Shashank Rajput"
+        },
+        "createTime": "2026-08-17T16:35:16.580514Z",
+        "updateTime": "2026-08-17T16:35:19.668413Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/attendance/att-1787222617579",
+        "id": "att-1787222617579",
+        "fields": {
+          "workLocation": "Office",
+          "checkIn": "16:13",
+          "checkOut": "16:14",
+          "totalHours": 0,
+          "date": "2026-08-20",
+          "id": "att-1787222617579",
+          "status": "Present",
+          "ipAddress": "192.168.1.108",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "employeeName": "Priya Sharma"
+        },
+        "createTime": "2026-08-20T10:43:37.684773Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/attendance/att-1787063727852",
+        "id": "att-1787063727852",
+        "fields": {
+          "employeeId": "usr-admin-1",
+          "workLocation": "Office",
+          "totalHours": 0,
+          "date": "2026-08-18",
+          "id": "att-1787063727852",
+          "checkOut": "20:05",
+          "ipAddress": "192.168.1.102",
+          "checkIn": "20:05",
+          "employeeName": "Shashank Rajput",
+          "status": "Present"
+        },
+        "createTime": "2026-08-18T14:35:28.226530Z",
+        "updateTime": "2026-08-18T14:35:57.851963Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/attendance/postrules-87ae6a4913",
+        "id": "postrules-87ae6a4913",
+        "fields": {
+          "employeeId": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+          "status": "Present",
+          "employeeName": "Liam O'Connor",
+          "date": "2099-01-01"
+        },
+        "createTime": "2026-08-20T16:38:53.209235Z",
+        "updateTime": "2026-08-20T16:38:53.209235Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/attendance/att-1787213367745",
+        "id": "att-1787213367745",
+        "fields": {
+          "id": "att-1787213367745",
+          "status": "Present",
+          "employeeName": "Shashank Rajput",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "ipAddress": "192.168.1.102",
+          "date": "2026-08-20",
+          "workLocation": "Office",
+          "employeeId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "checkOut": "13:39",
+          "totalHours": 0,
+          "checkIn": "13:39"
+        },
+        "createTime": "2026-08-20T08:09:28.137970Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      }
+    ],
+    "auxLogs": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787224559901",
+        "id": "aux-1787224559901",
+        "fields": {
+          "department": "Engineering & Technology",
+          "id": "aux-1787224559901",
+          "timestamp": "2026-08-20T11:15:59.901Z",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "reason": "Switched status to Break",
+          "startTime": "16:45",
+          "employeeName": "Priya Sharma",
+          "status": "Break"
+        },
+        "createTime": "2026-08-20T11:16:00.134112Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787248296353",
+        "id": "aux-1787248296353",
+        "fields": {
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "reason": "Switched status to Meeting",
+          "timestamp": "2026-08-20T17:51:36.353Z",
+          "employeeName": "Priya Sharma",
+          "updatedAt": "2026-08-20T17:51:36.354Z",
+          "status": "Meeting",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "department": "Engineering & Technology",
+          "startTime": "23:21",
+          "updatedByEmail": "priya@vernika.io",
+          "id": "aux-1787248296353"
+        },
+        "createTime": "2026-08-20T17:51:36.619054Z",
+        "updateTime": "2026-08-20T17:51:36.619054Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787248294505",
+        "id": "aux-1787248294505",
+        "fields": {
+          "reason": "Switched status to Available",
+          "employeeName": "Priya Sharma",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "status": "Available",
+          "department": "Engineering & Technology",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "startTime": "23:21",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "updatedByEmail": "priya@vernika.io",
+          "updatedAt": "2026-08-20T17:51:34.506Z",
+          "id": "aux-1787248294505",
+          "timestamp": "2026-08-20T17:51:34.505Z"
+        },
+        "createTime": "2026-08-20T17:51:35.130849Z",
+        "updateTime": "2026-08-20T17:51:35.130849Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787219489802",
+        "id": "aux-1787219489802",
+        "fields": {
+          "employeeName": "Priya Sharma",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "timestamp": "2026-08-20T09:51:29.802Z",
+          "department": "Engineering & Technology",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "startTime": "15:21",
+          "id": "aux-1787219489802",
+          "status": "Lunch",
+          "reason": "Switched status to Lunch"
+        },
+        "createTime": "2026-08-20T09:51:30.292020Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787221944267",
+        "id": "aux-1787221944267",
+        "fields": {
+          "department": "Engineering & Technology",
+          "id": "aux-1787221944267",
+          "startTime": "16:02",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "reason": "Switched status to Meeting",
+          "status": "Meeting",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "timestamp": "2026-08-20T10:32:24.267Z",
+          "employeeName": "Priya Sharma"
+        },
+        "createTime": "2026-08-20T10:32:24.887317Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787067432910",
+        "id": "aux-1787067432910",
+        "fields": {
+          "employeeId": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+          "status": "Wrap Up",
+          "timestamp": "2026-08-18T15:37:12.910Z",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "id": "aux-1787067432910",
+          "reason": "Switched status to Wrap Up",
+          "department": "Engineering & Technology",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+          "startTime": "21:07",
+          "employeeName": "Liam O'Connor"
+        },
+        "createTime": "2026-08-18T15:37:13.214961Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787224616892",
+        "id": "aux-1787224616892",
+        "fields": {
+          "startTime": "16:46",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "id": "aux-1787224616892",
+          "employeeName": "Priya Sharma",
+          "reason": "Supervisory override by Shashank Rajput",
+          "status": "Wrap Up",
+          "timestamp": "2026-08-20T11:16:56.892Z",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "department": "Engineering & Technology",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-20T11:16:57.027038Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787065046169",
+        "id": "aux-1787065046169",
+        "fields": {
+          "reason": "Switched status to Wrap Up",
+          "id": "aux-1787065046169",
+          "employeeName": "Liam O'Connor",
+          "department": "Engineering & Technology",
+          "startTime": "20:27",
+          "status": "Wrap Up",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+          "employeeId": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "timestamp": "2026-08-18T14:57:26.169Z"
+        },
+        "createTime": "2026-08-18T14:57:26.621754Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787248299080",
+        "id": "aux-1787248299080",
+        "fields": {
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "reason": "Switched status to Available",
+          "status": "Available",
+          "startTime": "23:21",
+          "department": "Engineering & Technology",
+          "id": "aux-1787248299080",
+          "employeeName": "Priya Sharma",
+          "updatedAt": "2026-08-20T17:51:39.080Z",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "timestamp": "2026-08-20T17:51:39.080Z",
+          "updatedByEmail": "priya@vernika.io",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-20T17:51:39.349459Z",
+        "updateTime": "2026-08-20T17:51:39.349459Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787224606043",
+        "id": "aux-1787224606043",
+        "fields": {
+          "employeeName": "Priya Sharma",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "timestamp": "2026-08-20T11:16:46.043Z",
+          "status": "Training",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "reason": "Switched status to Training",
+          "department": "Engineering & Technology",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "id": "aux-1787224606043",
+          "startTime": "16:46"
+        },
+        "createTime": "2026-08-20T11:16:46.319487Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787240623299",
+        "id": "aux-1787240623299",
+        "fields": {
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "startTime": "21:13",
+          "employeeName": "Priya Sharma",
+          "timestamp": "2026-08-20T15:43:43.299Z",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "department": "Engineering & Technology",
+          "updatedAt": "2026-08-20T15:43:43.299Z",
+          "updatedByEmail": "priya@vernika.io",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "status": "Break",
+          "id": "aux-1787240623299",
+          "reason": "Switched status to Break"
+        },
+        "createTime": "2026-08-20T15:43:43.534693Z",
+        "updateTime": "2026-08-20T15:43:43.534693Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787219509603",
+        "id": "aux-1787219509603",
+        "fields": {
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "id": "aux-1787219509603",
+          "reason": "Switched status to Break",
+          "employeeName": "Priya Sharma",
+          "status": "Break",
+          "startTime": "15:21",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "department": "Engineering & Technology",
+          "timestamp": "2026-08-20T09:51:49.603Z"
+        },
+        "createTime": "2026-08-20T09:51:50.028902Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787224598206",
+        "id": "aux-1787224598206",
+        "fields": {
+          "timestamp": "2026-08-20T11:16:38.206Z",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "id": "aux-1787224598206",
+          "status": "Lunch",
+          "reason": "Supervisory override by Shashank Rajput",
+          "startTime": "16:46",
+          "employeeName": "Priya Sharma",
+          "department": "Engineering & Technology",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-20T11:16:38.354838Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787250398326",
+        "id": "aux-1787250398326",
+        "fields": {
+          "startTime": "23:56",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "status": "Wrap Up",
+          "updatedByEmail": "priya@vernika.io",
+          "reason": "Switched status to Wrap Up",
+          "timestamp": "2026-08-20T18:26:38.326Z",
+          "id": "aux-1787250398326",
+          "updatedAt": "2026-08-20T18:26:38.327Z",
+          "department": "Engineering & Technology",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "employeeName": "Priya Sharma",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-20T18:26:38.632546Z",
+        "updateTime": "2026-08-20T18:26:38.632546Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787248296959",
+        "id": "aux-1787248296959",
+        "fields": {
+          "timestamp": "2026-08-20T17:51:36.959Z",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "employeeName": "Priya Sharma",
+          "updatedAt": "2026-08-20T17:51:36.959Z",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "updatedByEmail": "priya@vernika.io",
+          "department": "Engineering & Technology",
+          "status": "Meeting",
+          "id": "aux-1787248296959",
+          "startTime": "23:21",
+          "reason": "Switched status to Meeting",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+        },
+        "createTime": "2026-08-20T17:51:37.203807Z",
+        "updateTime": "2026-08-20T17:51:37.203807Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787221945173",
+        "id": "aux-1787221945173",
+        "fields": {
+          "department": "Engineering & Technology",
+          "startTime": "16:02",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "aux-1787221945173",
+          "reason": "Switched status to Meeting",
+          "employeeName": "Priya Sharma",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "timestamp": "2026-08-20T10:32:25.173Z",
+          "status": "Meeting",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+        },
+        "createTime": "2026-08-20T10:32:25.369491Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/auxLogs/aux-1787217415070",
+        "id": "aux-1787217415070",
+        "fields": {
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "department": "Engineering & Technology",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "timestamp": "2026-08-20T09:16:55.070Z",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "employeeName": "Priya Sharma",
+          "reason": "Switched status to Break",
+          "status": "Break",
+          "id": "aux-1787217415070",
+          "startTime": "14:46"
+        },
+        "createTime": "2026-08-20T09:16:55.629666Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      }
+    ],
+    "calendarEvents": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/calendarEvents/evt-7",
+        "id": "evt-7",
+        "fields": {
+          "time": "All Day",
+          "type": "Holiday",
+          "endTime": "05:00 PM",
+          "title": "\ud83c\udf84 Christmas Day (Global Public Holiday)",
+          "location": "Global Offices Closed",
+          "attendees": [
+            "All Staff"
+          ],
+          "status": "Confirmed",
+          "id": "evt-7",
+          "date": "2026-12-25",
+          "startTime": "09:00 AM"
+        },
+        "createTime": "2026-08-20T17:49:42.619403Z",
+        "updateTime": "2026-08-20T17:49:42.619403Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/calendarEvents/evt-3",
+        "id": "evt-3",
+        "fields": {
+          "title": "All-Hands Global Townhall & AUX Adherence Briefing",
+          "id": "evt-3",
+          "endTime": "05:00 PM",
+          "date": "2026-08-22",
+          "location": "Main Auditorium & Stream",
+          "startTime": "04:00 PM",
+          "type": "All Hands",
+          "time": "04:00 PM - 05:00 PM",
+          "status": "Confirmed",
+          "attendees": [
+            "All Staff"
+          ]
+        },
+        "createTime": "2026-08-20T17:49:42.619403Z",
+        "updateTime": "2026-08-20T17:49:42.619403Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/calendarEvents/evt-2",
+        "id": "evt-2",
+        "fields": {
+          "time": "02:00 PM - 03:00 PM",
+          "attendees": [
+            "Marcus Vance",
+            "Sarah Jenkins"
+          ],
+          "type": "Client Call",
+          "title": "Peak VC Deal Pipeline Technical Discovery",
+          "status": "Confirmed",
+          "date": "2026-08-19",
+          "startTime": "02:00 PM",
+          "endTime": "03:00 PM",
+          "location": "Google Meet",
+          "id": "evt-2"
+        },
+        "createTime": "2026-08-20T17:49:42.619403Z",
+        "updateTime": "2026-08-20T17:49:42.619403Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/calendarEvents/evt-6",
+        "id": "evt-6",
+        "fields": {
+          "attendees": [
+            "All Staff"
+          ],
+          "date": "2026-11-26",
+          "title": "\ud83c\udf42 Thanksgiving Day (Corporate Holiday)",
+          "endTime": "05:00 PM",
+          "startTime": "09:00 AM",
+          "location": "Global Offices Closed",
+          "status": "Confirmed",
+          "time": "All Day",
+          "id": "evt-6",
+          "type": "Holiday"
+        },
+        "createTime": "2026-08-20T17:49:42.619403Z",
+        "updateTime": "2026-08-20T17:49:42.619403Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/calendarEvents/evt-4",
+        "id": "evt-4",
+        "fields": {
+          "date": "2026-08-31",
+          "location": "Company-Wide Holiday (Offices Closed)",
+          "status": "Confirmed",
+          "attendees": [
+            "All Staff"
+          ],
+          "title": "\ud83c\udf89 Vernika Mid-Year Innovation Day & Tech Holiday",
+          "endTime": "05:00 PM",
+          "time": "All Day",
+          "startTime": "09:00 AM",
+          "type": "Holiday",
+          "id": "evt-4"
+        },
+        "createTime": "2026-08-20T17:49:42.619403Z",
+        "updateTime": "2026-08-20T17:49:42.619403Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/calendarEvents/evt-1",
+        "id": "evt-1",
+        "fields": {
+          "time": "10:00 AM - 11:00 AM",
+          "location": "Vernika Virtual Boardroom A",
+          "endTime": "11:00 AM",
+          "type": "Executive Review",
+          "status": "Confirmed",
+          "attendees": [
+            "Shashank Rajput",
+            "Marcus Vance",
+            "Elena Rostova"
+          ],
+          "id": "evt-1",
+          "title": "Q3 Enterprise Architecture & AI Copilot Review",
+          "startTime": "10:00 AM",
+          "date": "2026-08-18"
+        },
+        "createTime": "2026-08-20T17:49:42.619403Z",
+        "updateTime": "2026-08-20T17:49:42.619403Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/calendarEvents/evt-5",
+        "id": "evt-5",
+        "fields": {
+          "attendees": [
+            "All Staff"
+          ],
+          "type": "Holiday",
+          "id": "evt-5",
+          "title": "\ud83c\uddfa\ud83c\uddf8 Labor Day (National Public Holiday)",
+          "time": "All Day",
+          "date": "2026-09-07",
+          "status": "Confirmed",
+          "location": "Federal & Corporate Holiday",
+          "startTime": "09:00 AM",
+          "endTime": "05:00 PM"
+        },
+        "createTime": "2026-08-20T17:49:42.619403Z",
+        "updateTime": "2026-08-20T17:49:42.619403Z"
+      }
+    ],
+    "chatChannels": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatChannels/ch-general",
+        "id": "ch-general",
+        "fields": {
+          "id": "ch-general",
+          "description": "Company-wide updates, discussions, and celebrations",
+          "unreadCount": 0,
+          "type": "channel",
+          "name": "general-announcements"
+        },
+        "createTime": "2026-08-20T17:49:42.927862Z",
+        "updateTime": "2026-08-20T17:49:42.927862Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatChannels/ch-product",
+        "id": "ch-product",
+        "fields": {
+          "type": "channel",
+          "name": "product-design",
+          "id": "ch-product",
+          "description": "Figma specs, customer feedback, and roadmaps",
+          "unreadCount": 0
+        },
+        "createTime": "2026-08-20T17:49:42.927862Z",
+        "updateTime": "2026-08-20T17:49:42.927862Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatChannels/dm-emp-1-cli-1",
+        "id": "dm-emp-1-cli-1",
+        "fields": {
+          "participants": [
+            "emp-1",
+            "cli-1"
+          ],
+          "unreadCount": 0,
+          "description": "Client direct channel for Apex Global Financials",
+          "type": "dm",
+          "id": "dm-emp-1-cli-1",
+          "name": "Alexander Cross (Client)"
+        },
+        "createTime": "2026-08-20T17:49:42.927862Z",
+        "updateTime": "2026-08-20T17:49:42.927862Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatChannels/dm-emp-1-emp-4",
+        "id": "dm-emp-1-emp-4",
+        "fields": {
+          "id": "dm-emp-1-emp-4",
+          "participants": [
+            "emp-1",
+            "emp-4"
+          ],
+          "description": "Direct message with Priya Sharma (Senior Cloud Engineer)",
+          "unreadCount": 0,
+          "type": "dm",
+          "name": "Priya Sharma"
+        },
+        "createTime": "2026-08-20T17:49:42.927862Z",
+        "updateTime": "2026-08-20T17:49:42.927862Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatChannels/dm-emp-1-emp-2",
+        "id": "dm-emp-1-emp-2",
+        "fields": {
+          "description": "Direct message with Elena Rostova (VP Product)",
+          "unreadCount": 0,
+          "participants": [
+            "emp-1",
+            "emp-2"
+          ],
+          "name": "Elena Rostova",
+          "id": "dm-emp-1-emp-2",
+          "type": "dm"
+        },
+        "createTime": "2026-08-20T17:49:42.927862Z",
+        "updateTime": "2026-08-20T17:49:42.927862Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatChannels/ch-sales",
+        "id": "ch-sales",
+        "fields": {
+          "id": "ch-sales",
+          "unreadCount": 0,
+          "type": "channel",
+          "description": "Lead updates, deal wins, and revenue discussions",
+          "name": "sales-pipeline"
+        },
+        "createTime": "2026-08-20T17:49:42.927862Z",
+        "updateTime": "2026-08-20T17:49:42.927862Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatChannels/ch-engineering",
+        "id": "ch-engineering",
+        "fields": {
+          "type": "channel",
+          "id": "ch-engineering",
+          "name": "engineering-devops",
+          "unreadCount": 1,
+          "description": "Tech stack, code reviews, PRs, and platform architecture"
+        },
+        "createTime": "2026-08-20T17:49:42.927862Z",
+        "updateTime": "2026-08-20T17:49:42.927862Z"
+      }
+    ],
+    "chatMessages": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787065519415-9csz",
+        "id": "msg-1787065519415-9csz",
+        "fields": {
+          "updatedAt": "2026-08-20T17:50:29.333Z",
+          "text": "any updates",
+          "readBy": [
+            "pmjE5sfXErQZYnzaoMnNuphSbV83",
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "senderName": "Priya Sharma",
+          "id": "msg-1787065519415-9csz",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "updatedByEmail": "shashank@vernika.io",
+          "senderRole": "Employee",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "timestamp": "20:35"
+        },
+        "createTime": "2026-08-18T15:05:19.656856Z",
+        "updateTime": "2026-08-20T17:50:29.728593Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787222634384-1yiv",
+        "id": "msg-1787222634384-1yiv",
+        "fields": {
+          "id": "msg-1787222634384-1yiv",
+          "updatedByEmail": "shashank@vernika.io",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderName": "Priya Sharma",
+          "text": "hey",
+          "updatedAt": "2026-08-20T17:50:30.546Z",
+          "timestamp": "16:13",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "channelId": "dm-JMm9NsIqbjTilGtktTNhjEjAT3j2-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "readBy": [
+            "pmjE5sfXErQZYnzaoMnNuphSbV83",
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderRole": "Employee"
+        },
+        "createTime": "2026-08-20T10:43:54.605440Z",
+        "updateTime": "2026-08-20T17:50:30.836722Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-3",
+        "id": "msg-3",
+        "fields": {
+          "timestamp": "09:35 AM",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "text": "Firestore listeners for AUX tracking are active. Cross-window state updates in under 20ms.",
+          "channelId": "ch-engineering",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "senderRole": "Employee",
+          "senderName": "Priya Sharma",
+          "reactions": {
+            "\u26a1": 3
+          },
+          "id": "msg-3",
+          "updatedAt": "2026-08-20T15:57:22.964Z"
+        },
+        "createTime": "2026-08-20T10:44:27.750665Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787063810975-bx05",
+        "id": "msg-1787063810975-bx05",
+        "fields": {
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "text": "ll",
+          "channelId": "dm_pmjE5sfXErQZYnzaoMnNuphSbV83_usr-admin-1",
+          "recipientId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderId": "usr-admin-1",
+          "senderName": "Shashank Rajput",
+          "senderRole": "Admin",
+          "timestamp": "20:06",
+          "id": "msg-1787063810975-bx05"
+        },
+        "createTime": "2026-08-18T14:36:51.168707Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787217499052-3p2v",
+        "id": "msg-1787217499052-3p2v",
+        "fields": {
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "timestamp": "14:48",
+          "readBy": [
+            "pmjE5sfXErQZYnzaoMnNuphSbV83",
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "channelId": "dm-JMm9NsIqbjTilGtktTNhjEjAT3j2-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderName": "Priya Sharma",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "text": "Hi",
+          "senderRole": "Employee",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedAt": "2026-08-20T17:50:29.740Z",
+          "id": "msg-1787217499052-3p2v"
+        },
+        "createTime": "2026-08-20T09:18:19.289463Z",
+        "updateTime": "2026-08-20T17:50:29.969130Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787222670736-faaw",
+        "id": "msg-1787222670736-faaw",
+        "fields": {
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "id": "msg-1787222670736-faaw",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "channelId": "ch-engineering",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderRole": "Admin",
+          "senderName": "Shashank Rajput",
+          "text": "hey",
+          "timestamp": "16:14"
+        },
+        "createTime": "2026-08-20T10:44:30.939057Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786969738088-t2se",
+        "id": "msg-1786969738088-t2se",
+        "fields": {
+          "senderId": "usr-admin-1",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "text": "jb",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "channelId": "dm_pmjE5sfXErQZYnzaoMnNuphSbV83_usr-admin-1",
+          "timestamp": "17:58",
+          "senderRole": "Admin",
+          "senderName": "Shashank Rajput",
+          "recipientId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "msg-1786969738088-t2se"
+        },
+        "createTime": "2026-08-17T12:28:58.460491Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787219450580-fydr",
+        "id": "msg-1787219450580-fydr",
+        "fields": {
+          "text": "Hello",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedAt": "2026-08-20T17:50:29.980Z",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderName": "Priya Sharma",
+          "updatedByEmail": "shashank@vernika.io",
+          "id": "msg-1787219450580-fydr",
+          "readBy": [
+            "pmjE5sfXErQZYnzaoMnNuphSbV83",
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "senderRole": "Employee",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "timestamp": "15:20",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "channelId": "dm-JMm9NsIqbjTilGtktTNhjEjAT3j2-pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-20T09:50:51.013697Z",
+        "updateTime": "2026-08-20T17:50:30.204579Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-2",
+        "id": "msg-2",
+        "fields": {
+          "senderAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+          "senderId": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+          "senderRole": "Admin",
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "channelId": "ch-general",
+          "senderName": "Elena Rostova",
+          "timestamp": "09:20 AM",
+          "text": "Testing the client portal milestone review right now\u2014the UX is seamless and responsive.",
+          "id": "msg-2",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "reactions": {
+            "\ud83d\udc4f": 4
+          },
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+        },
+        "createTime": "2026-08-20T09:12:33.252674Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787248238421-tpal",
+        "id": "msg-1787248238421-tpal",
+        "fields": {
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "senderName": "Shashank Rajput",
+          "channelId": "dm-jmm9nsiqbjtilgtkttnhjejat3j2-pmje5sfxerqzynzaomnnuphsbv83",
+          "timestamp": "23:20",
+          "updatedAt": "2026-08-20T17:50:38.423Z",
+          "id": "msg-1787248238421-tpal",
+          "text": "Any updates",
+          "senderRole": "Admin",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "createdAt": "2026-08-20T17:50:38.423Z",
+          "recipientId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "updatedByEmail": "shashank@vernika.io"
+        },
+        "createTime": "2026-08-20T17:50:38.869261Z",
+        "updateTime": "2026-08-20T17:50:38.869261Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786984205487-a83y",
+        "id": "msg-1786984205487-a83y",
+        "fields": {
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_usr-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderName": "Priya Sharma",
+          "senderRole": "Employee",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "timestamp": "22:00",
+          "text": "cvbn",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderId": "usr-emp-4",
+          "id": "msg-1786984205487-a83y"
+        },
+        "createTime": "2026-08-17T16:30:05.997595Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787065668148-owzc",
+        "id": "msg-1787065668148-owzc",
+        "fields": {
+          "senderRole": "Client",
+          "senderName": "Alexander Cross (Apex Global Financials)",
+          "channelId": "dm-JMm9NsIqbjTilGtktTNhjEjAT3j2-cli-1",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "id": "msg-1787065668148-owzc",
+          "timestamp": "20:37",
+          "senderAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderId": "cli-1",
+          "text": "Hello this is a test. msg\n"
+        },
+        "createTime": "2026-08-18T15:07:48.306167Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786983403339-i36p",
+        "id": "msg-1786983403339-i36p",
+        "fields": {
+          "id": "msg-1786983403339-i36p",
+          "text": "jj",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderId": "usr-emp-4",
+          "senderName": "Priya Sharma",
+          "senderRole": "Employee",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "timestamp": "21:46",
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_usr-pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-17T16:16:43.543608Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786969731679-qdkp",
+        "id": "msg-1786969731679-qdkp",
+        "fields": {
+          "text": "Jjj",
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_usr-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "msg-1786969731679-qdkp",
+          "senderId": "usr-emp-4",
+          "timestamp": "17:58",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "senderRole": "Employee",
+          "senderName": "Priya Sharma"
+        },
+        "createTime": "2026-08-17T12:28:52.133994Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786969695243-ba47",
+        "id": "msg-1786969695243-ba47",
+        "fields": {
+          "channelId": "dm-usr-pmjE5sfXErQZYnzaoMnNuphSbV83-JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "text": "Hi",
+          "timestamp": "17:58",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "id": "msg-1786969695243-ba47",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderId": "usr-emp-4",
+          "senderRole": "Employee",
+          "senderName": "Priya Sharma"
+        },
+        "createTime": "2026-08-17T12:28:15.607319Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786969083504-eje4",
+        "id": "msg-1786969083504-eje4",
+        "fields": {
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "id": "msg-1786969083504-eje4",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderId": "usr-admin-1",
+          "timestamp": "17:48",
+          "senderRole": "Admin",
+          "text": "\ud83d\udcf9 **Started a live Video Call**: \"1-on-1 Call: Shashank Rajput & Elena Rostova\". Click below to join the conference room!",
+          "senderName": "Shashank Rajput",
+          "channelId": "dm_0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2_usr-admin-1"
+        },
+        "createTime": "2026-08-17T12:18:03.653965Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787222449749-z4re",
+        "id": "msg-1787222449749-z4re",
+        "fields": {
+          "senderRole": "Employee",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedAt": "2026-08-20T17:50:30.229Z",
+          "readBy": [
+            "pmjE5sfXErQZYnzaoMnNuphSbV83",
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "text": "hello",
+          "channelId": "dm-JMm9NsIqbjTilGtktTNhjEjAT3j2-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderName": "Priya Sharma",
+          "id": "msg-1787222449749-z4re",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "timestamp": "16:10",
+          "updatedByEmail": "shashank@vernika.io",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-20T10:40:49.965688Z",
+        "updateTime": "2026-08-20T17:50:30.528973Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787224735637-mc9f",
+        "id": "msg-1787224735637-mc9f",
+        "fields": {
+          "channelId": "dm-JMm9NsIqbjTilGtktTNhjEjAT3j2-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "id": "msg-1787224735637-mc9f",
+          "recipientId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "timestamp": "16:48",
+          "senderRole": "Admin",
+          "senderName": "Shashank Rajput",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "text": "hellp\\",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ]
+        },
+        "createTime": "2026-08-20T11:18:55.874288Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787240556665-bka5",
+        "id": "msg-1787240556665-bka5",
+        "fields": {
+          "channelId": "dm-pmjE5sfXErQZYnzaoMnNuphSbV83-jmm9nsiqbjtilgtkttnhjejat3j2",
+          "senderRole": "Admin",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "timestamp": "21:12",
+          "updatedByEmail": "shashank@vernika.io",
+          "text": "hi",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "recipientId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+          "createdAt": "2026-08-20T15:42:36.666Z",
+          "senderName": "Shashank Rajput",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "id": "msg-1787240556665-bka5"
+        },
+        "createTime": "2026-08-20T15:42:36.863929Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786983024424-8sdl",
+        "id": "msg-1786983024424-8sdl",
+        "fields": {
+          "id": "msg-1786983024424-8sdl",
+          "senderName": "Priya Sharma",
+          "senderRole": "Employee",
+          "senderId": "usr-emp-4",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_usr-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "text": "hello",
+          "timestamp": "21:40",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+        },
+        "createTime": "2026-08-17T16:10:24.831992Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786969800413-7ze2",
+        "id": "msg-1786969800413-7ze2",
+        "fields": {
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderId": "usr-emp-4",
+          "id": "msg-1786969800413-7ze2",
+          "senderName": "Priya Sharma",
+          "senderRole": "Employee",
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_usr-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "text": "\ud83d\udcf9 **Started a live Video Call**: \"1-on-1 Call: Priya Sharma & Shashank Rajput\". Click below to join the conference room!",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "timestamp": "18:00"
+        },
+        "createTime": "2026-08-17T12:30:00.508324Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787064233209-4y2x",
+        "id": "msg-1787064233209-4y2x",
+        "fields": {
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "id": "msg-1787064233209-4y2x",
+          "text": "\ud83d\udcf9 **Started a live Video Call**: \"1-on-1 Call: Priya Sharma & Shashank Rajput\". Click below to join the conference room!",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "timestamp": "20:13",
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderName": "Priya Sharma",
+          "senderRole": "Employee"
+        },
+        "createTime": "2026-08-18T14:43:53.382987Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787065766524-3n9x",
+        "id": "msg-1787065766524-3n9x",
+        "fields": {
+          "senderRole": "Admin",
+          "senderName": "Shashank Rajput",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "text": "\ud83d\udcf9 **Started a live Audio Call**: \"1-on-1 Audio Call: Shashank Rajput & Priya Sharma\". Click below to join the conference room!",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "msg-1787065766524-3n9x",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "timestamp": "20:39"
+        },
+        "createTime": "2026-08-18T15:09:26.670287Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1",
+        "id": "msg-1",
+        "fields": {
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "senderRole": "Admin",
+          "id": "msg-1",
+          "text": "Good morning everyone! Real-time synchronization and multi-user portal windows are fully deployed. Please test your respective portals.",
+          "reactions": {
+            "\ud83d\udd25": 3,
+            "\ud83d\ude80": 5
+          },
+          "channelId": "ch-general",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderName": "Shashank Rajput",
+          "timestamp": "09:15 AM",
+          "updatedByEmail": "shashank@vernika.io",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+        },
+        "createTime": "2026-08-18T15:39:31.108154Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786968400084-7pb0",
+        "id": "msg-1786968400084-7pb0",
+        "fields": {
+          "senderId": "usr-emp-4",
+          "text": "K",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "timestamp": "17:36",
+          "senderRole": "Employee",
+          "senderName": "Priya Sharma",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "channelId": "dm-usr-pmjE5sfXErQZYnzaoMnNuphSbV83-JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "id": "msg-1786968400084-7pb0"
+        },
+        "createTime": "2026-08-17T12:06:40.456764Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-5",
+        "id": "msg-5",
+        "fields": {
+          "channelId": "dm-JMm9NsIqbjTilGtktTNhjEjAT3j2-cli-1",
+          "senderName": "Alexander Cross",
+          "senderRole": "Client",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "timestamp": "10:30 AM",
+          "senderId": "cli-1",
+          "text": "Hello Shashank, we reviewed the latest staging build of our cloud architecture. Deliverables #1 and #2 look phenomenal!",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "id": "msg-5",
+          "senderAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80"
+        },
+        "createTime": "2026-08-20T10:41:07.971280Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787248425485-jwkp",
+        "id": "msg-1787248425485-jwkp",
+        "fields": {
+          "text": "Yes wip",
+          "id": "msg-1787248425485-jwkp",
+          "senderRole": "Employee",
+          "readBy": [
+            "pmjE5sfXErQZYnzaoMnNuphSbV83"
+          ],
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "recipientId": "emp",
+          "timestamp": "23:23",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "channelId": "dm-emp-1-pmje5sfxerqzynzaomnnuphsbv83",
+          "senderName": "Priya Sharma",
+          "updatedAt": "2026-08-20T17:53:45.486Z",
+          "updatedByEmail": "priya@vernika.io",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "createdAt": "2026-08-20T17:53:45.485Z"
+        },
+        "createTime": "2026-08-20T17:53:49.900510Z",
+        "updateTime": "2026-08-20T17:53:49.900510Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787224651709-78up",
+        "id": "msg-1787224651709-78up",
+        "fields": {
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "text": "Hello",
+          "updatedByEmail": "shashank@vernika.io",
+          "senderName": "Priya Sharma",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "msg-1787224651709-78up",
+          "updatedAt": "2026-08-20T17:50:30.839Z",
+          "channelId": "dm-JMm9NsIqbjTilGtktTNhjEjAT3j2-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "readBy": [
+            "pmjE5sfXErQZYnzaoMnNuphSbV83",
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "senderRole": "Employee",
+          "timestamp": "16:47",
+          "recipientId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+        },
+        "createTime": "2026-08-20T11:17:31.972446Z",
+        "updateTime": "2026-08-20T17:50:31.088696Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1787065537915-411h",
+        "id": "msg-1787065537915-411h",
+        "fields": {
+          "timestamp": "20:35",
+          "text": "Yes good work",
+          "senderRole": "Admin",
+          "senderName": "Shashank Rajput",
+          "channelId": "dm_JMm9NsIqbjTilGtktTNhjEjAT3j2_pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "readBy": [
+            "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+          ],
+          "id": "msg-1787065537915-411h",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "recipientId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "updatedAt": "2026-08-20T15:57:22.964Z"
+        },
+        "createTime": "2026-08-18T15:05:38.146089Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatMessages/msg-1786968362382-gqli",
+        "id": "msg-1786968362382-gqli",
+        "fields": {
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "senderName": "Shashank Rajput",
+          "senderRole": "Admin",
+          "id": "msg-1786968362382-gqli",
+          "channelId": "dm-usr-admin-1-pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "text": "hello",
+          "timestamp": "17:36",
+          "senderId": "usr-admin-1",
+          "recipientId": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-17T12:06:02.959261Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      }
+    ],
+    "chatTyping": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatTyping/dm-emp-1-emp-4",
+        "id": "dm-emp-1-emp-4",
+        "fields": {
+          "userName": "Shashank Rajput",
+          "timestamp": 1787224735631,
+          "isTyping": false
+        },
+        "createTime": "2026-08-20T09:18:17.793829Z",
+        "updateTime": "2026-08-20T11:18:55.765132Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatTyping/ch-engineering",
+        "id": "ch-engineering",
+        "fields": {
+          "isTyping": false,
+          "timestamp": 1787222670731,
+          "userName": "Shashank Rajput"
+        },
+        "createTime": "2026-08-18T14:37:12.085236Z",
+        "updateTime": "2026-08-20T10:44:30.841569Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatTyping/dm_emp-4_usr-admin-1",
+        "id": "dm_emp-4_usr-admin-1",
+        "fields": {
+          "isTyping": false,
+          "userName": "Shashank Rajput",
+          "timestamp": 1787063810966
+        },
+        "createTime": "2026-08-18T14:36:50.731349Z",
+        "updateTime": "2026-08-18T14:36:51.141106Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatTyping/dm_emp-1_emp-5",
+        "id": "dm_emp-1_emp-5",
+        "fields": {
+          "isTyping": false,
+          "userName": "Liam O'Connor",
+          "timestamp": 1787064339956
+        },
+        "createTime": "2026-08-18T14:45:25.530811Z",
+        "updateTime": "2026-08-18T14:45:40.129585Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatTyping/dm-jmm9nsiqbjtilgtkttnhjejat3j2-pmje5sfxerqzynzaomnnuphsbv83",
+        "id": "dm-jmm9nsiqbjtilgtkttnhjejat3j2-pmje5sfxerqzynzaomnnuphsbv83",
+        "fields": {
+          "updatedByEmail": "shashank@vernika.io",
+          "timestamp": 1787248238410,
+          "updatedAt": "2026-08-20T17:50:38.410Z",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "isTyping": false,
+          "userName": "Shashank Rajput"
+        },
+        "createTime": "2026-08-20T17:50:35.490930Z",
+        "updateTime": "2026-08-20T17:50:38.754130Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatTyping/dm-emp-4-jmm9nsiqbjtilgtkttnhjejat3j2",
+        "id": "dm-emp-4-jmm9nsiqbjtilgtkttnhjejat3j2",
+        "fields": {
+          "updatedAt": "2026-08-20T15:42:36.658Z",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "userName": "Shashank Rajput",
+          "timestamp": 1787240556658,
+          "updatedByEmail": "shashank@vernika.io",
+          "isTyping": false
+        },
+        "createTime": "2026-08-20T15:42:36.306114Z",
+        "updateTime": "2026-08-20T15:42:36.845116Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatTyping/dm_emp-1_emp-4",
+        "id": "dm_emp-1_emp-4",
+        "fields": {
+          "userName": "Shashank Rajput",
+          "timestamp": 1787065537912,
+          "isTyping": false
+        },
+        "createTime": "2026-08-18T14:37:03.633448Z",
+        "updateTime": "2026-08-18T15:05:38.123027Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/chatTyping/dm_emp-1_usr-emp-4",
+        "id": "dm_emp-1_usr-emp-4",
+        "fields": {
+          "isTyping": false,
+          "timestamp": 1786984205477,
+          "userName": "Priya Sharma"
+        },
+        "createTime": "2026-08-17T16:16:43.255496Z",
+        "updateTime": "2026-08-17T16:30:05.967688Z"
+      }
+    ],
+    "clients": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/clients/LTx0mxsHwXSglUNz3HGQmlL1yUT2",
+        "id": "LTx0mxsHwXSglUNz3HGQmlL1yUT2",
+        "fields": {
+          "updatedAt": "2026-08-20T12:19:57.650Z",
+          "migratedFrom": "client_vanguard",
+          "email": "carlos@vanguardlogistics.com",
+          "name": "Carlos Rivera",
+          "firebaseUid": "LTx0mxsHwXSglUNz3HGQmlL1yUT2",
+          "company": "Vanguard Logistics",
+          "loginEnabled": true,
+          "role": "client",
+          "id": "LTx0mxsHwXSglUNz3HGQmlL1yUT2",
+          "username": "client_vanguard"
+        },
+        "createTime": "2026-08-20T12:19:57.670993Z",
+        "updateTime": "2026-08-20T12:19:57.670993Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/clients/0rd5d3adWaRrbrsB5IETremMh6u1",
+        "id": "0rd5d3adWaRrbrsB5IETremMh6u1",
+        "fields": {
+          "name": "Sarah Jenkins",
+          "username": "client_peak",
+          "updatedAt": "2026-08-20T12:19:56.800Z",
+          "firebaseUid": "0rd5d3adWaRrbrsB5IETremMh6u1",
+          "loginEnabled": true,
+          "id": "0rd5d3adWaRrbrsB5IETremMh6u1",
+          "role": "client",
+          "migratedFrom": "client_peak",
+          "company": "Peak Venture Capital",
+          "email": "sarah@peakvc.com"
+        },
+        "createTime": "2026-08-20T12:19:56.832629Z",
+        "updateTime": "2026-08-20T12:19:56.832629Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/clients/tqI0LDpy94fyjkgwR9RuyWItyDL2",
+        "id": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+        "fields": {
+          "loginEnabled": true,
+          "firebaseUid": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+          "id": "tqI0LDpy94fyjkgwR9RuyWItyDL2",
+          "name": "Alexander Cross",
+          "migratedFrom": "client_apex",
+          "company": "Apex Global Financials",
+          "updatedAt": "2026-08-20T12:19:55.855Z",
+          "email": "alex@apexfinancials.com",
+          "username": "client_apex",
+          "role": "client"
+        },
+        "createTime": "2026-08-20T12:19:55.984637Z",
+        "updateTime": "2026-08-20T12:19:55.984637Z"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/contacts/cnt-3",
+        "id": "cnt-3",
+        "fields": {
+          "lastContact": "2026-08-09",
+          "title": "Head of Fleet Operations",
+          "id": "cnt-3",
+          "email": "carlos@vanguardlogistics.com",
+          "name": "Carlos Ruiz",
+          "company": "Vanguard Logistics",
+          "status": "Customer",
+          "phone": "+1 (312) 440-1922"
+        },
+        "createTime": "2026-08-20T17:49:42.289618Z",
+        "updateTime": "2026-08-20T17:49:42.289618Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/contacts/cnt-2",
+        "id": "cnt-2",
+        "fields": {
+          "phone": "+1 (212) 773-9901",
+          "lastContact": "2026-08-11",
+          "id": "cnt-2",
+          "status": "Customer",
+          "company": "Apex Global Financials",
+          "name": "David Thorne",
+          "email": "dthorne@apexfin.com",
+          "title": "Chief Risk Officer"
+        },
+        "createTime": "2026-08-20T17:49:42.289618Z",
+        "updateTime": "2026-08-20T17:49:42.289618Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/contacts/cnt-4",
+        "id": "cnt-4",
+        "fields": {
+          "phone": "+1 (617) 555-0144",
+          "id": "cnt-4",
+          "status": "Prospect",
+          "name": "Claire Beauchamp",
+          "company": "Horizon BioPharma",
+          "email": "cbeauchamp@horizonbio.com",
+          "lastContact": "2026-08-14",
+          "title": "Director of Procurement"
+        },
+        "createTime": "2026-08-20T17:49:42.289618Z",
+        "updateTime": "2026-08-20T17:49:42.289618Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/contacts/cnt-1",
+        "id": "cnt-1",
+        "fields": {
+          "id": "cnt-1",
+          "phone": "+1 (415) 890-2341",
+          "status": "Customer",
+          "lastContact": "2026-08-14",
+          "email": "sarah.j@peakvc.com",
+          "name": "Sarah Jenkins",
+          "title": "VP of Technology",
+          "company": "Peak Venture Capital"
+        },
+        "createTime": "2026-08-20T17:49:42.289618Z",
+        "updateTime": "2026-08-20T17:49:42.289618Z"
+      }
+    ],
+    "contracts": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/contracts/ctr-3",
+        "id": "ctr-3",
+        "fields": {
+          "startDate": "2026-01-15",
+          "type": "Vendor Infrastructure",
+          "endDate": "2027-01-14",
+          "title": "AWS Enterprise Support & Reserved Instances",
+          "value": 92000,
+          "status": "Active",
+          "party": "Amazon Web Services",
+          "id": "ctr-3"
+        },
+        "createTime": "2026-08-20T17:49:42.502725Z",
+        "updateTime": "2026-08-20T17:49:42.502725Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/contracts/ctr-2",
+        "id": "ctr-2",
+        "fields": {
+          "type": "Retainer SOW",
+          "startDate": "2026-03-01",
+          "endDate": "2027-02-28",
+          "title": "Apex Multi-Portal Security & Retainer Agreement",
+          "status": "Active",
+          "id": "ctr-2",
+          "value": 88000,
+          "party": "Apex Global Financials"
+        },
+        "createTime": "2026-08-20T17:49:42.502725Z",
+        "updateTime": "2026-08-20T17:49:42.502725Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/contracts/ctr-1",
+        "id": "ctr-1",
+        "fields": {
+          "startDate": "2026-01-01",
+          "status": "Active",
+          "title": "Vernika Enterprise Cloud Master Service Agreement",
+          "type": "Client MSA & SLA",
+          "value": 148500,
+          "party": "Peak Venture Capital",
+          "id": "ctr-1",
+          "endDate": "2026-12-31"
+        },
+        "createTime": "2026-08-20T17:49:42.502725Z",
+        "updateTime": "2026-08-20T17:49:42.502725Z"
+      }
+    ],
+    "departments": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/departments/dept-1",
+        "id": "dept-1",
+        "fields": {
+          "code": "ENG",
+          "name": "Engineering & Technology",
+          "headCount": 14,
+          "id": "dept-1",
+          "manager": "Shashank Rajput",
+          "color": "#10b981",
+          "budget": 450000,
+          "openPositions": 3,
+          "managerEmail": "shashank@vernika.io",
+          "description": "Core software architecture, cloud platforms, and AI systems engineering."
+        },
+        "createTime": "2026-08-20T17:49:42.048375Z",
+        "updateTime": "2026-08-20T17:49:42.048375Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/departments/dept-5",
+        "id": "dept-5",
+        "fields": {
+          "managerEmail": "rachel@vernika.io",
+          "manager": "Rachel Green",
+          "budget": 150000,
+          "color": "#8b5cf6",
+          "headCount": 5,
+          "openPositions": 0,
+          "id": "dept-5",
+          "description": "Talent acquisition, employee experience, payroll, and culture.",
+          "code": "HR",
+          "name": "Human Resources"
+        },
+        "createTime": "2026-08-20T17:49:42.048375Z",
+        "updateTime": "2026-08-20T17:49:42.048375Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/departments/dept-4",
+        "id": "dept-4",
+        "fields": {
+          "name": "Marketing & Growth",
+          "code": "MKT",
+          "openPositions": 1,
+          "id": "dept-4",
+          "managerEmail": "aria@vernika.io",
+          "description": "Brand identity, performance marketing, content, and events.",
+          "budget": 210000,
+          "headCount": 6,
+          "manager": "Aria Montgomery",
+          "color": "#f59e0b"
+        },
+        "createTime": "2026-08-20T17:49:42.048375Z",
+        "updateTime": "2026-08-20T17:49:42.048375Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/departments/dept-2",
+        "id": "dept-2",
+        "fields": {
+          "managerEmail": "elena@vernika.io",
+          "id": "dept-2",
+          "code": "PRD",
+          "name": "Product & Design",
+          "color": "#06b6d4",
+          "manager": "Elena Rostova",
+          "description": "UI/UX design systems, product roadmaps, and user experience research.",
+          "headCount": 8,
+          "openPositions": 1,
+          "budget": 280000
+        },
+        "createTime": "2026-08-20T17:49:42.048375Z",
+        "updateTime": "2026-08-20T17:49:42.048375Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/departments/dept-6",
+        "id": "dept-6",
+        "fields": {
+          "managerEmail": "david@vernika.io",
+          "color": "#ec4899",
+          "id": "dept-6",
+          "budget": 240000,
+          "description": "Corporate accounting, financial audit, payroll compliance, and treasury.",
+          "openPositions": 1,
+          "name": "Finance & Operations",
+          "code": "FIN",
+          "manager": "David Chen",
+          "headCount": 5
+        },
+        "createTime": "2026-08-20T17:49:42.048375Z",
+        "updateTime": "2026-08-20T17:49:42.048375Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/departments/dept-3",
+        "id": "dept-3",
+        "fields": {
+          "budget": 320000,
+          "managerEmail": "marcus@vernika.io",
+          "openPositions": 2,
+          "manager": "Marcus Vance",
+          "color": "#3b82f6",
+          "id": "dept-3",
+          "description": "Global enterprise sales, customer success, and partner acquisitions.",
+          "headCount": 10,
+          "name": "Sales & Business Dev",
+          "code": "SLS"
+        },
+        "createTime": "2026-08-20T17:49:42.048375Z",
+        "updateTime": "2026-08-20T17:49:42.048375Z"
+      }
+    ],
+    "emails": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/emails/eml-4",
+        "id": "eml-4",
+        "fields": {
+          "read": true
+        },
+        "createTime": "2026-08-17T12:50:51.166833Z",
+        "updateTime": "2026-08-17T12:50:51.166833Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/emails/eml-1",
+        "id": "eml-1",
+        "fields": {
+          "read": true
+        },
+        "createTime": "2026-08-17T12:50:47.948812Z",
+        "updateTime": "2026-08-17T12:50:47.948812Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/emails/eml-3",
+        "id": "eml-3",
+        "fields": {
+          "read": true
+        },
+        "createTime": "2026-08-17T12:50:47.662942Z",
+        "updateTime": "2026-08-17T12:50:47.662942Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/emails/mail-1787222556586-y6nx",
+        "id": "mail-1787222556586-y6nx",
+        "fields": {
+          "time": "16:12",
+          "snippet": "Dear Accounts Team,\n\nThis is a friendly reminder regarding Invoice #INV-2026-088 which was issued on the 1st of the mont",
+          "category": "Work",
+          "folder": "sent",
+          "id": "mail-1787222556586-y6nx",
+          "hasAttachments": false,
+          "date": "2026-08-20",
+          "fromAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "fromEmail": "shashank@vernika.io",
+          "subject": "Invoice & Payment Schedule Notification",
+          "attachments": [],
+          "fromName": "Shashank Rajput",
+          "body": "Dear Accounts Team,\n\nThis is a friendly reminder regarding Invoice #INV-2026-088 which was issued on the 1st of the month.\n\nAccording to our records, the payment is scheduled for settlement this week. Please find the PDF statement attached for your reference.\n\nIf you require updated tax documentation or bank details, please let us know.\n\nThank you,\nFinance Operations | Vernika Business Suite",
+          "toEmail": "priya@vernika.io",
+          "starred": false,
+          "important": false,
+          "read": true
+        },
+        "createTime": "2026-08-20T10:42:36.913012Z",
+        "updateTime": "2026-08-20T10:42:36.913012Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/emails/mail-1",
+        "id": "mail-1",
+        "fields": {
+          "read": true
+        },
+        "createTime": "2026-08-18T15:28:24.463155Z",
+        "updateTime": "2026-08-18T15:28:24.463155Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/emails/eml-2",
+        "id": "eml-2",
+        "fields": {
+          "read": true
+        },
+        "createTime": "2026-08-17T12:31:12.725117Z",
+        "updateTime": "2026-08-17T12:31:12.725117Z"
+      }
+    ],
+    "employeeDocuments": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employeeDocuments/doc-3",
+        "id": "doc-3",
+        "fields": {
+          "id": "doc-3",
+          "title": "Certificate of Employment & Experience Verification",
+          "status": "Issued",
+          "employeeId": "emp-5",
+          "position": "Full Stack Developer",
+          "issueDate": "2026-01-10",
+          "documentType": "experience_letter",
+          "department": "Engineering & Technology",
+          "employeeName": "Liam O'Connor",
+          "data": {
+            "tenureEnd": "Present",
+            "tenureStart": "2023-08-15",
+            "performanceRating": "Exceeds Expectations (4.8/5.0)",
+            "authorizedSignatory": "Shashank Rajput, Chief Technology Officer"
+          }
+        },
+        "createTime": "2026-08-20T17:49:43.465770Z",
+        "updateTime": "2026-08-20T17:49:43.465770Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employeeDocuments/doc-2",
+        "id": "doc-2",
+        "fields": {
+          "documentType": "offer_letter",
+          "department": "Engineering & Technology",
+          "data": {
+            "baseSalary": "$9,500/mo",
+            "annualCTC": "$114,000",
+            "reportingManager": "Shashank Rajput (CTO)",
+            "signingBonus": "$5,000",
+            "joiningDate": "2023-06-20",
+            "probationMonths": 3
+          },
+          "position": "Senior Cloud Engineer",
+          "id": "doc-2",
+          "employeeId": "emp-4",
+          "employeeName": "Priya Sharma",
+          "issueDate": "2023-06-01",
+          "status": "Signed",
+          "title": "Official Employment Offer & Appointment Letter"
+        },
+        "createTime": "2026-08-20T17:49:43.465770Z",
+        "updateTime": "2026-08-20T17:49:43.465770Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employeeDocuments/doc-1",
+        "id": "doc-1",
+        "fields": {
+          "data": {
+            "validUntil": "2028-12-31",
+            "badgeNumber": "VNK-EXEC-001",
+            "bloodGroup": "O+",
+            "accessLevel": "Tier 5 (All Facilities & Server Rooms)",
+            "emergencyContact": "Mrs. Rajput (+1 555-019-2831)"
+          },
+          "employeeId": "emp-1",
+          "employeeName": "Shashank Rajput",
+          "status": "Issued",
+          "id": "doc-1",
+          "department": "Engineering & Technology",
+          "position": "Chief Technology Officer",
+          "documentType": "id_card",
+          "title": "Executive Digital Corporate ID Badge",
+          "issueDate": "2023-01-15"
+        },
+        "createTime": "2026-08-20T17:49:43.465770Z",
+        "updateTime": "2026-08-20T17:49:43.465770Z"
+      }
+    ],
+    "employees": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employees/TndfZuBjXDTWCMneF7ZFT4x8iuD2",
+        "id": "TndfZuBjXDTWCMneF7ZFT4x8iuD2",
+        "fields": {
+          "name": "Rachel Green",
+          "updatedAt": "2026-08-20T16:03:20.896Z",
+          "migratedFrom": "rachel",
+          "department": "Human Resources",
+          "position": "Senior Talent Acquisition Specialist",
+          "role": "employee",
+          "id": "TndfZuBjXDTWCMneF7ZFT4x8iuD2",
+          "loginEnabled": true,
+          "email": "rachel@vernika.io",
+          "firebaseUid": "TndfZuBjXDTWCMneF7ZFT4x8iuD2",
+          "employeeId": "VRN-008",
+          "username": "rachel"
+        },
+        "createTime": "2026-08-20T12:19:55.012986Z",
+        "updateTime": "2026-08-20T16:03:20.906653Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employees/kBfg4AuWNVPIcSqabeI8uU4PW7U2",
+        "id": "kBfg4AuWNVPIcSqabeI8uU4PW7U2",
+        "fields": {
+          "employeeId": "VRN-006",
+          "id": "kBfg4AuWNVPIcSqabeI8uU4PW7U2",
+          "migratedFrom": "aria",
+          "department": "Marketing & Growth",
+          "name": "Aria Montgomery",
+          "firebaseUid": "kBfg4AuWNVPIcSqabeI8uU4PW7U2",
+          "username": "aria",
+          "updatedAt": "2026-08-20T16:03:20.087Z",
+          "loginEnabled": true,
+          "position": "Growth Marketing Director",
+          "email": "aria@vernika.io",
+          "role": "employee"
+        },
+        "createTime": "2026-08-20T12:19:53.324123Z",
+        "updateTime": "2026-08-20T16:03:20.098979Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employees/zpUVs0GKmDMTVmcO5P6oHIdIw8y2",
+        "id": "zpUVs0GKmDMTVmcO5P6oHIdIw8y2",
+        "fields": {
+          "username": "david",
+          "department": "Finance & Operations",
+          "firebaseUid": "zpUVs0GKmDMTVmcO5P6oHIdIw8y2",
+          "role": "employee",
+          "loginEnabled": true,
+          "position": "Finance Operations Manager",
+          "employeeId": "VRN-007",
+          "id": "zpUVs0GKmDMTVmcO5P6oHIdIw8y2",
+          "name": "David Chen",
+          "email": "david@vernika.io",
+          "updatedAt": "2026-08-20T16:03:20.530Z",
+          "migratedFrom": "david"
+        },
+        "createTime": "2026-08-20T12:19:54.184825Z",
+        "updateTime": "2026-08-20T16:03:20.541521Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employees/pmjE5sfXErQZYnzaoMnNuphSbV83",
+        "id": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+        "fields": {
+          "title": "Senior Cloud Engineer",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "migratedFrom": "priya",
+          "employeeId": "VRN-004",
+          "auxStatus": "Wrap Up",
+          "name": "Priya Sharma",
+          "username": "priya",
+          "updatedAt": "2026-08-20T18:26:38.632Z",
+          "loginEnabled": true,
+          "allowedModules": [
+            "dashboard",
+            "attendance",
+            "leaves",
+            "projects",
+            "tasks",
+            "chat",
+            "announcements",
+            "ai_assistant",
+            "aux_status",
+            "payroll",
+            "expenses",
+            "meetings"
+          ],
+          "auxStartTime": "23:56",
+          "position": "Senior Cloud Engineer",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "department": "Engineering & Technology",
+          "id": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "firebaseUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "updatedByEmail": "priya@vernika.io",
+          "email": "priya@vernika.io",
+          "canViewFullRoster": false,
+          "auxReason": null,
+          "status": "Active",
+          "role": "employee"
+        },
+        "createTime": "2026-08-20T12:19:51.437475Z",
+        "updateTime": "2026-08-20T18:26:38.811491Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employees/JMm9NsIqbjTilGtktTNhjEjAT3j2",
+        "id": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+        "fields": {
+          "loginEnabled": true,
+          "updatedByEmail": "shashank@vernika.io",
+          "role": "admin",
+          "canViewFullRoster": true,
+          "employeeId": "VRN-001",
+          "migratedFrom": "shashank",
+          "position": "Chief Technology Officer & Administrator",
+          "department": "Engineering & Technology",
+          "email": "shashank@vernika.io",
+          "updatedAt": "2026-08-20T18:24:58.950Z",
+          "id": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "allowedModules": [
+            "dashboard",
+            "sheets",
+            "ai_assistant",
+            "mail",
+            "calendar",
+            "meetings",
+            "chat",
+            "announcements",
+            "tasks",
+            "projects",
+            "attendance",
+            "leaves",
+            "aux_status",
+            "tracking",
+            "employees",
+            "departments",
+            "positions",
+            "orgtree",
+            "payroll",
+            "expenses",
+            "invoicing",
+            "crm",
+            "settings"
+          ],
+          "name": "Shashank Rajput",
+          "username": "shashank",
+          "firebaseUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+        },
+        "createTime": "2026-08-20T12:19:47.757403Z",
+        "updateTime": "2026-08-20T18:24:59.171305Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employees/g6Vh2oCGVvYWmobUKxXLtvaWHEg1",
+        "id": "g6Vh2oCGVvYWmobUKxXLtvaWHEg1",
+        "fields": {
+          "migratedFrom": "marcus",
+          "id": "g6Vh2oCGVvYWmobUKxXLtvaWHEg1",
+          "firebaseUid": "g6Vh2oCGVvYWmobUKxXLtvaWHEg1",
+          "updatedAt": "2026-08-20T16:03:18.996Z",
+          "name": "Marcus Vance",
+          "username": "marcus",
+          "loginEnabled": true,
+          "employeeId": "VRN-003",
+          "department": "Sales & Business Dev",
+          "email": "marcus@vernika.io",
+          "position": "Head of Global Sales",
+          "role": "admin"
+        },
+        "createTime": "2026-08-20T12:19:50.571975Z",
+        "updateTime": "2026-08-20T16:03:19.006851Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employees/L71XopMWpOW6HAUl5i92Myc8nFs2",
+        "id": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+        "fields": {
+          "loginEnabled": true,
+          "allowedModules": [
+            "dashboard",
+            "attendance",
+            "leaves",
+            "projects",
+            "tasks",
+            "chat",
+            "announcements",
+            "aux_status",
+            "payroll",
+            "expenses",
+            "meetings",
+            "mail",
+            "calendar",
+            "employees"
+          ],
+          "name": "Liam O'Connor",
+          "migratedFrom": "liam",
+          "canViewFullRoster": false,
+          "position": "Full Stack Developer",
+          "department": "Engineering & Technology",
+          "auxStatus": "Wrap Up",
+          "id": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+          "firebaseUid": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+          "employeeId": "VRN-005",
+          "auxStartTime": "21:07",
+          "username": "liam",
+          "updatedAt": "2026-08-20T16:03:19.744Z",
+          "email": "liam@vernika.io",
+          "role": "employee"
+        },
+        "createTime": "2026-08-20T12:19:52.376946Z",
+        "updateTime": "2026-08-20T16:03:19.759622Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/employees/0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+        "id": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+        "fields": {
+          "loginEnabled": true,
+          "id": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+          "username": "elena",
+          "email": "elena@vernika.io",
+          "position": "VP of Product Experience",
+          "name": "Elena Rostova",
+          "migratedFrom": "elena",
+          "department": "Product & Design",
+          "firebaseUid": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+          "employeeId": "VRN-002",
+          "updatedAt": "2026-08-20T16:03:17.967Z",
+          "role": "admin"
+        },
+        "createTime": "2026-08-20T12:19:49.175708Z",
+        "updateTime": "2026-08-20T16:03:17.977472Z"
+      }
+    ],
+    "expenses": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787065074269",
+        "id": "exp-1787065074269",
+        "fields": {
+          "date": "2026-08-18",
+          "department": "Engineering & Technology",
+          "category": "Meals",
+          "reviewedDate": "2026-08-18",
+          "id": "exp-1787065074269",
+          "title": "Bus",
+          "amount": 1000,
+          "status": "Approved",
+          "employeeId": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "reviewedBy": "Shashank Rajput",
+          "notes": "Ticket ",
+          "employeeName": "Liam O'Connor"
+        },
+        "createTime": "2026-08-18T14:57:54.450068Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787221983720",
+        "id": "exp-1787221983720",
+        "fields": {
+          "status": "Pending",
+          "amount": 100,
+          "description": "Test",
+          "notes": "Test meal claim",
+          "id": "exp-1787221983720",
+          "category": "Meals",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "employeeName": "Priya Sharma",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "title": "Test",
+          "department": "Engineering & Technology",
+          "date": "2026-08-20"
+        },
+        "createTime": "2026-08-20T10:33:03.878672Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787250457748",
+        "id": "exp-1787250457748",
+        "fields": {
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "category": "Meals",
+          "title": "Testing",
+          "notes": "1 test",
+          "department": "Engineering & Technology",
+          "updatedAt": "2026-08-20T18:27:37.749Z",
+          "id": "exp-1787250457748",
+          "description": "Testing",
+          "amount": 100,
+          "employeeName": "Priya Sharma",
+          "date": "2026-08-20",
+          "updatedByEmail": "priya@vernika.io",
+          "status": "Pending"
+        },
+        "createTime": "2026-08-20T18:27:41.411380Z",
+        "updateTime": "2026-08-20T18:27:41.411380Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787250459842",
+        "id": "exp-1787250459842",
+        "fields": {
+          "title": "Testing",
+          "department": "Engineering & Technology",
+          "description": "Testing",
+          "amount": 100,
+          "date": "2026-08-20",
+          "status": "Pending",
+          "updatedByEmail": "priya@vernika.io",
+          "notes": "1 test",
+          "id": "exp-1787250459842",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "updatedAt": "2026-08-20T18:27:39.842Z",
+          "employeeName": "Priya Sharma",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "category": "Meals"
+        },
+        "createTime": "2026-08-20T18:27:41.458429Z",
+        "updateTime": "2026-08-20T18:27:41.458429Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-2",
+        "id": "exp-2",
+        "fields": {
+          "reviewedBy": "Shashank Rajput",
+          "updatedByEmail": "shashank@vernika.io",
+          "status": "Rejected",
+          "updatedAt": "2026-08-20T18:30:05.352Z",
+          "reviewedDate": "2026-08-20",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+        },
+        "createTime": "2026-08-17T12:34:12.803683Z",
+        "updateTime": "2026-08-20T18:30:05.553605Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787250460774",
+        "id": "exp-1787250460774",
+        "fields": {
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "description": "Testing",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "amount": 100,
+          "updatedAt": "2026-08-20T18:27:40.775Z",
+          "id": "exp-1787250460774",
+          "status": "Pending",
+          "department": "Engineering & Technology",
+          "updatedByEmail": "priya@vernika.io",
+          "title": "Testing",
+          "category": "Meals",
+          "notes": "1 test",
+          "date": "2026-08-20",
+          "employeeName": "Priya Sharma"
+        },
+        "createTime": "2026-08-20T18:27:41.479184Z",
+        "updateTime": "2026-08-20T18:27:41.479184Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787250458577",
+        "id": "exp-1787250458577",
+        "fields": {
+          "date": "2026-08-20",
+          "id": "exp-1787250458577",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "status": "Pending",
+          "notes": "1 test",
+          "updatedAt": "2026-08-20T18:27:38.578Z",
+          "employeeName": "Priya Sharma",
+          "category": "Meals",
+          "amount": 100,
+          "description": "Testing",
+          "department": "Engineering & Technology",
+          "title": "Testing",
+          "updatedByEmail": "priya@vernika.io"
+        },
+        "createTime": "2026-08-20T18:27:41.438863Z",
+        "updateTime": "2026-08-20T18:27:41.438863Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787250461562",
+        "id": "exp-1787250461562",
+        "fields": {
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "department": "Engineering & Technology",
+          "description": "Testing",
+          "notes": "1 test",
+          "category": "Meals",
+          "title": "Testing",
+          "status": "Pending",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "amount": 100,
+          "date": "2026-08-20",
+          "id": "exp-1787250461562",
+          "updatedByEmail": "priya@vernika.io",
+          "employeeName": "Priya Sharma",
+          "updatedAt": "2026-08-20T18:27:41.562Z"
+        },
+        "createTime": "2026-08-20T18:27:41.782301Z",
+        "updateTime": "2026-08-20T18:27:41.782301Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787250461295",
+        "id": "exp-1787250461295",
+        "fields": {
+          "updatedAt": "2026-08-20T18:27:41.296Z",
+          "date": "2026-08-20",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "employeeName": "Priya Sharma",
+          "id": "exp-1787250461295",
+          "amount": 100,
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "status": "Pending",
+          "title": "Testing",
+          "updatedByEmail": "priya@vernika.io",
+          "category": "Meals",
+          "department": "Engineering & Technology",
+          "description": "Testing",
+          "notes": "1 test"
+        },
+        "createTime": "2026-08-20T18:27:41.501016Z",
+        "updateTime": "2026-08-20T18:27:41.501016Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/expenses/exp-1787224640302",
+        "id": "exp-1787224640302",
+        "fields": {
+          "id": "exp-1787224640302",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "department": "Engineering & Technology",
+          "notes": "aas",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "description": "2 test",
+          "category": "Software",
+          "status": "Pending",
+          "amount": 1000,
+          "employeeName": "Priya Sharma",
+          "title": "2 test",
+          "date": "2026-08-20"
+        },
+        "createTime": "2026-08-20T11:17:20.489179Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      }
+    ],
+    "invoices": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/invoices/inv-2",
+        "id": "inv-2",
+        "fields": {
+          "clientEmail": "sarah@peakvc.com",
+          "status": "Paid",
+          "total": 148500,
+          "items": [
+            {
+              "description": "Vernika Cloud Enterprise Annual Subscription",
+              "id": "itm-4",
+              "quantity": 1,
+              "total": 120000,
+              "unitPrice": 120000
+            },
+            {
+              "quantity": 1,
+              "total": 15000,
+              "description": "Premium 24/7 SLA & VIP Support",
+              "id": "itm-5",
+              "unitPrice": 15000
+            }
+          ],
+          "invoiceNumber": "INV-2026-0088",
+          "dueDate": "2026-08-15",
+          "id": "inv-2",
+          "subtotal": 135000,
+          "clientName": "Peak Venture Capital",
+          "issueDate": "2026-07-15",
+          "tax": 13500,
+          "paymentMethod": "Credit Card / Stripe",
+          "clientId": "cli-2"
+        },
+        "createTime": "2026-08-20T17:49:42.714610Z",
+        "updateTime": "2026-08-20T17:49:42.714610Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/invoices/inv-3",
+        "id": "inv-3",
+        "fields": {
+          "clientName": "Vanguard Logistics",
+          "clientEmail": "carlos@vanguardlogistics.com",
+          "invoiceNumber": "INV-2026-0087",
+          "total": 30800,
+          "items": [
+            {
+              "description": "Mobile Geofencing Module Custom Deployment",
+              "id": "itm-6",
+              "total": 28000,
+              "unitPrice": 28000,
+              "quantity": 1
+            }
+          ],
+          "subtotal": 28000,
+          "dueDate": "2026-07-31",
+          "status": "Paid",
+          "issueDate": "2026-07-01",
+          "tax": 2800,
+          "clientId": "cli-3",
+          "id": "inv-3",
+          "paymentMethod": "ACH Transfer"
+        },
+        "createTime": "2026-08-20T17:49:42.714610Z",
+        "updateTime": "2026-08-20T17:49:42.714610Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/invoices/inv-1",
+        "id": "inv-1",
+        "fields": {
+          "subtotal": 48500,
+          "dueDate": "2026-08-31",
+          "id": "inv-1",
+          "clientEmail": "alex@apexfinancials.com",
+          "tax": 4850,
+          "paymentMethod": "Wire Transfer / ACH",
+          "issueDate": "2026-08-01",
+          "total": 53350,
+          "status": "Sent",
+          "items": [
+            {
+              "id": "itm-1",
+              "unitPrice": 35000,
+              "total": 35000,
+              "quantity": 1,
+              "description": "Enterprise License - Tier 1 (50 seats)"
+            },
+            {
+              "id": "itm-2",
+              "total": 5000,
+              "unitPrice": 250,
+              "description": "Dedicated Solution Architecture Support",
+              "quantity": 20
+            },
+            {
+              "unitPrice": 8500,
+              "id": "itm-3",
+              "quantity": 1,
+              "description": "Custom Integration Setup & Data Migration",
+              "total": 8500
+            }
+          ],
+          "clientId": "cli-1",
+          "clientName": "Apex Global Financials",
+          "invoiceNumber": "INV-2026-0089"
+        },
+        "createTime": "2026-08-20T17:49:42.714610Z",
+        "updateTime": "2026-08-20T17:49:42.714610Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/invoices/inv-4",
+        "id": "inv-4",
+        "fields": {
+          "tax": 2200,
+          "dueDate": "2026-09-10",
+          "clientId": "cli-1",
+          "total": 24200,
+          "subtotal": 22000,
+          "id": "inv-4",
+          "issueDate": "2026-08-10",
+          "items": [
+            {
+              "id": "itm-7",
+              "unitPrice": 22000,
+              "total": 22000,
+              "quantity": 1,
+              "description": "Vernika Business Suite Q3 Retainer"
+            }
+          ],
+          "status": "Draft",
+          "clientName": "Apex Global Financials",
+          "invoiceNumber": "INV-2026-0090",
+          "clientEmail": "alex@apexfinancials.com"
+        },
+        "createTime": "2026-08-20T17:49:42.714610Z",
+        "updateTime": "2026-08-20T17:49:42.714610Z"
+      }
+    ],
+    "leads": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leads/lead-1",
+        "id": "lead-1",
+        "fields": {
+          "id": "lead-1",
+          "lastContactDate": "2026-08-12",
+          "value": 120000,
+          "email": "jsterling@sterlingcap.com",
+          "phone": "+1 (212) 555-0188",
+          "company": "Sterling Global Capital",
+          "notes": "Requested custom multi-portal security review and SLA sign-off.",
+          "assignedTo": "Marcus Vance",
+          "source": "Referral",
+          "stage": "Proposal",
+          "name": "Jonathan Sterling"
+        },
+        "createTime": "2026-08-20T18:56:24.395800Z",
+        "updateTime": "2026-08-20T18:56:24.395800Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leads/lead-2",
+        "id": "lead-2",
+        "fields": {
+          "company": "Horizon BioPharma",
+          "phone": "+1 (617) 555-0144",
+          "id": "lead-2",
+          "notes": "Contract sent to legal. Expected closure within 5 business days.",
+          "lastContactDate": "2026-08-14",
+          "name": "Claire Beauchamp",
+          "source": "Website",
+          "email": "cbeauchamp@horizonbio.com",
+          "value": 85000,
+          "stage": "Negotiation",
+          "assignedTo": "Marcus Vance"
+        },
+        "createTime": "2026-08-20T18:56:24.934544Z",
+        "updateTime": "2026-08-20T18:56:24.934544Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leads/lead-3",
+        "id": "lead-3",
+        "fields": {
+          "company": "AeroDynamics Aerospace",
+          "email": "dmiller@aerodynamics.io",
+          "value": 210000,
+          "source": "Event",
+          "phone": "+1 (206) 555-0122",
+          "lastContactDate": "2026-08-10",
+          "assignedTo": "Marcus Vance",
+          "notes": "Technical discovery session completed with engineering leads.",
+          "id": "lead-3",
+          "name": "Devon Miller",
+          "stage": "Qualified"
+        },
+        "createTime": "2026-08-18T15:11:08.082121Z",
+        "updateTime": "2026-08-20T18:56:25.452315Z"
+      }
+    ],
+    "leaves": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leaves/lev-1787224694922",
+        "id": "lev-1787224694922",
+        "fields": {
+          "employeeName": "Priya Sharma",
+          "reviewedBy": "Admin",
+          "startDate": "2026-08-20",
+          "type": "Paid Leave",
+          "requestedOn": "2026-08-20",
+          "updatedByEmail": "shashank@vernika.io",
+          "days": 3,
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "status": "Approved",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "appliedOn": "2026-03-12",
+          "id": "lev-1787224694922",
+          "reviewedOn": "2026-08-20",
+          "endDate": "2026-08-20",
+          "reason": "ss",
+          "updatedAt": "2026-08-20T18:25:53.211Z"
+        },
+        "createTime": "2026-08-20T11:18:15.055582Z",
+        "updateTime": "2026-08-20T18:25:53.419081Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leaves/lev-3",
+        "id": "lev-3",
+        "fields": {
+          "status": "Rejected",
+          "reviewedBy": "Admin",
+          "reviewedOn": "2026-08-18"
+        },
+        "createTime": "2026-08-18T15:06:28.435259Z",
+        "updateTime": "2026-08-18T15:06:28.435259Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leaves/lev-1",
+        "id": "lev-1",
+        "fields": {
+          "status": "Rejected",
+          "reviewedBy": "Admin",
+          "reviewedOn": "2026-08-20"
+        },
+        "createTime": "2026-08-18T15:06:27.610612Z",
+        "updateTime": "2026-08-20T11:17:39.292473Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leaves/lev-1787065573436",
+        "id": "lev-1787065573436",
+        "fields": {
+          "status": "Approved",
+          "requestedOn": "2026-08-18",
+          "startDate": "2026-03-25",
+          "reason": "Medical",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "employeeName": "Priya Sharma",
+          "endDate": "2026-03-27",
+          "reviewedOn": "2026-08-18",
+          "appliedOn": "2026-03-12",
+          "type": "Sick Leave",
+          "id": "lev-1787065573436",
+          "reviewedBy": "Admin",
+          "days": 3,
+          "updatedAt": "2026-08-20T15:57:22.964Z"
+        },
+        "createTime": "2026-08-18T15:06:13.725179Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/leaves/lev-1787069941126",
+        "id": "lev-1787069941126",
+        "fields": {
+          "reason": "m",
+          "type": "Casual Leave",
+          "reviewedBy": "Admin",
+          "id": "lev-1787069941126",
+          "status": "Rejected",
+          "days": 3,
+          "endDate": "2026-08-27",
+          "employeeName": "Priya Sharma",
+          "startDate": "2026-08-26",
+          "reviewedOn": "2026-08-18",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "employeeId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "appliedOn": "2026-03-12",
+          "requestedOn": "2026-08-18"
+        },
+        "createTime": "2026-08-18T16:19:01.446150Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      }
+    ],
+    "meetings": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/meetings/mtg-1787064232781",
+        "id": "mtg-1787064232781",
+        "fields": {
+          "department": "Engineering & Technology",
+          "title": "1-on-1 Call: Priya Sharma & Shashank Rajput",
+          "id": "mtg-1787064232781",
+          "hostName": "Priya Sharma",
+          "durationMinutes": 30,
+          "status": "Ended",
+          "meetingLink": "https://meet.vernika.io/1-on-1-call-priya-sharma-shashank-rajput",
+          "hostEmail": "priya@vernika.io",
+          "updatedAt": "2026-08-20T15:57:22.964Z",
+          "liveMessages": [
+            {
+              "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+              "meetingId": "mtg-1787064232781",
+              "time": "20:14",
+              "text": ".",
+              "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+              "senderName": "Priya Sharma",
+              "id": "mmsg-1787064260625-h62"
+            }
+          ],
+          "scheduledTime": "Now (Live Real-Time Call)",
+          "meetingType": "1-on-1",
+          "activeParticipants": [],
+          "participants": [
+            "Priya Sharma",
+            "Shashank Rajput"
+          ]
+        },
+        "createTime": "2026-08-18T14:43:53.144903Z",
+        "updateTime": "2026-08-20T15:57:23.004861Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/meetings/mtg-1786969083083",
+        "id": "mtg-1786969083083",
+        "fields": {
+          "title": "1-on-1 Call: Shashank Rajput & Elena Rostova",
+          "activeParticipants": [
+            {
+              "id": "usr-admin-1",
+              "isVideoOff": true,
+              "role": "admin",
+              "isScreenSharing": false,
+              "isHandRaised": false,
+              "joinedAt": "2026-08-17T12:18:11.677Z",
+              "isMuted": false,
+              "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+              "name": "Shashank Rajput"
+            }
+          ],
+          "department": "Engineering & Technology",
+          "hostName": "Shashank Rajput",
+          "meetingType": "1-on-1",
+          "hostEmail": "shashank@vernika.io",
+          "participants": [
+            "Shashank Rajput",
+            "Elena Rostova"
+          ],
+          "liveMessages": [],
+          "status": "Live",
+          "durationMinutes": 30,
+          "id": "mtg-1786969083083",
+          "scheduledTime": "Now (Live Real-Time Call)",
+          "meetingLink": "https://meet.vernika.io/1-on-1-call-shashank-rajput-elena-rostova"
+        },
+        "createTime": "2026-08-17T12:18:03.454759Z",
+        "updateTime": "2026-08-17T12:18:21.944507Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/meetings/mtg-1787065766144",
+        "id": "mtg-1787065766144",
+        "fields": {
+          "status": "Ended",
+          "title": "1-on-1 Audio Call: Shashank Rajput & Priya Sharma",
+          "id": "mtg-1787065766144",
+          "meetingType": "1-on-1",
+          "hostName": "Shashank Rajput",
+          "participants": [
+            "Shashank Rajput",
+            "Priya Sharma"
+          ],
+          "department": "Engineering & Technology",
+          "scheduledTime": "Now (Live Real-Time Call)",
+          "meetingLink": "https://meet.vernika.io/1-on-1-audio-call-shashank-rajput-priya-sharma",
+          "liveMessages": [],
+          "durationMinutes": 30,
+          "activeParticipants": [],
+          "hostEmail": "shashank@vernika.io"
+        },
+        "createTime": "2026-08-18T15:09:26.467114Z",
+        "updateTime": "2026-08-18T15:10:47.191484Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/meetings/mtg-1",
+        "id": "mtg-1",
+        "fields": {
+          "title": "Daily Engineering & Architecture Standup",
+          "meetingType": "Team Sync",
+          "id": "mtg-1",
+          "status": "Ended",
+          "activeParticipants": [],
+          "scheduledTime": "10:00 AM - 10:30 AM",
+          "hostName": "Shashank Rajput",
+          "durationMinutes": 30,
+          "department": "Engineering & Technology",
+          "meetingLink": "https://meet.vernika.io/eng-standup",
+          "hostEmail": "shashank@vernika.io",
+          "participants": [
+            "Shashank Rajput",
+            "Priya Sharma",
+            "Liam O'Connor"
+          ]
+        },
+        "createTime": "2026-08-17T12:07:36.247324Z",
+        "updateTime": "2026-08-17T12:08:01.936958Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/meetings/mtg-1786969800025",
+        "id": "mtg-1786969800025",
+        "fields": {
+          "hostName": "Priya Sharma",
+          "title": "1-on-1 Call: Priya Sharma & Shashank Rajput",
+          "hostEmail": "priya@vernika.io",
+          "meetingLink": "https://meet.vernika.io/1-on-1-call-priya-sharma-shashank-rajput",
+          "activeParticipants": [],
+          "status": "Ended",
+          "meetingType": "1-on-1",
+          "participants": [
+            "Priya Sharma",
+            "Shashank Rajput"
+          ],
+          "scheduledTime": "Now (Live Real-Time Call)",
+          "id": "mtg-1786969800025",
+          "durationMinutes": 30,
+          "liveMessages": [],
+          "department": "Engineering & Technology"
+        },
+        "createTime": "2026-08-17T12:30:00.368420Z",
+        "updateTime": "2026-08-17T12:30:26.601830Z"
+      }
+    ],
+    "migrationBackups": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/migrationBackups/identity-cleanup-2026-08-20T15-57-07-828Z",
+        "id": "identity-cleanup-2026-08-20T15-57-07-828Z",
+        "fields": {
+          "changes": [
+            {
+              "canonical": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+              "legacy": "emp-4",
+              "email": "priya@vernika.io",
+              "type": "merge-and-delete-legacy-employee"
+            },
+            {
+              "type": "merge-and-delete-legacy-employee",
+              "canonical": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+              "legacy": "emp-5",
+              "email": "liam@vernika.io"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787224559901"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787219489802"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787221944267"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787067432910"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787224616892"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787065046169"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787224606043"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787219509603"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787224598206"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787221945173"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "auxLogs/aux-1787217415070"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787065519415-9csz"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787222634384-1yiv"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-3"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787063810975-bx05"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787217499052-3p2v"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787222670736-faaw"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786969738088-t2se"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787219450580-fydr"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-2"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786984205487-a83y"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787065668148-owzc"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786983403339-i36p"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786969731679-qdkp"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786969695243-ba47"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786969083504-eje4"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787222449749-z4re"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787224735637-mc9f"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787240556665-bka5"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786983024424-8sdl"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786969800413-7ze2"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787064233209-4y2x"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787065766524-3n9x"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786968400084-7pb0"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-5"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787224651709-78up"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1787065537915-411h"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "chatMessages/msg-1786968362382-gqli"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "meetings/mtg-1787064232781"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "attendance/att-1787222617579"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "attendance/att-1787213367745"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "leaves/lev-1787224694922"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "leaves/lev-1787065573436"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "leaves/lev-1787069941126"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "expenses/exp-1787065074269"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "expenses/exp-1787221983720"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "expenses/exp-1787224640302"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "activityLogs/act-1787135557930"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "activityLogs/act-1787135558821"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "activityLogs/act-1787135558965"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787069941407-bav5"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787224652006-ozzj"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787224735910-iwiq"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787222670964-99ow"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787224695083-tkeg"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787222634642-hq04"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787065573652-z9fe"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787069969670-qblg"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787222449993-yyor"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787240556866-q6ef"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787224659320-6dsd"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787065586549-osl3"
+            },
+            {
+              "type": "normalize-reference",
+              "path": "notifications/notif-1787221964417-bsiv"
+            }
+          ],
+          "profileRefs": [
+            {
+              "uid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+              "employeeId": "VRN-001",
+              "email": "shashank@vernika.io",
+              "legacyId": "emp-1"
+            },
+            {
+              "uid": "0BkQ2DU6sOgFWHuQ7fvwWd9OOhA2",
+              "legacyId": "emp-2",
+              "employeeId": "VRN-002",
+              "email": "elena@vernika.io"
+            },
+            {
+              "email": "marcus@vernika.io",
+              "uid": "g6Vh2oCGVvYWmobUKxXLtvaWHEg1",
+              "legacyId": "emp-3",
+              "employeeId": "VRN-003"
+            },
+            {
+              "email": "priya@vernika.io",
+              "employeeId": "VRN-004",
+              "legacyId": "emp-4",
+              "uid": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+            },
+            {
+              "legacyId": "emp-5",
+              "email": "liam@vernika.io",
+              "uid": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+              "employeeId": "VRN-005"
+            },
+            {
+              "email": "aria@vernika.io",
+              "employeeId": "VRN-006",
+              "legacyId": "emp-6",
+              "uid": "kBfg4AuWNVPIcSqabeI8uU4PW7U2"
+            },
+            {
+              "legacyId": "emp-7",
+              "email": "david@vernika.io",
+              "employeeId": "VRN-007",
+              "uid": "zpUVs0GKmDMTVmcO5P6oHIdIw8y2"
+            },
+            {
+              "uid": "TndfZuBjXDTWCMneF7ZFT4x8iuD2",
+              "legacyId": "emp-8",
+              "email": "rachel@vernika.io",
+              "employeeId": "VRN-008"
+            }
+          ],
+          "legacySnapshots": [
+            {
+              "data": {
+                "canViewFullRoster": false,
+                "auxReason": null,
+                "loginEnabled": true,
+                "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+                "name": "Priya Sharma",
+                "title": "Senior Cloud Engineer",
+                "department": "Engineering & Technology",
+                "auxStatus": "Wrap Up",
+                "status": "Active",
+                "allowedModules": [
+                  "dashboard",
+                  "attendance",
+                  "leaves",
+                  "projects",
+                  "tasks",
+                  "chat",
+                  "announcements",
+                  "ai_assistant",
+                  "aux_status",
+                  "payroll",
+                  "expenses",
+                  "meetings"
+                ],
+                "auxStartTime": "16:46"
+              },
+              "path": "employees/emp-4"
+            },
+            {
+              "data": {
+                "allowedModules": [
+                  "dashboard",
+                  "attendance",
+                  "leaves",
+                  "projects",
+                  "tasks",
+                  "chat",
+                  "announcements",
+                  "aux_status",
+                  "payroll",
+                  "expenses",
+                  "meetings",
+                  "mail",
+                  "calendar",
+                  "employees"
+                ],
+                "loginEnabled": true,
+                "auxStartTime": "21:07",
+                "auxStatus": "Wrap Up",
+                "canViewFullRoster": false
+              },
+              "path": "employees/emp-5"
+            }
+          ],
+          "createdAt": "2026-08-20T15:57:22.483Z"
+        },
+        "createTime": "2026-08-20T15:57:22.596743Z",
+        "updateTime": "2026-08-20T15:57:22.596743Z"
+      }
+    ],
+    "notifications": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787250353414-kaia",
+        "id": "notif-1787250353414-kaia",
+        "fields": {
+          "updatedAt": "2026-08-20T18:25:53.415Z",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "actionUrl": "leaves",
+          "senderName": "Shashank Rajput",
+          "targetUserId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "type": "success",
+          "priority": "low",
+          "updatedByEmail": "shashank@vernika.io",
+          "category": "leave",
+          "id": "notif-1787250353414-kaia",
+          "description": "Your Paid Leave leave request (2026-08-20 to 2026-08-20) was approved by Admin.",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "title": "Leave Approved: Priya Sharma",
+          "time": "Just now",
+          "read": false
+        },
+        "createTime": "2026-08-20T18:25:53.591820Z",
+        "updateTime": "2026-08-20T18:25:53.591820Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787224652006-ozzj",
+        "id": "notif-1787224652006-ozzj",
+        "fields": {
+          "category": "message",
+          "senderName": "Priya Sharma",
+          "title": "Message from Priya Sharma",
+          "targetUserId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "description": "Hello",
+          "type": "info",
+          "updatedByEmail": "priya@vernika.io",
+          "id": "notif-1787224652006-ozzj",
+          "updatedAt": "2026-08-20T18:27:22.108Z",
+          "read": true,
+          "time": "Just now",
+          "actionUrl": "chat",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "priority": "high",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+        },
+        "createTime": "2026-08-20T11:17:32.125477Z",
+        "updateTime": "2026-08-20T18:27:26.259831Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787224735910-iwiq",
+        "id": "notif-1787224735910-iwiq",
+        "fields": {
+          "description": "hellp\\",
+          "category": "message",
+          "updatedByEmail": "shashank@vernika.io",
+          "time": "Just now",
+          "targetUserId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "read": true,
+          "id": "notif-1787224735910-iwiq",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "type": "info",
+          "actionUrl": "chat",
+          "title": "Message from Shashank Rajput",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedAt": "2026-08-20T17:54:18.797Z",
+          "priority": "high",
+          "senderName": "Shashank Rajput"
+        },
+        "createTime": "2026-08-20T11:18:56.027607Z",
+        "updateTime": "2026-08-20T17:54:21.130844Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787222670964-99ow",
+        "id": "notif-1787222670964-99ow",
+        "fields": {
+          "type": "info",
+          "actionUrl": "chat",
+          "category": "message",
+          "updatedAt": "2026-08-20T17:54:18.796Z",
+          "targetRole": "all",
+          "priority": "high",
+          "senderName": "Shashank Rajput",
+          "updatedByEmail": "shashank@vernika.io",
+          "read": true,
+          "description": "hey",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "time": "Just now",
+          "id": "notif-1787222670964-99ow",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "title": "Message from Shashank Rajput"
+        },
+        "createTime": "2026-08-20T10:44:31.060998Z",
+        "updateTime": "2026-08-20T17:54:20.845308Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-3",
+        "id": "notif-3",
+        "fields": {
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "read": true,
+          "updatedAt": "2026-08-20T17:54:18.797Z"
+        },
+        "createTime": "2026-08-18T15:05:50.713382Z",
+        "updateTime": "2026-08-20T17:54:21.492119Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787248295403-dbkr",
+        "id": "notif-1787248295403-dbkr",
+        "fields": {
+          "read": true,
+          "time": "Just now",
+          "updatedByEmail": "priya@vernika.io",
+          "title": "AUX Update: Priya Sharma",
+          "category": "message",
+          "description": "Priya Sharma (Engineering & Technology) switched status to Available - Switched status to Available",
+          "updatedAt": "2026-08-20T18:27:22.108Z",
+          "type": "success",
+          "priority": "medium",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderName": "Priya Sharma",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "notif-1787248295403-dbkr"
+        },
+        "createTime": "2026-08-20T17:51:35.645326Z",
+        "updateTime": "2026-08-20T18:27:27.750652Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787240623829-09w4",
+        "id": "notif-1787240623829-09w4",
+        "fields": {
+          "read": true,
+          "time": "Just now",
+          "updatedByEmail": "priya@vernika.io",
+          "description": "Priya Sharma (Engineering & Technology) switched status to Break - Switched status to Break",
+          "category": "message",
+          "senderName": "Priya Sharma",
+          "title": "AUX Update: Priya Sharma",
+          "priority": "medium",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "type": "info",
+          "updatedAt": "2026-08-20T18:27:22.108Z",
+          "id": "notif-1787240623829-09w4",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-20T15:43:43.998713Z",
+        "updateTime": "2026-08-20T18:27:27.384644Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787224695083-tkeg",
+        "id": "notif-1787224695083-tkeg",
+        "fields": {
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "notif-1787224695083-tkeg",
+          "updatedAt": "2026-08-20T18:27:22.108Z",
+          "time": "Just now",
+          "updatedByEmail": "priya@vernika.io",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "read": true,
+          "actionUrl": "leaves",
+          "priority": "medium",
+          "description": "Paid Leave Leave requested from 2026-08-20 to 2026-08-20. Reason: ss",
+          "title": "New Leave Request: Priya Sharma",
+          "category": "leave",
+          "type": "info",
+          "senderName": "Priya Sharma",
+          "targetRole": "admin"
+        },
+        "createTime": "2026-08-20T11:18:15.195555Z",
+        "updateTime": "2026-08-20T18:27:26.642512Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787222556937-60yz",
+        "id": "notif-1787222556937-60yz",
+        "fields": {
+          "priority": "low",
+          "updatedAt": "2026-08-20T17:54:18.796Z",
+          "title": "Mail Sent: Invoice & Payment Schedule Notification",
+          "updatedByEmail": "shashank@vernika.io",
+          "actionUrl": "mail",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "description": "To priya@vernika.io: Dear Accounts Team,\n\nThis is a friendly reminder regarding Invoice #INV-2026-088 which was issued on the 1st of the mont",
+          "id": "notif-1787222556937-60yz",
+          "category": "mail",
+          "type": "info",
+          "read": true,
+          "time": "Just now"
+        },
+        "createTime": "2026-08-20T10:42:37.036992Z",
+        "updateTime": "2026-08-20T17:54:20.810539Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787222634642-hq04",
+        "id": "notif-1787222634642-hq04",
+        "fields": {
+          "actionUrl": "chat",
+          "read": true,
+          "time": "Just now",
+          "updatedAt": "2026-08-20T18:27:22.108Z",
+          "targetUserId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "category": "message",
+          "description": "hey",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "type": "info",
+          "priority": "high",
+          "title": "Message from Priya Sharma",
+          "senderName": "Priya Sharma",
+          "updatedByEmail": "priya@vernika.io",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "notif-1787222634642-hq04"
+        },
+        "createTime": "2026-08-20T10:43:54.762726Z",
+        "updateTime": "2026-08-20T18:27:25.124579Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787248297396-1znj",
+        "id": "notif-1787248297396-1znj",
+        "fields": {
+          "senderName": "Priya Sharma",
+          "read": true,
+          "updatedAt": "2026-08-20T18:27:22.109Z",
+          "category": "message",
+          "time": "Just now",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "title": "AUX Update: Priya Sharma",
+          "updatedByEmail": "priya@vernika.io",
+          "priority": "medium",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "type": "info",
+          "description": "Priya Sharma (Engineering & Technology) switched status to Meeting - Switched status to Meeting",
+          "id": "notif-1787248297396-1znj"
+        },
+        "createTime": "2026-08-20T17:51:37.650226Z",
+        "updateTime": "2026-08-20T18:27:27.789719Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787069969670-qblg",
+        "id": "notif-1787069969670-qblg",
+        "fields": {
+          "type": "alert",
+          "description": "Your Casual Leave leave request (2026-08-26 to 2026-08-27) was rejected by Admin.",
+          "priority": "high",
+          "targetUserId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "title": "Leave Rejected: Priya Sharma",
+          "actionUrl": "leaves",
+          "category": "leave",
+          "id": "notif-1787069969670-qblg",
+          "time": "Just now",
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedAt": "2026-08-20T17:54:18.795Z",
+          "read": true,
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+        },
+        "createTime": "2026-08-18T16:19:29.833135Z",
+        "updateTime": "2026-08-20T17:54:20.513151Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787222449993-yyor",
+        "id": "notif-1787222449993-yyor",
+        "fields": {
+          "targetUserId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "category": "message",
+          "read": true,
+          "time": "Just now",
+          "updatedByEmail": "priya@vernika.io",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderName": "Priya Sharma",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "notif-1787222449993-yyor",
+          "priority": "high",
+          "actionUrl": "chat",
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "title": "Message from Priya Sharma",
+          "type": "info",
+          "updatedAt": "2026-08-20T18:27:22.108Z",
+          "description": "hello"
+        },
+        "createTime": "2026-08-20T10:40:50.095875Z",
+        "updateTime": "2026-08-20T18:27:24.710546Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-2",
+        "id": "notif-2",
+        "fields": {
+          "updatedAt": "2026-08-20T17:54:18.797Z",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedByEmail": "shashank@vernika.io",
+          "read": true
+        },
+        "createTime": "2026-08-18T15:05:50.694545Z",
+        "updateTime": "2026-08-20T17:54:21.475589Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787248299570-um55",
+        "id": "notif-1787248299570-um55",
+        "fields": {
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "time": "Just now",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "description": "Priya Sharma (Engineering & Technology) switched status to Available - Switched status to Available",
+          "read": true,
+          "updatedByEmail": "priya@vernika.io",
+          "senderName": "Priya Sharma",
+          "updatedAt": "2026-08-20T18:27:22.109Z",
+          "priority": "medium",
+          "category": "message",
+          "title": "AUX Update: Priya Sharma",
+          "id": "notif-1787248299570-um55",
+          "type": "success"
+        },
+        "createTime": "2026-08-20T17:51:39.800311Z",
+        "updateTime": "2026-08-20T18:27:27.809108Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787065587554-enot",
+        "id": "notif-1787065587554-enot",
+        "fields": {
+          "read": true,
+          "time": "Just now",
+          "category": "leave",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "id": "notif-1787065587554-enot",
+          "updatedByEmail": "shashank@vernika.io",
+          "title": "Leave Approved: Liam O'Connor",
+          "priority": "low",
+          "type": "success",
+          "updatedAt": "2026-08-20T17:54:18.795Z",
+          "targetUserId": "VRN-005",
+          "description": "Your Sick leave request (2026-08-20 to 2026-08-21) was approved by Admin.",
+          "actionUrl": "leaves"
+        },
+        "createTime": "2026-08-18T15:06:27.711591Z",
+        "updateTime": "2026-08-20T17:54:20.320296Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787248296861-7b0o",
+        "id": "notif-1787248296861-7b0o",
+        "fields": {
+          "updatedAt": "2026-08-20T18:27:22.109Z",
+          "updatedByEmail": "priya@vernika.io",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "time": "Just now",
+          "description": "Priya Sharma (Engineering & Technology) switched status to Meeting - Switched status to Meeting",
+          "read": true,
+          "senderName": "Priya Sharma",
+          "priority": "medium",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "notif-1787248296861-7b0o",
+          "type": "info",
+          "category": "message",
+          "title": "AUX Update: Priya Sharma"
+        },
+        "createTime": "2026-08-20T17:51:37.086669Z",
+        "updateTime": "2026-08-20T18:27:27.769531Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787224617200-ty7i",
+        "id": "notif-1787224617200-ty7i",
+        "fields": {
+          "title": "AUX Update: Priya Sharma",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "description": "Priya Sharma (Engineering & Technology) switched status to Wrap Up - Supervisory override by Shashank Rajput",
+          "priority": "medium",
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedAt": "2026-08-20T17:54:18.796Z",
+          "type": "info",
+          "read": true,
+          "id": "notif-1787224617200-ty7i",
+          "category": "message",
+          "time": "Just now"
+        },
+        "createTime": "2026-08-20T11:16:57.306821Z",
+        "updateTime": "2026-08-20T17:54:20.944340Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787248238873-xs1e",
+        "id": "notif-1787248238873-xs1e",
+        "fields": {
+          "actionUrl": "chat",
+          "type": "info",
+          "senderName": "Shashank Rajput",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "updatedAt": "2026-08-20T17:54:18.797Z",
+          "description": "Any updates",
+          "priority": "high",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+          "updatedByEmail": "shashank@vernika.io",
+          "category": "message",
+          "time": "Just now",
+          "id": "notif-1787248238873-xs1e",
+          "read": true,
+          "targetUserId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "title": "Message from Shashank Rajput"
+        },
+        "createTime": "2026-08-20T17:50:39.108961Z",
+        "updateTime": "2026-08-20T17:54:21.252758Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787065588382-kbbp",
+        "id": "notif-1787065588382-kbbp",
+        "fields": {
+          "type": "alert",
+          "updatedAt": "2026-08-20T17:54:18.795Z",
+          "description": "Your Casual leave request (2026-08-28 to 2026-08-28) was rejected by Admin.",
+          "actionUrl": "leaves",
+          "priority": "high",
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "category": "leave",
+          "read": true,
+          "title": "Leave Rejected: Priya Sharma",
+          "time": "Just now",
+          "id": "notif-1787065588382-kbbp",
+          "targetUserId": "VRN-004"
+        },
+        "createTime": "2026-08-18T15:06:28.533693Z",
+        "updateTime": "2026-08-20T17:54:20.348226Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787248429918-6mql",
+        "id": "notif-1787248429918-6mql",
+        "fields": {
+          "senderAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "description": "Yes wip",
+          "senderName": "Priya Sharma",
+          "updatedByEmail": "priya@vernika.io",
+          "type": "info",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "category": "message",
+          "id": "notif-1787248429918-6mql",
+          "priority": "high",
+          "read": true,
+          "time": "Just now",
+          "actionUrl": "chat",
+          "targetUserId": "emp",
+          "title": "Message from Priya Sharma",
+          "updatedAt": "2026-08-20T18:27:22.109Z",
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83"
+        },
+        "createTime": "2026-08-20T17:53:53.805002Z",
+        "updateTime": "2026-08-20T18:27:27.826763Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787276761554-bl4h",
+        "id": "notif-1787276761554-bl4h",
+        "fields": {
+          "updatedAt": "2026-08-21T01:46:01.555Z",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "actionUrl": "leaves",
+          "senderName": "Shashank Rajput",
+          "priority": "low",
+          "targetUserId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "time": "Just now",
+          "read": false,
+          "category": "leave",
+          "title": "Leave Approved: Priya Sharma",
+          "id": "notif-1787276761554-bl4h",
+          "type": "success",
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "description": "Your Paid Leave leave request (2026-08-25 to 2026-08-25) was approved by Admin."
+        },
+        "createTime": "2026-08-21T01:46:01.719448Z",
+        "updateTime": "2026-08-21T01:46:01.719448Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787240556866-q6ef",
+        "id": "notif-1787240556866-q6ef",
+        "fields": {
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "senderName": "Shashank Rajput",
+          "time": "Just now",
+          "id": "notif-1787240556866-q6ef",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+          "read": true,
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "priority": "high",
+          "updatedAt": "2026-08-20T17:54:18.797Z",
+          "type": "info",
+          "category": "message",
+          "actionUrl": "chat",
+          "targetUserId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "title": "Message from Shashank Rajput",
+          "description": "hi"
+        },
+        "createTime": "2026-08-20T15:42:37.006198Z",
+        "updateTime": "2026-08-20T17:54:21.146372Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787224659320-6dsd",
+        "id": "notif-1787224659320-6dsd",
+        "fields": {
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "type": "alert",
+          "priority": "high",
+          "id": "notif-1787224659320-6dsd",
+          "title": "Leave Rejected: Liam O'Connor",
+          "category": "leave",
+          "description": "Your Sick leave request (2026-08-20 to 2026-08-21) was rejected by Admin.",
+          "targetUserId": "L71XopMWpOW6HAUl5i92Myc8nFs2",
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedAt": "2026-08-20T17:54:18.796Z",
+          "time": "Just now",
+          "actionUrl": "leaves",
+          "read": true
+        },
+        "createTime": "2026-08-20T11:17:39.442642Z",
+        "updateTime": "2026-08-20T17:54:21.025310Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1",
+        "id": "notif-1",
+        "fields": {
+          "updatedAt": "2026-08-20T18:29:48.938Z",
+          "read": true,
+          "updatedByEmail": "shashank@vernika.io",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2"
+        },
+        "createTime": "2026-08-20T18:29:49.361127Z",
+        "updateTime": "2026-08-20T18:29:49.361127Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787065586549-osl3",
+        "id": "notif-1787065586549-osl3",
+        "fields": {
+          "category": "leave",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "type": "success",
+          "id": "notif-1787065586549-osl3",
+          "description": "Your Sick Leave leave request (2026-03-25 to 2026-03-27) was approved by Admin.",
+          "priority": "low",
+          "actionUrl": "leaves",
+          "targetUserId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "title": "Leave Approved: Priya Sharma",
+          "updatedByEmail": "shashank@vernika.io",
+          "read": true,
+          "updatedAt": "2026-08-20T17:54:18.795Z",
+          "time": "Just now"
+        },
+        "createTime": "2026-08-18T15:06:26.711704Z",
+        "updateTime": "2026-08-20T17:54:20.298222Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787224598537-pxkj",
+        "id": "notif-1787224598537-pxkj",
+        "fields": {
+          "type": "info",
+          "priority": "medium",
+          "description": "Priya Sharma (Engineering & Technology) switched status to Lunch - Supervisory override by Shashank Rajput",
+          "read": true,
+          "time": "Just now",
+          "updatedAt": "2026-08-20T17:54:18.796Z",
+          "id": "notif-1787224598537-pxkj",
+          "updatedByEmail": "shashank@vernika.io",
+          "title": "AUX Update: Priya Sharma",
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "category": "message"
+        },
+        "createTime": "2026-08-20T11:16:38.653522Z",
+        "updateTime": "2026-08-20T17:54:20.923821Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787250398825-svnq",
+        "id": "notif-1787250398825-svnq",
+        "fields": {
+          "senderId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "title": "AUX Update: Priya Sharma",
+          "senderName": "Priya Sharma",
+          "updatedAt": "2026-08-20T18:27:22.109Z",
+          "type": "info",
+          "updatedByEmail": "priya@vernika.io",
+          "priority": "medium",
+          "description": "Priya Sharma (Engineering & Technology) switched status to Wrap Up - Switched status to Wrap Up",
+          "category": "message",
+          "updatedByUid": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "id": "notif-1787250398825-svnq",
+          "read": true,
+          "time": "Just now"
+        },
+        "createTime": "2026-08-20T18:26:39.029556Z",
+        "updateTime": "2026-08-20T18:27:28.243743Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/notifications/notif-1787221964417-bsiv",
+        "id": "notif-1787221964417-bsiv",
+        "fields": {
+          "updatedByUid": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "read": true,
+          "time": "Just now",
+          "senderName": "Shashank Rajput",
+          "category": "message",
+          "description": "Hello Priya",
+          "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "id": "notif-1787221964417-bsiv",
+          "updatedByEmail": "shashank@vernika.io",
+          "actionUrl": "chat",
+          "targetUserId": "pmjE5sfXErQZYnzaoMnNuphSbV83",
+          "senderId": "JMm9NsIqbjTilGtktTNhjEjAT3j2",
+          "title": "Message from Shashank Rajput",
+          "type": "info",
+          "updatedAt": "2026-08-20T17:54:18.796Z",
+          "priority": "high"
+        },
+        "createTime": "2026-08-20T10:32:44.845988Z",
+        "updateTime": "2026-08-20T17:54:20.719046Z"
+      }
+    ],
+    "payrolls": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/payrolls/pay-2",
+        "id": "pay-2",
+        "fields": {
+          "paymentMethod": "Direct Deposit / ACH",
+          "deductions": 200,
+          "status": "Paid",
+          "paymentDate": "2026-08-01",
+          "employeeId": "VRN-004",
+          "tax": 2200,
+          "department": "Engineering & Technology",
+          "employeeName": "Priya Sharma",
+          "id": "pay-2",
+          "allowances": 800,
+          "year": 2026,
+          "netSalary": 9900,
+          "basicSalary": 11500,
+          "month": "August"
+        },
+        "createTime": "2026-08-20T17:49:43.105548Z",
+        "updateTime": "2026-08-20T17:49:43.105548Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/payrolls/pay-3",
+        "id": "pay-3",
+        "fields": {
+          "netSalary": 8403,
+          "deductions": 180,
+          "paymentMethod": "Direct Deposit / ACH",
+          "year": 2026,
+          "employeeName": "Liam O'Connor",
+          "department": "Engineering & Technology",
+          "status": "Processing",
+          "employeeId": "VRN-005",
+          "id": "pay-3",
+          "basicSalary": 9833,
+          "allowances": 600,
+          "tax": 1850,
+          "month": "August"
+        },
+        "createTime": "2026-08-20T17:49:43.105548Z",
+        "updateTime": "2026-08-20T17:49:43.105548Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/payrolls/pay-1",
+        "id": "pay-1",
+        "fields": {
+          "allowances": 1500,
+          "employeeName": "Shashank Rajput",
+          "paymentDate": "2026-08-01",
+          "id": "pay-1",
+          "netSalary": 13950,
+          "year": 2026,
+          "deductions": 350,
+          "basicSalary": 16250,
+          "paymentMethod": "Direct Deposit / ACH",
+          "tax": 3450,
+          "department": "Engineering & Technology",
+          "employeeId": "VRN-001",
+          "month": "August",
+          "status": "Paid"
+        },
+        "createTime": "2026-08-20T17:49:43.105548Z",
+        "updateTime": "2026-08-20T17:49:43.105548Z"
+      }
+    ],
+    "positions": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/positions/pos-4",
+        "id": "pos-4",
+        "fields": {
+          "minSalary": 110000,
+          "department": "Product & Design",
+          "id": "pos-4",
+          "level": "Lead",
+          "title": "Lead Product Designer",
+          "activeStaff": 2,
+          "maxSalary": 140000
+        },
+        "createTime": "2026-08-20T17:49:42.167410Z",
+        "updateTime": "2026-08-20T17:49:42.167410Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/positions/pos-1",
+        "id": "pos-1",
+        "fields": {
+          "activeStaff": 2,
+          "title": "Principal Software Architect",
+          "id": "pos-1",
+          "minSalary": 160000,
+          "maxSalary": 210000,
+          "department": "Engineering & Technology",
+          "level": "Lead"
+        },
+        "createTime": "2026-08-20T17:49:42.167410Z",
+        "updateTime": "2026-08-20T17:49:42.167410Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/positions/pos-5",
+        "id": "pos-5",
+        "fields": {
+          "department": "Product & Design",
+          "minSalary": 130000,
+          "activeStaff": 3,
+          "title": "Senior Product Manager",
+          "id": "pos-5",
+          "level": "Senior",
+          "maxSalary": 165000
+        },
+        "createTime": "2026-08-20T17:49:42.167410Z",
+        "updateTime": "2026-08-20T17:49:42.167410Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/positions/pos-7",
+        "id": "pos-7",
+        "fields": {
+          "maxSalary": 105000,
+          "title": "HR & People Partner",
+          "activeStaff": 3,
+          "id": "pos-7",
+          "department": "Human Resources",
+          "level": "Mid",
+          "minSalary": 80000
+        },
+        "createTime": "2026-08-20T17:49:42.167410Z",
+        "updateTime": "2026-08-20T17:49:42.167410Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/positions/pos-3",
+        "id": "pos-3",
+        "fields": {
+          "level": "Senior",
+          "minSalary": 115000,
+          "department": "Engineering & Technology",
+          "maxSalary": 145000,
+          "activeStaff": 3,
+          "id": "pos-3",
+          "title": "DevOps & Cloud Specialist"
+        },
+        "createTime": "2026-08-20T17:49:42.167410Z",
+        "updateTime": "2026-08-20T17:49:42.167410Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/positions/pos-2",
+        "id": "pos-2",
+        "fields": {
+          "level": "Senior",
+          "activeStaff": 5,
+          "id": "pos-2",
+          "minSalary": 120000,
+          "department": "Engineering & Technology",
+          "maxSalary": 155000,
+          "title": "Senior Full Stack Engineer"
+        },
+        "createTime": "2026-08-20T17:49:42.167410Z",
+        "updateTime": "2026-08-20T17:49:42.167410Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/positions/pos-6",
+        "id": "pos-6",
+        "fields": {
+          "maxSalary": 140000,
+          "department": "Sales & Business Dev",
+          "title": "Enterprise Account Executive",
+          "level": "Mid",
+          "id": "pos-6",
+          "minSalary": 95000,
+          "activeStaff": 4
+        },
+        "createTime": "2026-08-20T17:49:42.167410Z",
+        "updateTime": "2026-08-20T17:49:42.167410Z"
+      }
+    ],
+    "projects": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/projects/prj-3",
+        "id": "prj-3",
+        "fields": {
+          "deadline": "2026-11-15",
+          "budget": 95000,
+          "description": "Fleet tracking, driver adherence monitoring, and depot inventory automated dispatching.",
+          "deliverables": [
+            {
+              "title": "Geofence API Gateway Deployment",
+              "dueDate": "2026-08-05",
+              "status": "Approved"
+            },
+            {
+              "dueDate": "2026-09-25",
+              "title": "Driver Telemetry Mobile UI",
+              "status": "Revision"
+            }
+          ],
+          "progress": 42,
+          "id": "prj-3",
+          "status": "Active",
+          "client": "Vanguard Logistics",
+          "team": [
+            "David Chen",
+            "Liam O'Connor"
+          ],
+          "clientId": "cli-3",
+          "spent": 38000,
+          "name": "Vanguard Fleet Geofencing & Logistics API",
+          "priority": "Medium"
+        },
+        "createTime": "2026-08-20T18:56:27.018193Z",
+        "updateTime": "2026-08-20T18:56:27.018193Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/projects/prj-2",
+        "id": "prj-2",
+        "fields": {
+          "description": "Interactive deal screening, portfolio performance analytics, and automated investor capital calls.",
+          "team": [
+            "Marcus Vance",
+            "Elena Rostova",
+            "Priya Sharma"
+          ],
+          "status": "Active",
+          "spent": 98000,
+          "clientId": "cli-2",
+          "budget": 148500,
+          "name": "Peak VC Investment Pipeline Modernization",
+          "priority": "High",
+          "deadline": "2026-10-30",
+          "deliverables": [
+            {
+              "title": "Deal Room Architecture & Specs",
+              "dueDate": "2026-07-20",
+              "status": "Approved"
+            },
+            {
+              "status": "Pending",
+              "title": "Investor Analytics Dashboard",
+              "dueDate": "2026-09-10"
+            }
+          ],
+          "id": "prj-2",
+          "progress": 65,
+          "client": "Peak Venture Capital"
+        },
+        "createTime": "2026-08-20T18:56:26.505112Z",
+        "updateTime": "2026-08-20T18:56:26.505112Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/projects/prj-1",
+        "id": "prj-1",
+        "fields": {
+          "progress": 88,
+          "budget": 185000,
+          "description": "Next-generation enterprise business suite modernization with real-time Firestore synchronization and dedicated portal windows.",
+          "status": "Active",
+          "deadline": "2026-09-15",
+          "priority": "Critical",
+          "deliverables": [
+            {
+              "dueDate": "2026-08-01",
+              "title": "Core Multi-User Database Layer",
+              "status": "Approved"
+            },
+            {
+              "title": "Admin & Employee Windows",
+              "status": "Approved",
+              "dueDate": "2026-08-15"
+            },
+            {
+              "dueDate": "2026-08-30",
+              "title": "Client Portal Interactive Staging",
+              "status": "Pending"
+            }
+          ],
+          "team": [
+            "Shashank Rajput",
+            "Priya Sharma",
+            "Liam O'Connor"
+          ],
+          "client": "Apex Global Financials",
+          "clientId": "cli-1",
+          "name": "Vernika 2.0 Multi-Tenant Cloud Architecture",
+          "spent": 142000,
+          "id": "prj-1"
+        },
+        "createTime": "2026-08-18T15:07:39.283540Z",
+        "updateTime": "2026-08-20T18:56:25.984602Z"
+      }
+    ],
+    "punchRequests": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/punchRequests/pr-1",
+        "id": "pr-1",
+        "fields": {
+          "status": "Pending",
+          "department": "Engineering & Technology",
+          "currentCheckIn": "10:15 AM",
+          "reason": "Biometric fingerprint sensor error at main gate entrance. Reached office at 8:55 AM.",
+          "employeeId": "emp-4",
+          "employeeName": "Priya Sharma",
+          "requestedCheckOut": "06:30 PM",
+          "currentCheckOut": "06:00 PM",
+          "requestedOn": "2026-08-20 10:30 AM",
+          "date": "2026-08-20",
+          "id": "pr-1",
+          "requestedCheckIn": "09:00 AM"
+        },
+        "createTime": "2026-08-20T17:49:43.255721Z",
+        "updateTime": "2026-08-20T17:49:43.255721Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/punchRequests/pr-2",
+        "id": "pr-2",
+        "fields": {
+          "status": "Approved",
+          "currentCheckOut": "-",
+          "reviewedBy": "Shashank Rajput",
+          "id": "pr-2",
+          "requestedCheckOut": "07:00 PM",
+          "currentCheckIn": "09:30 AM",
+          "reason": "Power outage at home office during evening logout. Worked through 7:00 PM on mobile hotspot.",
+          "requestedOn": "2026-08-19 08:00 PM",
+          "reviewedOn": "2026-08-20 09:00 AM",
+          "department": "Engineering & Technology",
+          "adminNotes": "Verified commit logs on GitHub. Approved.",
+          "employeeName": "Liam O'Connor",
+          "requestedCheckIn": "09:30 AM",
+          "date": "2026-08-19",
+          "employeeId": "emp-5"
+        },
+        "createTime": "2026-08-20T17:49:43.255721Z",
+        "updateTime": "2026-08-20T17:49:43.255721Z"
+      }
+    ],
+    "sheets": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/sheets/sheet-3",
+        "id": "sheet-3",
+        "fields": {
+          "starred": false,
+          "createdAt": "2026-08-10",
+          "updatedAt": "2026-08-15",
+          "ownerName": "Elena Rostova",
+          "category": "HR",
+          "title": "Employee Performance & OKR Scorecard",
+          "ownerId": "emp-2",
+          "description": "Bi-weekly sprint output matrix, task velocity index, and employee quality adherence scores",
+          "tags": [
+            "HR",
+            "Performance",
+            "OKRs"
+          ],
+          "id": "sheet-3",
+          "ownerAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+          "tabs": [
+            {
+              "rowCount": 20,
+              "name": "Staff Scorecard",
+              "data": {
+                "F8": {
+                  "raw": "4.4",
+                  "bold": true
+                },
+                "A10": {
+                  "bold": true,
+                  "raw": "Average / Summary"
+                },
+                "F7": {
+                  "raw": "4.8",
+                  "bold": true
+                },
+                "F5": {
+                  "bold": true,
+                  "raw": "4.8"
+                },
+                "C7": {
+                  "raw": "31"
+                },
+                "E7": {
+                  "raw": "0.96",
+                  "format": "percentage"
+                },
+                "D10": {
+                  "bold": true,
+                  "format": "percentage",
+                  "raw": "=AVERAGE(D4:D8)"
+                },
+                "E6": {
+                  "format": "percentage",
+                  "raw": "0.95"
+                },
+                "A5": {
+                  "raw": "Elena Rostova"
+                },
+                "B7": {
+                  "raw": "Customer Success"
+                },
+                "B4": {
+                  "raw": "Engineering"
+                },
+                "C5": {
+                  "raw": "24"
+                },
+                "A3": {
+                  "bgColor": "#f1f5f9",
+                  "raw": "Employee",
+                  "bold": true
+                },
+                "D7": {
+                  "raw": "0.95",
+                  "format": "percentage"
+                },
+                "A8": {
+                  "raw": "David Kim"
+                },
+                "F6": {
+                  "raw": "4.7",
+                  "bold": true
+                },
+                "A4": {
+                  "raw": "Shashank Rajput"
+                },
+                "A1": {
+                  "raw": "Staff Productivity & Quality Adherence Index",
+                  "bold": true
+                },
+                "A7": {
+                  "raw": "Sarah Jenkins"
+                },
+                "B3": {
+                  "bold": true,
+                  "raw": "Department",
+                  "bgColor": "#f1f5f9"
+                },
+                "E8": {
+                  "format": "percentage",
+                  "raw": "0.91"
+                },
+                "E5": {
+                  "raw": "0.98",
+                  "format": "percentage"
+                },
+                "C8": {
+                  "raw": "19"
+                },
+                "B8": {
+                  "raw": "Sales"
+                },
+                "F4": {
+                  "bold": true,
+                  "raw": "4.9"
+                },
+                "C4": {
+                  "raw": "28"
+                },
+                "B5": {
+                  "raw": "Product"
+                },
+                "E3": {
+                  "bold": true,
+                  "align": "right",
+                  "raw": "AUX Adherence %",
+                  "bgColor": "#f1f5f9"
+                },
+                "C6": {
+                  "raw": "22"
+                },
+                "D5": {
+                  "raw": "0.96",
+                  "format": "percentage"
+                },
+                "F10": {
+                  "bold": true,
+                  "raw": "=AVERAGE(F4:F8)"
+                },
+                "D3": {
+                  "align": "right",
+                  "raw": "On-Time %",
+                  "bold": true,
+                  "bgColor": "#f1f5f9"
+                },
+                "A6": {
+                  "raw": "Marcus Vance"
+                },
+                "E4": {
+                  "raw": "0.99",
+                  "format": "percentage"
+                },
+                "D6": {
+                  "format": "percentage",
+                  "raw": "0.92"
+                },
+                "D8": {
+                  "raw": "0.88",
+                  "format": "percentage"
+                },
+                "F3": {
+                  "raw": "Score (1-5)",
+                  "bold": true,
+                  "bgColor": "#f1f5f9",
+                  "align": "right"
+                },
+                "E10": {
+                  "raw": "=AVERAGE(E4:E8)",
+                  "format": "percentage",
+                  "bold": true
+                },
+                "C3": {
+                  "align": "right",
+                  "raw": "Tasks Closed",
+                  "bold": true,
+                  "bgColor": "#f1f5f9"
+                },
+                "D4": {
+                  "format": "percentage",
+                  "raw": "0.98"
+                },
+                "B6": {
+                  "raw": "Sales"
+                },
+                "C10": {
+                  "raw": "=SUM(C4:C8)",
+                  "bold": true
+                }
+              },
+              "colCount": 10,
+              "id": "tab-okr"
+            }
+          ],
+          "activeTabId": "tab-okr"
+        },
+        "createTime": "2026-08-20T17:49:43.133943Z",
+        "updateTime": "2026-08-20T17:49:43.133943Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/sheets/sheet-2",
+        "id": "sheet-2",
+        "fields": {
+          "title": "Sales Pipeline & Deal Commission Tracker",
+          "tags": [
+            "Sales",
+            "CRM",
+            "Commissions"
+          ],
+          "ownerId": "emp-3",
+          "ownerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+          "activeTabId": "tab-deals",
+          "tabs": [
+            {
+              "rowCount": 25,
+              "name": "Active Opportunities",
+              "id": "tab-deals",
+              "data": {
+                "B5": {
+                  "format": "currency",
+                  "raw": "140000"
+                },
+                "E3": {
+                  "bold": true,
+                  "bgColor": "#ede9fe",
+                  "raw": "Sales Lead"
+                },
+                "F4": {
+                  "raw": "2026-08-28"
+                },
+                "C4": {
+                  "raw": "0.85",
+                  "format": "percentage"
+                },
+                "E5": {
+                  "raw": "Marcus Vance"
+                },
+                "C3": {
+                  "raw": "Probability",
+                  "bgColor": "#ede9fe",
+                  "bold": true,
+                  "align": "right"
+                },
+                "D4": {
+                  "bold": true,
+                  "format": "currency",
+                  "raw": "=B4*C4"
+                },
+                "B6": {
+                  "raw": "220000",
+                  "format": "currency"
+                },
+                "B9": {
+                  "bold": true,
+                  "format": "currency",
+                  "bgColor": "#f1f5f9",
+                  "raw": "=SUM(B4:B7)"
+                },
+                "F3": {
+                  "raw": "Expected Close",
+                  "bold": true,
+                  "bgColor": "#ede9fe"
+                },
+                "A6": {
+                  "raw": "Summit Global Logistics"
+                },
+                "E4": {
+                  "raw": "Marcus Vance"
+                },
+                "D6": {
+                  "format": "currency",
+                  "raw": "=B6*C6",
+                  "bold": true
+                },
+                "C6": {
+                  "format": "percentage",
+                  "raw": "0.90"
+                },
+                "D5": {
+                  "format": "currency",
+                  "bold": true,
+                  "raw": "=B5*C5"
+                },
+                "D3": {
+                  "bold": true,
+                  "align": "right",
+                  "bgColor": "#ede9fe",
+                  "raw": "Weighted Value"
+                },
+                "D9": {
+                  "bold": true,
+                  "format": "currency",
+                  "bgColor": "#f1f5f9",
+                  "raw": "=SUM(D4:D7)"
+                },
+                "E7": {
+                  "raw": "Sarah Jenkins"
+                },
+                "F7": {
+                  "raw": "2026-09-30"
+                },
+                "F5": {
+                  "raw": "2026-09-15"
+                },
+                "C7": {
+                  "format": "percentage",
+                  "raw": "0.50"
+                },
+                "B3": {
+                  "bold": true,
+                  "bgColor": "#ede9fe",
+                  "raw": "Deal Size",
+                  "align": "right"
+                },
+                "F6": {
+                  "raw": "2026-08-30"
+                },
+                "A4": {
+                  "raw": "Apex Financial Services"
+                },
+                "A1": {
+                  "bold": true,
+                  "textColor": "#4f46e5",
+                  "raw": "Enterprise Sales Deals - August 2026"
+                },
+                "A7": {
+                  "raw": "Nordic Retail Group"
+                },
+                "A5": {
+                  "raw": "Quantum Health Systems"
+                },
+                "A9": {
+                  "raw": "Pipeline Total",
+                  "bold": true,
+                  "bgColor": "#f1f5f9"
+                },
+                "B7": {
+                  "raw": "95000",
+                  "format": "currency"
+                },
+                "B4": {
+                  "raw": "185000",
+                  "format": "currency"
+                },
+                "C5": {
+                  "raw": "0.70",
+                  "format": "percentage"
+                },
+                "A3": {
+                  "raw": "Company / Prospect",
+                  "bold": true,
+                  "bgColor": "#ede9fe"
+                },
+                "D7": {
+                  "format": "currency",
+                  "bold": true,
+                  "raw": "=B7*C7"
+                },
+                "E6": {
+                  "raw": "David Kim"
+                }
+              },
+              "colCount": 10
+            }
+          ],
+          "sharedWith": [
+            {
+              "userId": "emp-1",
+              "permission": "edit",
+              "userName": "Shashank Rajput"
+            },
+            {
+              "userId": "emp-5",
+              "userName": "David Kim",
+              "permission": "edit"
+            }
+          ],
+          "description": "B2B enterprise pipeline valuation, close probability modeling, and representative commission tiers",
+          "category": "Sales",
+          "starred": true,
+          "createdAt": "2026-08-05",
+          "updatedAt": "2026-08-16",
+          "ownerName": "Marcus Vance",
+          "id": "sheet-2"
+        },
+        "createTime": "2026-08-20T17:49:43.133943Z",
+        "updateTime": "2026-08-20T17:49:43.133943Z"
+      }
+    ],
+    "tasks": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/tasks/tsk-2",
+        "id": "tsk-2",
+        "fields": {
+          "status": "Done"
+        },
+        "createTime": "2026-08-17T12:33:56.029508Z",
+        "updateTime": "2026-08-17T12:33:56.029508Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/tasks/tsk-4",
+        "id": "tsk-4",
+        "fields": {
+          "status": "Review"
+        },
+        "createTime": "2026-08-17T12:33:51.645265Z",
+        "updateTime": "2026-08-17T12:33:51.645265Z"
+      }
+    ],
+    "vendors": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/vendors/vnd-1",
+        "id": "vnd-1",
+        "fields": {
+          "name": "Amazon Web Services (AWS)",
+          "phone": "+1 (800) 220-4357",
+          "activeContracts": 2,
+          "annualSpend": 92000,
+          "contactPerson": "Enterprise Support Desk",
+          "status": "Active",
+          "id": "vnd-1",
+          "category": "Cloud Infrastructure & Compute",
+          "email": "billing@aws.amazon.com",
+          "rating": 4.9
+        },
+        "createTime": "2026-08-20T17:49:42.391999Z",
+        "updateTime": "2026-08-20T17:49:42.391999Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/vendors/vnd-3",
+        "id": "vnd-3",
+        "fields": {
+          "contactPerson": "Corporate Relations",
+          "email": "support@workday.com",
+          "id": "vnd-3",
+          "rating": 4.7,
+          "activeContracts": 1,
+          "status": "Active",
+          "phone": "+1 (800) 555-0199",
+          "category": "Enterprise HR & Payroll Software",
+          "name": "Workday HR Solutions",
+          "annualSpend": 34000
+        },
+        "createTime": "2026-08-20T17:49:42.391999Z",
+        "updateTime": "2026-08-20T17:49:42.391999Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/vendors/vnd-2",
+        "id": "vnd-2",
+        "fields": {
+          "contactPerson": "Account Manager",
+          "phone": "+1 (877) 889-4546",
+          "status": "Active",
+          "annualSpend": 18500,
+          "rating": 4.8,
+          "email": "enterprise@twilio.com",
+          "id": "vnd-2",
+          "category": "Communications & SMS Gateway",
+          "activeContracts": 1,
+          "name": "Twilio Cloud Telephony"
+        },
+        "createTime": "2026-08-20T17:49:42.391999Z",
+        "updateTime": "2026-08-20T17:49:42.391999Z"
+      }
+    ],
+    "workflowProfiles": [
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/workflowProfiles/wf-emp-5",
+        "id": "wf-emp-5",
+        "fields": {
+          "assignedProjects": [
+            {
+              "status": "Active",
+              "projectName": "Vernika Enterprise Cloud 2.0",
+              "projectId": "proj-1",
+              "role": "Frontend UI/UX Developer",
+              "tasksCompleted": 29,
+              "assignedDate": "2023-08-15",
+              "sprintVelocity": 91
+            }
+          ],
+          "overtimeHoursMonth": 4.5,
+          "pfDeduction": 480,
+          "employeeId": "emp-5",
+          "employeeName": "Liam O'Connor",
+          "department": "Engineering & Technology",
+          "leaveQuotaUsed": 2,
+          "overtimeEligible": true,
+          "otherDeductions": 0,
+          "position": "Full Stack Developer",
+          "monthlyBaseSalary": 8200,
+          "monthlyBonus": 800,
+          "monthlyIncentives": 500,
+          "gracePeriodMinutes": 15,
+          "shiftType": "General",
+          "leaveQuotaTotal": 22,
+          "shiftEndTime": "06:00 PM",
+          "weeklyOffDays": [
+            "Saturday",
+            "Sunday"
+          ],
+          "overtimeRateMultiplier": 1.5,
+          "healthInsuranceDeduction": 220,
+          "shiftStartTime": "09:00 AM",
+          "taxDeduction": 1300,
+          "netMonthlyPayout": 7500,
+          "shiftRoster": {},
+          "id": "wf-emp-5"
+        },
+        "createTime": "2026-08-20T17:49:43.374780Z",
+        "updateTime": "2026-08-20T17:49:43.374780Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/workflowProfiles/wf-emp-1",
+        "id": "wf-emp-1",
+        "fields": {
+          "leaveQuotaUsed": 4,
+          "taxDeduction": 2800,
+          "position": "Chief Technology Officer",
+          "pfDeduction": 800,
+          "overtimeEligible": true,
+          "leaveQuotaTotal": 28,
+          "shiftEndTime": "05:30 PM",
+          "assignedProjects": [
+            {
+              "role": "Lead Architect",
+              "tasksCompleted": 42,
+              "status": "Active",
+              "assignedDate": "2023-01-15",
+              "sprintVelocity": 98,
+              "projectName": "Vernika Enterprise Cloud 2.0",
+              "projectId": "proj-1"
+            },
+            {
+              "projectName": "Apex Financial Core System",
+              "tasksCompleted": 28,
+              "assignedDate": "2023-05-10",
+              "sprintVelocity": 94,
+              "projectId": "proj-2",
+              "role": "Executive Sponsor",
+              "status": "Active"
+            }
+          ],
+          "id": "wf-emp-1",
+          "overtimeRateMultiplier": 1.5,
+          "overtimeHoursMonth": 12.5,
+          "monthlyBonus": 2500,
+          "shiftType": "Flexible",
+          "monthlyIncentives": 1200,
+          "shiftStartTime": "08:30 AM",
+          "employeeId": "emp-1",
+          "monthlyBaseSalary": 14500,
+          "healthInsuranceDeduction": 350,
+          "netMonthlyPayout": 14150,
+          "weeklyOffDays": [
+            "Saturday",
+            "Sunday"
+          ],
+          "shiftRoster": {},
+          "employeeName": "Shashank Rajput",
+          "gracePeriodMinutes": 30,
+          "otherDeductions": 100,
+          "department": "Engineering & Technology"
+        },
+        "createTime": "2026-08-20T17:49:43.374780Z",
+        "updateTime": "2026-08-20T17:49:43.374780Z"
+      },
+      {
+        "name": "projects/gen-lang-client-0833693805/databases/ai-studio-vernikaapp-8707d070-17aa-4c19-ac02-f2098c36884f/documents/workflowProfiles/wf-emp-4",
+        "id": "wf-emp-4",
+        "fields": {
+          "overtimeRateMultiplier": 1.5,
+          "shiftStartTime": "09:00 AM",
+          "weeklyOffDays": [
+            "Saturday",
+            "Sunday"
+          ],
+          "gracePeriodMinutes": 15,
+          "leaveQuotaTotal": 24,
+          "shiftRoster": {},
+          "position": "Senior Cloud Engineer",
+          "employeeName": "Priya Sharma",
+          "monthlyBaseSalary": 9500,
+          "netMonthlyPayout": 9100,
+          "monthlyIncentives": 800,
+          "healthInsuranceDeduction": 250,
+          "leaveQuotaUsed": 3,
+          "overtimeHoursMonth": 8,
+          "shiftEndTime": "06:00 PM",
+          "department": "Engineering & Technology",
+          "shiftType": "General",
+          "assignedProjects": [
+            {
+              "projectName": "Vernika Enterprise Cloud 2.0",
+              "projectId": "proj-1",
+              "role": "Cloud Infrastructure Lead",
+              "tasksCompleted": 35,
+              "assignedDate": "2023-06-20",
+              "status": "Active",
+              "sprintVelocity": 96
+            }
+          ],
+          "taxDeduction": 1600,
+          "overtimeEligible": true,
+          "pfDeduction": 550,
+          "monthlyBonus": 1200,
+          "id": "wf-emp-4",
+          "otherDeductions": 0,
+          "employeeId": "emp-4"
+        },
+        "createTime": "2026-08-20T17:49:43.374780Z",
+        "updateTime": "2026-08-20T17:49:43.374780Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "baseline": {
+    "crmVisible": false
+  },
+  "afterGrant": {
+    "crmVisible": false,
+    "mailVisible": true
+  },
+  "afterRevoke": {
+    "crmHidden": true,
+    "mailHidden": true
+  }
+}

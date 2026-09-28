@@ -1,0 +1,11 @@
+{
+  "name": "Vernika Business Management Suite",
+  "description": "Multi-user enterprise business management platform featuring HR, Vernika Sheets (Excel-like spreadsheet workspace), Live Employee Performance & Active Status Tracking, Attendance, CRM, Invoicing, Projects, Tasks, Mail, Calendar, Virtual Video Meetings, and AI Assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

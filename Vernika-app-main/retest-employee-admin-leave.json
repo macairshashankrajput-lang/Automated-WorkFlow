@@ -1,0 +1,150 @@
+{
+  "marker": "E2E-CONCURRENT-EMPLOYEE-LEAVE-20260821",
+  "steps": [
+    {
+      "step": "employee-after-leave-open",
+      "buttons": [
+        "Vernika AI Copilot\nAI",
+        "Virtual Meeting Rooms\nLive",
+        "Team Messenger",
+        "Announcements",
+        "Attendance & Clock",
+        "Leave Requests\n1",
+        "Projects Portfolio",
+        "Task Kanban Board\n2",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Punch Clock",
+        "AI Copilot",
+        "6",
+        "Priya Sharma\n\nEmployee Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Apply for Leave",
+        "Cancel",
+        "Submit Application"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "Paid Leave"
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "placeholder": "",
+          "value": "2026-03-25"
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "placeholder": "",
+          "value": "2026-03-27"
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "placeholder": "e.g. Annual family vacation and travel",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
+{
+  "marker": "E2E-CONCURRENT-EMPLOYEE-LEAVE-20260821",
+  "steps": [
+    {
+      "step": "employee-after-leave-open",
+      "buttons": [
+        "Vernika AI Copilot\nAI",
+        "Virtual Meeting Rooms\nLive",
+        "Team Messenger",
+        "Announcements",
+        "Attendance & Clock",
+        "Leave Requests\n1",
+        "Projects Portfolio",
+        "Task Kanban Board\n2",
+        "Payroll & Payslips",
+        "Expenses & Claims",
+        "Punch Clock",
+        "AI Copilot",
+        "6",
+        "Priya Sharma\n\nEmployee Portal",
+        "Reply in Chat",
+        "Dismiss",
+        "Open update",
+        "Apply for Leave",
+        "Cancel",
+        "Submit Application"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "Search employees, tasks, deals, invoices, chats...",
+          "value": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "all"
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "placeholder": "",
+          "value": "Paid Leave"
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "placeholder": "",
+          "value": "2026-03-25"
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "placeholder": "",
+          "value": "2026-03-27"
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "placeholder": "e.g. Annual family vacation and travel",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "step": "employee-submit",
+      "visibleInEmployee": true
+    },
+    {
+      "step": "admin-realtime-observe",
+      "visibleInAdmin": true,
+      "tail": "se test your respective portals.\n\nReply in Chat\nDismiss\n\nLIVE WORKSPACE UPDATE\n\nNew Leave Request: Priya Sharma\n\nPaid Leave Leave requested from 2026-08-25 to 2026-08-25. Reason: E2E-CONCURRENT-EMPLOYEE-LEAVE-20260821 — concurrent Employee-to-Admin leave propagation check.\n\nOpen update\nLeave & Time-Off Management\n\nSubmit vacation requests, track leave quotas, and manage managerial approvals\n\nApply for Leave\n\nPaid Annual Leave\n\n18 Days\n\nRemaining this fiscal year\n\nSick / Medical Leave\n\n8 Days\n\nAvailable for health needs\n\nCasual / Personal\n\n5 Days\n\nEmergency time off\n\nPending Approvals\n\n2\n\nUnder manager review\n\nLeave Applications & History\nAll Statuses\nApproved\nPending\nRejected\nEMPLOYEE\tLEAVE TYPE\tSTART DATE\tEND DATE\tDAYS\tREASON\tSTATUS\tACTIONS\nPriya Sharma\tSick Leave\t2026-03-25\t2026-03-27\t3 days\tMedical\tApproved\t\nPriya Sharma\tCasual Leave\t2026-08-26\t2026-08-27\t3 days\tm\tRejected\t\nPriya Sharma\tPaid Leave\t2026-08-20\t2026-08-20\t3 days\tss\tApproved\t\nPriya Sharma\tPaid Leave\t2026-08-25\t2026-08-25\t3 days\tE2E-CONCURRENT-EMPLOYEE-LEAVE-20260821 — concurrent Employee-to-Admin leave propagation check.\tPending\t\nApprove\nReject\n\nPriya Sharma\tPaid Leave\t2026-08-25\t2026-08-25\t3 days\tE2E-CONCURRENT-EMPLOYEE-LEAVE-20260821 — concurrent Employee-to-Admin leave propagation check.\tPending\t\nApprove\nReject"
+    },
+    {
+      "step": "admin-approve-employee-observe",
+      "employeeShowsMarker": true,
+      "employeeShowsApproved": true
+    }
+  ]
+}

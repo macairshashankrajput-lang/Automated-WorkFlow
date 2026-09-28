@@ -1,0 +1,104 @@
+# Project TODO
+
+- [x] Build shared sticky navigation with responsive mobile menu and animated route transitions
+- [x] Build Home page with exact hero headline, CTAs, particle/gradient motion, proof points, services preview, process, and final CTA
+- [x] Build About page with mission, vision, team, and milestone timeline
+- [x] Build Services page with five service areas, icons, descriptions, and animated cards
+- [x] Build Application page for Vernika with feature highlights, product mockups, benefits, pricing tiers, and demo CTA
+- [x] Build Blog/Insights page with professional insight cards and article-detail routing
+- [x] Build Contact page with inquiry form, social links, and map placeholder
+- [x] Build lead-capture popup triggered by timed delay and exit intent with exactly name, email, phone, company, and interest area fields
+- [x] Persist lead-capture and contact submissions in the database through typed server procedures
+- [x] Build admin lead-management view with list, status management, and protected access
+- [x] Add footer with quick links, five required social channels, newsletter field, and company tagline
+- [x] Add scroll-reveal animations, hover micro-interactions, reduced-motion support, and responsive breakpoints
+- [x] Add database migration and server tests for lead persistence and admin access
+- [x] Run type checks, tests, and responsive visual verification
+- [x] Create the final project checkpoint for delivery
+
+## Requirement history
+
+- [x] Incorporate the expanded multi-page, application showcase, lead capture, admin, social, responsive, transition, and article-detail requirements from the latest request
+- [x] Fix admin access test expectation to match the framework’s forbidden response for anonymous users
+- [x] Add animated page-transition handling for route changes with reduced-motion support
+- [x] Implement article-detail routing for Insights with a detail-page template
+- [x] Add a server test covering successful lead creation persistence
+- [x] Mark the expanded-requirements history item complete only after the remaining gaps are resolved
+- [x] Strengthen the successful lead test to assert the persistence helper receives the exact lead payload
+- [x] Add dedicated Case Studies navigation and page with credible local-business transformation examples
+- [x] Add server-side AI chatbot procedure using the built-in LLM helper
+- [x] Add bottom-right chatbot widget with quick prompts, loading state, and responsive layout
+- [x] Add smooth slide-in animation to the timed/exit-intent lead popup
+- [x] Add company size to the lead schema, validation, popup form, persistence, admin view, and tests
+- [x] Re-run type checks, tests, build, and responsive visual verification for the enhancements
+- [x] Save an updated checkpoint for the enhancements
+- [x] Run fresh mobile visual verification for Case Studies, chatbot widget, and enhanced lead popup (including opened popup and chatbot states)
+- [x] Save a new checkpoint after post-enhancement verification
+- [x] Add consultation-request table and safe migration for scheduled consultation timestamps
+- [x] Add typed consultation-request procedure and tests
+- [x] Add an in-chat consultation scheduler with date, time, contact details, validation, and success state
+- [x] Change the lead popup to exit-intent-only activation and preserve the company-size field
+- [x] Run type checks, tests, build, and responsive flow verification
+- [x] Save a new checkpoint for the consultation scheduling update
+- [x] Add a visible inline error state for failed consultation scheduling attempts
+- [x] Run fresh mobile and desktop verification of the scheduler and exit-intent popup behavior
+- [x] Save a new checkpoint after the consultation scheduling update passes verification
+- [x] Explicitly trigger and verify the exit-intent popup after the activation change (confirmed in preview)
+- [x] Verify the consultation scheduler interaction on a mobile viewport (responsive width and form constraints verified)
+- [x] Save the final checkpoint after both interaction checks
+- [x] Update X, LinkedIn, Instagram, and WhatsApp URLs and remove Facebook from all public surfaces
+- [x] Add protected consultation list and status-management procedures for admin users
+- [x] Extend the admin dashboard with consultation-request navigation, filters, details, and status controls
+- [x] Add consultation admin access and status-update test coverage
+- [x] Run type checks, tests, build, and responsive dashboard verification (including responsive dashboard shell and locked anonymous state; populated records require owner sign-in)
+- [x] Save a new checkpoint for the social-link and admin-dashboard update
+- [x] Add anonymous and non-admin forbidden tests for consultation listing and status updates
+- [x] Documented authenticated admin-dashboard visual verification limitation: the preview has no owner session, so the live check confirms the locked anonymous state and the responsive dashboard shell; owner sign-in is required to inspect populated records.
+- [x] Add protected CSV export for all captured leads and consultation requests
+- [x] Add shared search and date-range filters for leads and consultation requests
+- [x] Add case-study schema, procedures, admin CRUD UI, and public-page data loading
+- [x] Add project schema, procedures, admin CRUD UI, and public-page presentation
+- [x] Add editable site-detail schema, procedures, admin CRUD UI, and public content wiring
+- [x] Add validation and access-control tests for all admin content mutations and export (including case-study, project, and site-detail CRUD paths)
+- [x] Run type checks, tests, build, and responsive admin/public verification
+- [x] Save a new checkpoint for the admin content console update
+- [x] Repair JSX syntax regressions in public Home.tsx detail wiring and re-run the build
+- [x] Repair admin-console JSX syntax regressions from the content-management rewrite and re-run checks
+- [x] Fix content-editor cancel actions to close modal cleanly
+- [x] Add direct admin aliases for case studies, projects, and site details
+- [x] Align the site-detail update test with the router’s default publication value
+- [x] Add Vitest coverage for owner-only case-study create, update, and delete procedures
+- [x] Add Vitest coverage for owner-only project update and delete procedures
+- [x] Add Vitest coverage for owner-only site-detail delete and remaining content CRUD access paths
+- [x] Add denial coverage for anonymous and non-admin case-study create, update, and delete procedures
+- [x] Add denial coverage for non-admin project update and delete procedures
+- [x] Add denial coverage for anonymous and non-admin site-detail create, update, and delete procedures plus remaining content mutations
+- [x] Inspect the supplied Vernika reference site and capture approved public content opportunities
+- [x] Update the visual system with richer motion, animated backgrounds, and interactive card/button responses across public sections
+- [x] Add service-detail previews or a dedicated detail experience for every service card
+- [x] Add generated, clearly labeled editorial blog/insight content and expanded case-study/project records without fabricating testimonials or reviews
+- [x] Add public category filters for case studies and projects by industry or service type
+- [x] Add drag-and-drop reordering for admin case studies and projects with persisted display order
+- [x] Inspect available Supabase connector/project configuration and connect only through a safe supported path
+- [x] Create a new private GitHub repository and push the completed Vernika project
+- [x] Run type checks, tests, build, and visual verification for all refreshed public and admin flows
+- [ ] Save a new checkpoint for the refreshed Vernika experience
+- [x] Inspect the existing Vernika Tech Application Supabase tables, migrations, and security posture without modifying data
+- [x] Use an isolated schema or separate free-tier Supabase project if the existing project cannot be safely shared (created and paused; not connected)
+- [x] Preserve the existing website database until Supabase isolation and connection safety are verified
+- [x] Confirmed the safe Supabase decision with the user; no Supabase DDL or data migration was applied
+- [x] Do not connect Supabase; preserve the existing managed database as the single application data source
+- [x] Pause the unused isolated Supabase project created during the previous integration decision
+- [x] Complete reference-informed content refresh, generated editorial insights, and expanded project/case-study content without fabricated testimonials
+- [x] Add richer animations and interactive responses across public sections and service cards
+- [x] Add category filters to public case studies and projects
+- [x] Add persisted drag-and-drop ordering for admin case studies and projects
+- [x] Create a new private GitHub repository and push the completed project
+- [x] Verify typechecks, tests, build, public/admin flows, and repository state
+- [ ] Save a new checkpoint for the no-Supabase refresh
+- [x] Add owner-only reorder procedure coverage and denied anonymous/non-admin reorder tests
+- [x] Add and persist additional project and case-study records beyond the existing seeded set
+- [x] Add explicit editorial/generated labeling to newly generated insight and illustrative portfolio content
+- [x] Re-run public visual verification after the expanded project and case-study records are live
+- [x] Add explicit editorial/generated labeling to the public Insights/blog UI
+- [x] Run fresh desktop and mobile screenshots after the final database content insertions and labeling update

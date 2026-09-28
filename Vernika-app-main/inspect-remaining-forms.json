@@ -1,0 +1,304 @@
+{
+  "Outlook Mail": {
+    "nav": 1,
+    "headings": [
+      "New Leave Request: Priya Sharma",
+      "Vernika Outlook Mail\nReal-Time Cloud Sync",
+      ""
+    ],
+    "buttons": [
+      "Dismiss",
+      "Open update",
+      "New Mail",
+      "Inbox",
+      "Starred",
+      "Sent Items",
+      "Drafts",
+      "Archive",
+      "Deleted Items",
+      "Junk / Spam",
+      "Work",
+      "Clients",
+      "Finance",
+      "Alerts",
+      "Primary",
+      "Focused",
+      "Other",
+      "All",
+      "Unread",
+      "Starred",
+      "Files",
+      "Urgent",
+      "Schedule Meeting",
+      "Mark Unread",
+      "Sounds good, approved! Proceed with the plan.",
+      "Thank you, I will review and get back by EOD.",
+      "Could you send over the latest attachment?",
+      "Let's schedule a 15-minute sync to discuss.",
+      "Reply",
+      "Forward"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employees, tasks, deals, invoices, chats...",
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search mail, sender, subject...",
+        "value": ""
+      }
+    ]
+  },
+  "Client Accounts & CRM": {
+    "nav": 1,
+    "headings": [
+      "New Leave Request: Priya Sharma",
+      "Client Accounts & Enterprise Portals",
+      "Peak Venture Capital",
+      "Vanguard Logistics",
+      "Apex Global Financials"
+    ],
+    "buttons": [
+      "Workflow & Rostering\nHR",
+      "Employee Documents\nNew",
+      "AUX Telemetry & Staff\nLive",
+      "Attendance & Clock",
+      "Leave Requests\n2",
+      "Departments",
+      "Positions & Roles",
+      "Organization Tree",
+      "Projects Portfolio",
+      "Task Kanban Board\n2",
+      "Client Accounts & CRM",
+      "Invoices & Billing",
+      "Payroll & Payslips",
+      "Expenses & Claims",
+      "Sales Leads Pipeline\n3",
+      "Settings & Config",
+      "Punch Clock",
+      "AI Copilot",
+      "3",
+      "Shashank Rajput\n\nAdmin Portal",
+      "Reply in Chat",
+      "Dismiss",
+      "Open update",
+      "Add Client Account",
+      "Copy",
+      "Direct Message",
+      "Copy",
+      "Direct Message",
+      "Copy",
+      "Direct Message"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employees, tasks, deals, invoices, chats...",
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search by company, client name, email, or username...",
+        "value": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "all"
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "all"
+      }
+    ]
+  },
+  "Invoices & Billing": {
+    "nav": 1,
+    "headings": [
+      "New Leave Request: Priya Sharma",
+      "Invoicing & Financial Statements"
+    ],
+    "buttons": [
+      "Team Messenger",
+      "Announcements",
+      "Staff Performance Tracking\nLive",
+      "Employee Directory",
+      "Workflow & Rostering\nHR",
+      "Employee Documents\nNew",
+      "AUX Telemetry & Staff\nLive",
+      "Attendance & Clock",
+      "Leave Requests\n2",
+      "Departments",
+      "Positions & Roles",
+      "Organization Tree",
+      "Projects Portfolio",
+      "Task Kanban Board\n2",
+      "Client Accounts & CRM",
+      "Invoices & Billing",
+      "Payroll & Payslips",
+      "Expenses & Claims",
+      "Sales Leads Pipeline\n3",
+      "Settings & Config",
+      "Punch Clock",
+      "AI Copilot",
+      "3",
+      "Shashank Rajput\n\nAdmin Portal",
+      "Reply in Chat",
+      "Dismiss",
+      "Open update",
+      "Create New Invoice",
+      "3-Way Match",
+      "3-Way Match"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employees, tasks, deals, invoices, chats...",
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search invoice number or client...",
+        "value": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "all"
+      }
+    ]
+  },
+  "Payroll & Payslips": {
+    "nav": 1,
+    "headings": [
+      "New Leave Request: Priya Sharma",
+      "Enterprise Payroll & Compensation Ledger"
+    ],
+    "buttons": [
+      "Announcements",
+      "Staff Performance Tracking\nLive",
+      "Employee Directory",
+      "Workflow & Rostering\nHR",
+      "Employee Documents\nNew",
+      "AUX Telemetry & Staff\nLive",
+      "Attendance & Clock",
+      "Leave Requests\n2",
+      "Departments",
+      "Positions & Roles",
+      "Organization Tree",
+      "Projects Portfolio",
+      "Task Kanban Board\n2",
+      "Client Accounts & CRM",
+      "Invoices & Billing",
+      "Payroll & Payslips",
+      "Expenses & Claims",
+      "Sales Leads Pipeline\n3",
+      "Settings & Config",
+      "Punch Clock",
+      "AI Copilot",
+      "3",
+      "Shashank Rajput\n\nAdmin Portal",
+      "Reply in Chat",
+      "Dismiss",
+      "Open update",
+      "Process New Payroll Record",
+      "PDF",
+      "PDF",
+      "PDF"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employees, tasks, deals, invoices, chats...",
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employee, ID, department...",
+        "value": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "August"
+      }
+    ]
+  },
+  "Employee Documents": {
+    "nav": 1,
+    "headings": [
+      "New Leave Request: Priya Sharma",
+      "Official Employee Document & Credential Generator",
+      "Issued Documents (3)",
+      "Executive Digital Corporate ID Badge",
+      "Shashank Rajput"
+    ],
+    "buttons": [
+      "Employee Directory",
+      "Workflow & Rostering\nHR",
+      "Employee Documents\nNew",
+      "AUX Telemetry & Staff\nLive",
+      "Attendance & Clock",
+      "Leave Requests\n2",
+      "Departments",
+      "Positions & Roles",
+      "Organization Tree",
+      "Projects Portfolio",
+      "Task Kanban Board\n2",
+      "Client Accounts & CRM",
+      "Invoices & Billing",
+      "Payroll & Payslips",
+      "Expenses & Claims",
+      "Sales Leads Pipeline\n3",
+      "Settings & Config",
+      "Punch Clock",
+      "AI Copilot",
+      "3",
+      "Shashank Rajput\n\nAdmin Portal",
+      "Reply in Chat",
+      "Dismiss",
+      "Open update",
+      "Generate New Document",
+      "Executive Digital Corporate ID Badge\n\nShashank Rajput • 2023-01-15\n\nID CARD\nIssued",
+      "Official Employment Offer & Appointment Letter\n\nPriya Sharma • 2023-06-01\n\nOFFER LETTER\nSigned",
+      "Certificate of Employment & Experience Verification\n\nLiam O'Connor • 2026-01-10\n\nEXPERIENCE LETTER\nIssued",
+      "Send via Mail",
+      "Print / PDF"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search employees, tasks, deals, invoices, chats...",
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "ph": "Search staff, document type...",
+        "value": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "ph": "",
+        "value": "all"
+      }
+    ]
+  }
+}

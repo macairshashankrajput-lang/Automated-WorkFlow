@@ -1,0 +1,49 @@
+{
+  "marker": "E2E-REMAINING-1787286073933",
+  "results": [
+    {
+      "name": "Mail Admin send",
+      "status": "PASS",
+      "evidence": {
+        "sentView": true,
+        "employeeNotification": false,
+        "employeeMailScreenAccessible": false
+      }
+    },
+    {
+      "name": "CRM lead create",
+      "status": "PASS",
+      "evidence": {
+        "markerVisible": true,
+        "adminOnly": true
+      }
+    },
+    {
+      "name": "Billing invoice create",
+      "status": "PASS",
+      "evidence": {
+        "markerVisible": true,
+        "invoiceIssued": false,
+        "adminOnly": true
+      }
+    },
+    {
+      "name": "Payroll Admin-to-Employee",
+      "status": "PASS",
+      "evidence": {
+        "employeeSeesSeptember": true,
+        "employeeSeesNet": true,
+        "roleFiltered": true
+      }
+    },
+    {
+      "name": "Employee document generation",
+      "status": "PASS",
+      "evidence": {
+        "generatedTitleVisible": true,
+        "employeeDocumentModuleAccessible": false,
+        "roleGatedAsExpected": true
+      }
+    }
+  ]
+}
