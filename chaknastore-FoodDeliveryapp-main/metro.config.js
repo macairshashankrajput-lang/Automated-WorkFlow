@@ -5,6 +5,20 @@ const fs = require("fs");
 
 const config = getDefaultConfig(__dirname);
 
+config.resolver.nodeModulesPaths = [
+  path.resolve(__dirname, "node_modules"),
+];
+
+// Polyfill fix for react-native 0.81+ package exports
+config.resolver.resolveRequest = (context, moduleName, platform) => {
+  if (moduleName && moduleName.includes("rn-get-polyfills")) {
+    return {
+      type: "empty",
+    };
+  }
+  return context.resolveRequest(context, moduleName, platform);
+};
+
 // Ensure react-native-css-interop cache directory exists and is watched by Metro on Vercel
 const cssInteropDir = path.resolve(__dirname, "node_modules/react-native-css-interop");
 const cssInteropCacheDir = path.resolve(cssInteropDir, ".cache");
@@ -15,7 +29,7 @@ if (!fs.existsSync(cssInteropCacheDir)) {
 }
 
 config.watchFolders = [
-  ...(config.watchFolders || []),
+  __dirname,
   cssInteropDir,
   cssInteropCacheDir,
 ];
