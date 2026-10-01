@@ -119,10 +119,6 @@ Each application folder in this repository includes a dedicated `vercel.json` an
 ---
 
 ## 🔐 Default Access Credentials
-
-- **Admin Login**:
-  - **Username**: `rajputsg`
-  - **Password**: `143#MaaPaa`
 - **Portfolio Guest Visitor**:
   - **Username**: `portfolio`
   - **Password**: `password123`
