@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "cd chaknastore-FoodDeliveryapp-main && npm install --legacy-peer-deps && npx expo export -p web",
+  "outputDirectory": "chaknastore-FoodDeliveryapp-main/dist",
+  "rewrites": [
+    {
+      "source": "/((?!_expo|assets|favicon.ico|.*\\..*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
