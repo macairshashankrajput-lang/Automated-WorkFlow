@@ -22,8 +22,10 @@ import { AuthProvider, useAuth } from "@/lib/auth-context";
 import { CartProvider } from "@/lib/cart-context";
 import * as SplashScreen from "expo-splash-screen";
 
-// Keep the splash screen visible while we fetch resources
-SplashScreen.preventAutoHideAsync();
+// Keep the splash screen visible while we fetch resources on native platforms
+if (Platform.OS !== "web") {
+  SplashScreen.preventAutoHideAsync();
+}
 
 const DEFAULT_WEB_INSETS: EdgeInsets = { top: 0, right: 0, bottom: 0, left: 0 };
 const DEFAULT_WEB_FRAME: Rect = { x: 0, y: 0, width: 0, height: 0 };
@@ -41,8 +43,8 @@ function RootNavigator() {
 
   useEffect(() => {
     // Hide splash screen once auth state is determined
-    if (!state.isLoading) {
-      SplashScreen.hideAsync();
+    if (!state.isLoading && Platform.OS !== "web") {
+      SplashScreen.hideAsync().catch(() => {});
     }
   }, [state.isLoading]);
 

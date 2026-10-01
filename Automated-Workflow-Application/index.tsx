@@ -1,9 +1,9 @@
 import React from 'react';
-import { WorkflowBuilder } from '../src/components/WorkflowBuilder';
-import { VernikaCopilotView } from '../src/components/VernikaCopilotView';
-import { StudioOverview } from '../src/components/StudioOverview';
-import { PortfolioShowcase } from '../src/components/PortfolioShowcase';
-import { UserAccount } from '../src/services/hybridDatabase';
+import { WorkflowBuilder } from './src/components/WorkflowBuilder';
+import { VernikaCopilotView } from './src/components/VernikaCopilotView';
+import { StudioOverview } from './src/components/StudioOverview';
+import { PortfolioShowcase } from './src/components/PortfolioShowcase';
+import { UserAccount } from './src/services/hybridDatabase';
 
 interface AutomatedWorkflowAppProps {
   currentUser?: UserAccount;
