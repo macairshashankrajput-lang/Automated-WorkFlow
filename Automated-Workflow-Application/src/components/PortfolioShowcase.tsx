@@ -13,6 +13,7 @@ import {
   Link2,
   AlertCircle,
   ShieldAlert,
+  Search,
 } from 'lucide-react';
 import { UserAccount } from '../services/hybridDatabase';
 
@@ -22,7 +23,7 @@ interface PortfolioShowcaseProps {
 }
 
 export const PortfolioShowcase: React.FC<PortfolioShowcaseProps> = ({ onNavigate, currentUser }) => {
-  const [activeCategory, setActiveCategory] = useState<'all' | 'vernika' | 'goldenprime' | 'chakna' | 'website'>('all');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'vernika' | 'goldenprime' | 'chakna' | 'website' | 'seo'>('all');
 
   const isAdmin = currentUser?.role === 'admin';
 
@@ -37,8 +38,9 @@ export const PortfolioShowcase: React.FC<PortfolioShowcaseProps> = ({ onNavigate
     return {
       app_vernika: 'https://projectvernika.vercel.app/',
       app_goldenprime: 'https://golden-prime-version2.vercel.app/',
-      app_chaknastore: 'https://chaknastoreapp.vercel.app/',
+      app_chaknastore: 'https://chaknafoodstore.vercel.app/',
       app_website: 'https://vernika-iota.vercel.app/',
+      app_seo: 'https://seo-automation-tanusingh.vercel.app/',
     };
   });
 
@@ -146,6 +148,25 @@ export const PortfolioShowcase: React.FC<PortfolioShowcaseProps> = ({ onNavigate
       ],
       actionTab: 'app_website',
     },
+    {
+      id: 'app_seo',
+      title: 'AI - SEO Automation Platform',
+      category: 'seo',
+      icon: Search,
+      accentColor: 'cyan',
+      badge: '6 AI Search & SEO Modules',
+      description:
+        'Enterprise AI SEO suite automating Google and GEO (Generative Engine Optimization) across ChatGPT, Perplexity, and Gemini, Schema.org JSON-LD generation, keyword gap discovery, and multi-agent content drafting.',
+      modules: [
+        'AI Search & Google Visibility Scanner',
+        'Automated Meta & Schema.org JSON-LD Generator',
+        'Content Gap & Semantic Keyword Matrix',
+        '5-Agent Collaborative AI Content Pipeline',
+        'Core Web Vitals & Technical Health Monitor',
+        'Programmatic SEO URL Generator & Exporter (.xlsx)',
+      ],
+      actionTab: 'app_seo',
+    },
   ];
 
   const filteredApps = portfolioApps.filter(
@@ -170,10 +191,11 @@ export const PortfolioShowcase: React.FC<PortfolioShowcaseProps> = ({ onNavigate
       {/* Category Pills */}
       <div className="flex items-center gap-2 overflow-x-auto text-xs font-bold">
         {[
-          { id: 'all', label: 'All 4 Applications (36 Modules)' },
+          { id: 'all', label: 'All 5 Applications (42 Modules)' },
           { id: 'vernika', label: 'Vernika Enterprise (16)' },
           { id: 'goldenprime', label: 'GoldenPrime PG (8)' },
           { id: 'chakna', label: 'ChaknaStore (7)' },
+          { id: 'seo', label: 'AI SEO (6)' },
           { id: 'website', label: 'Vernika Website (5)' },
         ].map((cat) => (
           <button

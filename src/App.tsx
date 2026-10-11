@@ -11,6 +11,7 @@ import { GoldenPrimeAppView } from './components/GoldenPrimeAppView';
 import { VernikaAppView } from './components/VernikaAppView';
 import { ChaknaStoreAppView } from './components/ChaknaStoreAppView';
 import { VernikaWebsiteView } from './components/VernikaWebsiteView';
+import { SeoAutomationAppView } from './components/SeoAutomationAppView';
 import { LoginScreen } from './components/LoginScreen';
 import { hybridDB, UserAccount } from './services/hybridDatabase';
 import { useTheme } from './services/themeContext';
@@ -76,6 +77,8 @@ export default function App() {
         return <ChaknaStoreAppView />;
       case 'app_website':
         return <VernikaWebsiteView />;
+      case 'app_seo':
+        return <SeoAutomationAppView />;
       default:
         return <StudioOverview onNavigate={(tab) => setActiveTab(tab)} />;
     }

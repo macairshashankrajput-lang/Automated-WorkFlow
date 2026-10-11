@@ -14,6 +14,7 @@ import {
   Users,
   CheckCircle2,
   HardDrive,
+  Search,
 } from 'lucide-react';
 import { ActiveTab } from './Sidebar';
 import { GOOGLE_DRIVE_FOLDER_URL, SERVICE_ACCOUNT_EMAIL } from '../services/hybridDatabase';
@@ -24,7 +25,7 @@ interface StudioOverviewProps {
 
 export const StudioOverview: React.FC<StudioOverviewProps> = ({ onNavigate }) => {
   const stats = [
-    { label: 'Portfolio Applications', value: '4 Active', icon: Layers, color: 'from-indigo-500 to-indigo-600' },
+    { label: 'Portfolio Applications', value: '5 Active', icon: Layers, color: 'from-indigo-500 to-indigo-600' },
     { label: 'Hybrid DB Architecture', value: 'Drive + Cloud', icon: Database, color: 'from-cyan-500 to-blue-600' },
     { label: 'Unified User Accounts', value: '5 Roles', icon: Users, color: 'from-emerald-500 to-teal-600' },
     { label: 'Vernika AI Copilot', value: 'Offline Ready', icon: Bot, color: 'from-amber-500 to-orange-600' },
@@ -59,6 +60,15 @@ export const StudioOverview: React.FC<StudioOverviewProps> = ({ onNavigate }) =>
       dbBadge: 'Supabase Realtime DB',
     },
     {
+      id: 'app_seo' as ActiveTab,
+      title: 'AI - SEO Automation',
+      category: 'Generative Engine Optimization (GEO)',
+      icon: Search,
+      metrics: 'ChatGPT & Perplexity • Schema JSON-LD',
+      description: 'AI-first SEO platform auditing search engine visibility across Google and AI search, generating Schema.org JSON-LD, content gap keywords, and multi-agent content pipelines.',
+      dbBadge: 'Programmatic SEO Matrix',
+    },
+    {
       id: 'app_website' as ActiveTab,
       title: 'Vernika Corporate Portal',
       category: 'Marketing & Lead Generation',
@@ -82,7 +92,7 @@ export const StudioOverview: React.FC<StudioOverviewProps> = ({ onNavigate }) =>
             Automated Workflow Studio Dashboard
           </h1>
           <p className="text-sm text-slate-300 leading-relaxed">
-            Compose custom business applications, run real-time database sync across Google Drive, Google Spreadsheets, Supabase, and Firebase, and launch any of our 4 portfolio applications from a single unified hub.
+            Compose custom business applications, run real-time database sync across Google Drive, Google Spreadsheets, Supabase, and Firebase, and launch any of our 5 portfolio applications from a single unified hub.
           </p>
           <div className="pt-2 flex flex-wrap gap-3">
             <button

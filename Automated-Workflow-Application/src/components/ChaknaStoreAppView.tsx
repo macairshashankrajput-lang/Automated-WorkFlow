@@ -19,6 +19,7 @@ import {
   Users,
   Award,
   ExternalLink,
+  Key,
 } from 'lucide-react';
 import { hybridDB } from '../services/hybridDatabase';
 
@@ -237,7 +238,7 @@ export const ChaknaStoreAppView: React.FC = () => {
 
         <div className="flex items-center gap-2">
           <a
-            href="https://chaknastoreapp.vercel.app/"
+            href="https://chaknafoodstore.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 font-bold text-xs text-amber-300 transition-all flex items-center gap-1.5 shadow-md hover:border-amber-500/50"
@@ -256,6 +257,25 @@ export const ChaknaStoreAppView: React.FC = () => {
           >
             <ShoppingBag className="h-4 w-4" /> Cart ({cart.reduce((sum, c) => sum + c.quantity, 0)})
           </button>
+        </div>
+      </div>
+
+      {/* Testing & Login Credentials Callout */}
+      <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/20 flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
+        <div className="flex items-center gap-2 text-amber-300 font-bold">
+          <Key className="h-4 w-4 flex-shrink-0 text-amber-400" />
+          <span>Chakna Store Login Credentials:</span>
+        </div>
+        <div className="flex flex-wrap items-center gap-3 font-mono text-[11px] text-slate-300">
+          <span className="px-2 py-0.5 rounded bg-slate-900 border border-slate-700">
+            👑 <strong className="text-amber-400">Admin:</strong> admin / 143#MaaPaa (or rajputsg)
+          </span>
+          <span className="px-2 py-0.5 rounded bg-slate-900 border border-slate-700">
+            🛍️ <strong className="text-amber-400">Customer:</strong> customer / password123
+          </span>
+          <span className="px-2 py-0.5 rounded bg-slate-900 border border-slate-700">
+            🍳 <strong className="text-amber-400">Vendor:</strong> vendor / vendor123
+          </span>
         </div>
       </div>
 

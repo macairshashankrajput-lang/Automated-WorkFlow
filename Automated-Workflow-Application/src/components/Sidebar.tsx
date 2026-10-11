@@ -11,6 +11,7 @@ import {
   Utensils,
   Globe,
   ChevronRight,
+  Search,
 } from 'lucide-react';
 
 export type ActiveTab =
@@ -23,7 +24,8 @@ export type ActiveTab =
   | 'app_goldenprime'
   | 'app_vernika'
   | 'app_chaknastore'
-  | 'app_website';
+  | 'app_website'
+  | 'app_seo';
 
 interface SidebarProps {
   activeTab: ActiveTab;
@@ -33,7 +35,7 @@ interface SidebarProps {
 export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
   const mainNav = [
     { id: 'dashboard' as ActiveTab, label: 'Studio Overview', icon: LayoutDashboard },
-    { id: 'portfolio' as ActiveTab, label: 'Application Portfolio', icon: Layers, badge: '4 Apps' },
+    { id: 'portfolio' as ActiveTab, label: 'Application Portfolio', icon: Layers, badge: '5 Apps' },
     { id: 'workflow_builder' as ActiveTab, label: 'AI Workflow Studio', icon: Sparkles, badge: 'Softr' },
     { id: 'copilot' as ActiveTab, label: 'Vernika Copilot AI', icon: Bot },
     { id: 'auth' as ActiveTab, label: 'Accounts & Auth', icon: Users },
@@ -44,6 +46,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => 
     { id: 'app_goldenprime' as ActiveTab, label: 'GoldenPrime PG', icon: Building2, subtitle: 'PG & Rent Finance' },
     { id: 'app_vernika' as ActiveTab, label: 'Vernika Suite', icon: Building, subtitle: 'HR, CRM & Sheets' },
     { id: 'app_chaknastore' as ActiveTab, label: 'ChaknaStore', icon: Utensils, subtitle: 'Food Delivery App' },
+    { id: 'app_seo' as ActiveTab, label: 'AI SEO', icon: Search, subtitle: 'SEO & GEO Platform' },
     { id: 'app_website' as ActiveTab, label: 'Vernika Website', icon: Globe, subtitle: 'Corporate Lead Portal' },
   ];
 

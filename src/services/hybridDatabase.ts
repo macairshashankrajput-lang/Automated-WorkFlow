@@ -55,7 +55,7 @@ export const INITIAL_USER_ACCOUNTS: UserAccount[] = [
     role: 'admin',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
     department: 'Executive Leadership',
-    allowedApps: ['goldenprime', 'vernika', 'chaknastore', 'website'],
+    allowedApps: ['goldenprime', 'vernika', 'chakna', 'chaknastore', 'website', 'seo'],
     lastActive: new Date().toISOString(),
   },
   {
@@ -67,7 +67,7 @@ export const INITIAL_USER_ACCOUNTS: UserAccount[] = [
     role: 'visitor',
     avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80',
     department: 'Portfolio Guest Exploration',
-    allowedApps: ['goldenprime', 'vernika', 'chaknastore', 'website'],
+    allowedApps: ['goldenprime', 'vernika', 'chakna', 'chaknastore', 'website', 'seo'],
     lastActive: new Date().toISOString(),
   },
   {
@@ -249,7 +249,7 @@ class HybridDatabaseService {
     };
   }
 
-  public async saveAppData(appNamespace: 'goldenprime' | 'vernika' | 'chakna' | 'website', entityName: string, payload: any) {
+  public async saveAppData(appNamespace: 'goldenprime' | 'vernika' | 'chakna' | 'website' | 'seo', entityName: string, payload: any) {
     const key = `aw_${appNamespace}_${entityName}`;
     localStorage.setItem(key, JSON.stringify(payload));
     this.incrementSyncCounter();
@@ -282,7 +282,7 @@ class HybridDatabaseService {
     this.notifyListeners();
   }
 
-  public getAppData(appNamespace: 'goldenprime' | 'vernika' | 'chakna' | 'website', entityName: string, fallbackDefault: any = null) {
+  public getAppData(appNamespace: 'goldenprime' | 'vernika' | 'chakna' | 'website' | 'seo', entityName: string, fallbackDefault: any = null) {
     const key = `aw_${appNamespace}_${entityName}`;
     const raw = localStorage.getItem(key);
     return raw ? JSON.parse(raw) : fallbackDefault;

@@ -124,12 +124,53 @@ export default function LoginScreen() {
           </View>
 
 
-          {/* Demo Credentials & Support */}
-          <View className="mt-8 pt-6 border-t border-border">
-            <Text className="text-xs text-muted text-center mb-2">Demo account is not configured for public builds.</Text>
-            <Text className="text-xs text-muted text-center">For customer signup or admin support, contact us.</Text>
-          </View>
+          {/* Demo Quick Login Buttons */}
+          <View className="mt-4 pt-4 border-t border-border">
+            <Text className="text-xs font-bold text-foreground mb-2 text-center uppercase tracking-wider">
+              Quick Test Credentials & 1-Tap Login:
+            </Text>
+            <View className="flex-row gap-2 mb-2">
+              <TouchableOpacity
+                className="flex-1 bg-surface border border-primary/40 rounded-lg p-2.5 items-center"
+                onPress={() => {
+                  setIdentifier('admin');
+                  setPassword('143#MaaPaa');
+                }}
+              >
+                <Text className="text-xs font-bold text-primary">👑 Admin</Text>
+                <Text className="text-[10px] text-muted">admin</Text>
+              </TouchableOpacity>
 
+              <TouchableOpacity
+                className="flex-1 bg-surface border border-primary/40 rounded-lg p-2.5 items-center"
+                onPress={() => {
+                  setIdentifier('customer');
+                  setPassword('password123');
+                }}
+              >
+                <Text className="text-xs font-bold text-primary">🛍️ Customer</Text>
+                <Text className="text-[10px] text-muted">customer</Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                className="flex-1 bg-surface border border-primary/40 rounded-lg p-2.5 items-center"
+                onPress={() => {
+                  setIdentifier('vendor');
+                  setPassword('vendor123');
+                }}
+              >
+                <Text className="text-xs font-bold text-primary">🍳 Vendor</Text>
+                <Text className="text-[10px] text-muted">vendor</Text>
+              </TouchableOpacity>
+            </View>
+
+            <View className="bg-surface/60 rounded-lg p-3 border border-border mt-1">
+              <Text className="text-[11px] font-semibold text-foreground mb-1">Available Test Accounts:</Text>
+              <Text className="text-[10px] text-muted font-mono">• Admin: admin / 143#MaaPaa (or rajputsg)</Text>
+              <Text className="text-[10px] text-muted font-mono">• Customer: customer / password123</Text>
+              <Text className="text-[10px] text-muted font-mono">• Vendor: vendor / vendor123</Text>
+            </View>
+          </View>
         </View>
       </ScrollView>
     </ScreenContainer>
