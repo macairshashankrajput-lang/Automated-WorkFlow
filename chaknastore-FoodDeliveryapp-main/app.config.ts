@@ -87,40 +87,77 @@ const config: ExpoConfig = {
   },
   plugins: [
     "expo-router",
-    [
-      "expo-audio",
-      {
-        microphonePermission: "Allow $(PRODUCT_NAME) to access your microphone.",
-      },
-    ],
-    [
-      "expo-video",
-      {
-        supportsBackgroundPlayback: true,
-        supportsPictureInPicture: true,
-      },
-    ],
-    [
-      "expo-splash-screen",
-      {
-        image: "./assets/images/splash-icon.png",
-        imageWidth: 200,
-        resizeMode: "contain",
-        backgroundColor: "#ffffff",
-        dark: {
-          backgroundColor: "#000000",
-        },
-      },
-    ],
-    [
-      "expo-build-properties",
-      {
-        android: {
-          buildArchs: ["armeabi-v7a", "arm64-v8a"],
-          minSdkVersion: 24,
-        },
-      },
-    ],
+    // Only include native plugins if they exist or when building for native
+    ...(() => {
+      try {
+        require.resolve('expo-audio/package.json');
+        return [
+          [
+            "expo-audio",
+            {
+              microphonePermission: "Allow $(PRODUCT_NAME) to access your microphone.",
+            },
+          ],
+        ];
+      } catch {
+        return [];
+      }
+    })(),
+    ...(() => {
+      try {
+        require.resolve('expo-video/package.json');
+        return [
+          [
+            "expo-video",
+            {
+              supportsBackgroundPlayback: true,
+              supportsPictureInPicture: true,
+            },
+          ],
+        ];
+      } catch {
+        return [];
+      }
+    })(),
+    ...(() => {
+      try {
+        require.resolve('expo-splash-screen/package.json');
+        return [
+          [
+            "expo-splash-screen",
+            {
+              image: "./assets/images/splash-icon.png",
+              imageWidth: 200,
+              resizeMode: "contain",
+              backgroundColor: "#ffffff",
+              dark: {
+                backgroundColor: "#000000",
+              },
+            },
+          ],
+        ];
+      } catch {
+        return [];
+      }
+    })(),
+    ...(() => {
+      try {
+        require.resolve('expo-build-properties/package.json');
+        return [
+          [
+            "expo-build-properties",
+            {
+              android: {
+                buildArchs: ["armeabi-v7a", "arm64-v8a"],
+                minSdkVersion: 24,
+              },
+            },
+          ],
+        ];
+      } catch {
+        return [];
+      }
+    })(),
   ],
   experiments: {
     typedRoutes: true,

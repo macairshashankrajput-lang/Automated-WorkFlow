@@ -1,11 +1,23 @@
-import { jsxLocPlugin } from "@builder.io/vite-plugin-jsx-loc";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import fs from "node:fs";
 import path from "node:path";
 import { defineConfig, type Plugin, type ViteDevServer } from "vite";
-import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
-import { VitePWA } from "vite-plugin-pwa";
+const jsxLocPlugin = () => ({ name: 'jsx-loc-stub' });
+const vitePluginManusRuntime = () => ({ name: 'manus-runtime-stub' });
+const VitePWA = () => ({
+  name: 'vite-pwa-stub',
+  resolveId(id: string) {
+    if (id === 'virtual:pwa-register') return '\0virtual:pwa-register';
+    return null;
+  },
+  load(id: string) {
+    if (id === '\0virtual:pwa-register') {
+      return 'export const registerSW = (options) => async () => {};';
+    }
+    return null;
+  }
+});
 
 // =============================================================================
 // Manus Debug Collector - Vite Plugin
